@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+
+{% block title %}Data Profiling & Cleaning Report{% endblock %}
+
+{% block content %}
+<div class="page-header" style="display:flex; justify-content:space-between; align-items:center;">
+    <div>
+        <h1 class="page-title">Data Profiling & Cleaning Report</h1>
+        <p class="page-description">Automated data quality audit, type inferencing, missing value imputation, and statistical distribution analysis.</p>
+    </div>
+    <div>
+        <button id="btn-download-pdf" class="btn btn-primary" onclick="downloadPdfReport()">
+            <i class="fas fa-file-pdf"></i> Download PDF Report
+        </button>
+    </div>
+</div>
+
+{% if summary %}
+<!-- Audit KPI Highlights -->
+<div class="grid-4" style="margin-bottom:2rem;">
+    <div class="glass-card kpi-card">
+        <div class="kpi-title">Cleaned Rows</div>
+        <div class="kpi-value" style="color:#34d399;">{{ "{:,}".format(summary.total_rows) if summary.total_rows is defined else 0 }}</div>
+        <div class="kpi-subtitle"><i class="fas fa-check-circle"></i> Ready for Analysis</div>
+    </div>
+    
+    <div class="glass-card kpi-card">
+        <div class="kpi-title">Total Columns</div>
+        <div class="kpi-value" style="color:#818cf8;">{{ summary.total_cols if summary.total_cols is defined else 0 }}</div>
+        <div class="kpi-subtitle"><i class="fas fa-columns"></i> Identified Attributes</div>
+    </div>
+    
+    <div class="glass-card kpi-card">
+        <div class="kpi-title">Duplicates Removed</div>
+        <div class="kpi-value" style="color:#fbbf24;">{{ summary.get('audit', {}).get('duplicates_removed', 0) }}</div>
+        <div class="kpi-subtitle"><i class="fas fa-trash-alt"></i> Cleaned Records</div>
+    </div>
+    
+    <div class="glass-card kpi-card">
+        <div class="kpi-title">Converted Types</div>
+        <div class="kpi-value" style="color:#f472b6;">{{ summary.get('audit', {}).get('columns_converted', [])|length }}</div>
+        <div class="kpi-subtitle"><i class="fas fa-exchange-alt"></i> Currency / Datetime</div>
+    </div>
+</div>
+
+<!-- Detailed Column Audit Table -->
+<h3 style="font-family:var(--font-heading); margin-bottom:1.25rem;">
+    <i class="fas fa-table" style="color:var(--primary);"></i> Column Attribute Profiles & Statistics
+</h3>
+
+<div class="glass-panel" style="padding:1.5rem; margin-bottom:2.5rem;">
+    <div class="data-table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Column Name</th>
+                    <th>Data Type</th>
+                    <th>Missing Values</th>
+                    <th>Unique Values</th>
+                    <th>Mean / Mode</th>
+                    <th>Min - Max</th>
+                    <th>IQR Outliers</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for col in summary.columns %}
+                <tr>
+                    <td style="font-weight:600;">{{ col.column }}</td>
+                    <td>
+                        <span class="badge {% if 'int' in col.dtype or 'float' in col.dtype %}badge-info{% elif 'datetime' in col.dtype %}badge-success{% else %}badge-warning{% endif %}">
+                            {{ col.dtype }}
+                        </span>
+                    </td>
+                    <td>
+                        {% if col.null_count > 0 %}
+                            <span style="color:var(--rose);">{{ col.null_count }} ({{ col.null_pct }}%)</span>
+                        {% else %}
+                            <span style="color:var(--secondary);"><i class="fas fa-check"></i> 0</span>
+                        {% endif %}
+                    </td>
+                    <td>{{ "{:,}".format(col.unique_count) }}</td>
+                    <td>
+                        {% if col.mean is defined %}
+                            {{ "{:,.2f}".format(col.mean) }}
+                        {% else %}
+                            {{ col.sample_values[0] if col.sample_values else 'N/A' }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if col.min is defined %}
+                            {{ "{:,.2f}".format(col.min) }} to {{ "{:,.2f}".format(col.max) }}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if col.outliers_count is defined and col.outliers_count > 0 %}
+                            <span class="badge badge-danger">{{ col.outliers_count }} Flagged</span>
+                        {% else %}
+                            <span style="color:var(--text-dim);">None</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Correlation Heatmap & Categorical Insights -->
+<div class="grid-2">
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h4 style="font-family:var(--font-heading); margin-bottom:1rem;">Numerical Correlation Matrix</h4>
+        <div id="profiling-corr-heatmap" style="height:350px;"></div>
+    </div>
+    
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h4 style="font-family:var(--font-heading); margin-bottom:1rem;">Cleaning Log & Operations Audit</h4>
+        <div style="background:#090d16; padding:1rem; border-radius:var(--radius-sm); font-family:monospace; font-size:0.85rem; color:#a5b4fc; height:350px; overflow-y:auto;">
+            <p style="color:#34d399;">✔ Read dataset successfully.</p>
+            <p style="color:#34d399;">✔ Initial Dimensions: {{ summary.get('audit', {}).get('initial_rows', summary.total_rows) }} Rows x {{ summary.get('audit', {}).get('initial_cols', summary.total_cols) }} Columns.</p>
+            <p style="color:#34d399;">✔ Removed {{ summary.get('audit', {}).get('duplicates_removed', 0) }} exact duplicate records.</p>
+            
+            {% for conv in summary.get('audit', {}).get('columns_converted', []) %}
+                <p style="color:#fbbf24;">⚡ {{ conv }}</p>
+            {% endfor %}
+            
+            {% for col, cnt in summary.get('audit', {}).get('nulls_handled', {}).items() %}
+                <p style="color:#60a5fa;">ℹ Imputed {{ cnt }} missing values in column '{{ col }}'.</p>
+            {% endfor %}
+            
+            <p style="color:#34d399; margin-top:10px;">✔ SQLite Database Table Built & Ready for Instant SQL Queries.</p>
+        </div>
+    </div>
+</div>
+
+{% else %}
+<div class="glass-panel" style="padding:3rem; text-align:center;">
+    <h3>No Active Dataset Selected</h3>
+    <p style="color:var(--text-muted); margin:1rem 0;">Please upload or select a dataset from the Data Hub first.</p>
+    <a href="/" class="btn btn-primary">Go to Data Hub</a>
+</div>
+{% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        {% if summary and summary.correlation_matrix %}
+            const corrData = {{ summary.correlation_matrix | tojson }};
+            const labels = Object.keys(corrData);
+            const zValues = labels.map(row => labels.map(col => corrData[row][col] || 0));
+            
+            const figData = [{
+                z: zValues,
+                x: labels,
+                y: labels,
+                type: 'heatmap',
+                colorscale: 'Viridis'
+            }];
+            const layout = {
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)',
+                font: { color: '#f8fafc', family: 'Inter' },
+                margin: { l: 40, r: 40, t: 30, b: 40 }
+            };
+            Plotly.newPlot('profiling-corr-heatmap', figData, layout, { responsive: true, displayModeBar: false });
+        {% endif %}
+    });
+</script>
+{% endblock %}

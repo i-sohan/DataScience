@@ -1,0 +1,501 @@
+EmployeeID,Department,JobRole,Age,MonthlyIncome,YearsAtCompany,CommuteDistanceKM,OverTime,JobSatisfaction,Attrition
+EMP_0001,Finance,Financial Analyst,58,275652.18,3,42,No,2,No
+EMP_0002,Sales,Sales Executive,23,29046.15,1,39,No,1,Yes
+EMP_0003,R&D,Software Engineer,44,134095.53,4,16,No,3,No
+EMP_0004,Sales,Sales Manager,27,57548.76,1,42,No,5,No
+EMP_0005,Sales,Sales Executive,31,65383.83,6,13,Yes,4,Yes
+EMP_0006,Sales,Sales Manager,23,29294.3,1,42,No,4,Yes
+EMP_0007,R&D,Research Scientist,41,177291.05,1,44,Yes,3,No
+EMP_0008,Human Resources,HR Specialist,60,165702.04,4,35,Yes,5,No
+EMP_0009,Sales,Sales Executive,35,"₹78,510",2,15,Yes,3,Yes
+EMP_0010,Human Resources,HR Specialist,34,95124.78,13,37,No,4,No
+EMP_0011,Finance,Accountant,34,76610.22,7,45,Yes,5,No
+EMP_0012,Finance,Accountant,32,103150.48,10,33,No,3,No
+EMP_0013,Finance,Financial Analyst,60,230821.07,14,38,Yes,4,No
+EMP_0014,R&D,Research Scientist,54,221771.79,9,20,No,4,No
+EMP_0015,Sales,Sales Executive,33,"₹82,175",6,13,No,2,No
+EMP_0016,Human Resources,HR Recruiter,22,31753.17,1,23,Yes,5,No
+EMP_0017,Sales,Sales Manager,40,"₹97,731",10,15,Yes,5,Yes
+EMP_0018,Marketing,SEO Manager,42,116059.43,5,5,No,1,No
+EMP_0019,Sales,Sales Manager,32,"₹62,152",1,26,Yes,4,Yes
+EMP_0020,Human Resources,HR Recruiter,47,222166.27,2,35,No,1,Yes
+EMP_0021,Marketing,SEO Manager,39,137236.31,8,27,Yes,4,Yes
+EMP_0022,Human Resources,HR Specialist,53,237452.47,2,9,Yes,2,No
+EMP_0023,Sales,Sales Executive,30,"₹96,767",6,29,Yes,1,Yes
+EMP_0024,Human Resources,HR Recruiter,29,87308.64,7,6,No,2,No
+EMP_0025,R&D,Lab Technician,51,160154.64,15,11,No,4,No
+EMP_0026,Sales,Sales Executive,58,250932.58,4,19,Yes,3,No
+EMP_0027,Human Resources,HR Recruiter,44,164501.2,4,17,Yes,1,No
+EMP_0028,Marketing,Marketing Specialist,35,"₹118,548",2,31,No,2,No
+EMP_0029,Finance,Accountant,41,"₹112,241",3,11,Yes,3,No
+EMP_0030,Marketing,SEO Manager,54,252842.7,11,14,No,5,Yes
+EMP_0031,Sales,Sales Executive,51,234403.12,5,17,Yes,4,Yes
+EMP_0032,Finance,Accountant,44,118939.4,3,37,No,5,Yes
+EMP_0033,Marketing,SEO Manager,25,30090.36,1,8,Yes,3,Yes
+EMP_0034,R&D,Software Engineer,33,65829.62,1,40,Yes,1,No
+EMP_0035,R&D,Research Scientist,25,"₹50,204",2,17,No,4,Yes
+EMP_0036,Marketing,Marketing Specialist,36,"₹97,963",4,19,No,3,No
+EMP_0037,Finance,Accountant,22,29740.32,1,41,Yes,3,No
+EMP_0038,Sales,Sales Executive,33,100994.77,7,11,No,1,No
+EMP_0039,R&D,Software Engineer,26,51867.25,1,2,No,2,No
+EMP_0040,Marketing,Marketing Specialist,24,43807.2,1,20,Yes,1,No
+EMP_0041,Sales,Sales Manager,43,"₹138,290",8,24,No,3,No
+EMP_0042,Marketing,Marketing Specialist,44,168653.2,15,35,No,1,No
+EMP_0043,Human Resources,HR Recruiter,31,76975.43,1,44,Yes,5,No
+EMP_0044,Marketing,SEO Manager,35,64213.86,9,26,No,5,No
+EMP_0045,R&D,Software Engineer,44,"₹141,846",4,28,Yes,5,No
+EMP_0046,Finance,Accountant,29,60906.66,3,38,Yes,1,No
+EMP_0047,Marketing,Marketing Specialist,51,140022.78,5,20,No,3,No
+EMP_0048,Sales,Sales Manager,22,"₹29,164",1,20,No,1,No
+EMP_0049,Marketing,SEO Manager,22,30005.73,1,24,Yes,3,No
+EMP_0050,R&D,Lab Technician,34,"₹88,409",6,7,Yes,4,No
+EMP_0051,Marketing,SEO Manager,28,63403.88,3,40,Yes,2,No
+EMP_0052,Human Resources,HR Recruiter,48,135356.13,11,21,No,5,Yes
+EMP_0053,R&D,Software Engineer,49,152524.31,11,30,No,4,No
+EMP_0054,Human Resources,HR Specialist,51,236836.27,13,31,No,1,Yes
+EMP_0055,R&D,Lab Technician,41,145104.5,10,25,No,1,No
+EMP_0056,Marketing,Marketing Specialist,47,"₹109,500",1,35,No,1,No
+EMP_0057,Human Resources,HR Recruiter,40,"₹113,888",10,23,Yes,2,No
+EMP_0058,Finance,Financial Analyst,57,268942.53,14,10,Yes,3,No
+EMP_0059,Human Resources,HR Recruiter,53,"₹214,031",15,9,Yes,5,Yes
+EMP_0060,Sales,Sales Executive,35,"₹107,530",2,34,No,4,No
+EMP_0061,Marketing,Marketing Specialist,37,85493.03,10,41,Yes,4,No
+EMP_0062,R&D,Lab Technician,23,29566.74,1,44,No,4,Yes
+EMP_0063,Human Resources,HR Specialist,28,42915.57,1,44,No,4,Yes
+EMP_0064,Marketing,Marketing Specialist,23,30828.33,1,38,No,1,No
+EMP_0065,Human Resources,HR Recruiter,51,170835.02,14,2,Yes,3,No
+EMP_0066,Finance,Accountant,54,180033.59,6,11,No,2,No
+EMP_0067,Human Resources,HR Specialist,47,224280.64,10,43,Yes,5,No
+EMP_0068,Finance,Accountant,30,46185.23,4,39,Yes,1,No
+EMP_0069,Sales,Sales Executive,36,124915.66,13,33,Yes,2,No
+EMP_0070,Sales,Sales Executive,46,"₹194,169",14,5,Yes,4,No
+EMP_0071,Human Resources,HR Recruiter,33,69306.44,10,30,Yes,2,No
+EMP_0072,Human Resources,HR Specialist,50,148464.58,9,14,Yes,1,No
+EMP_0073,Finance,Financial Analyst,28,49797.74,4,10,Yes,3,No
+EMP_0074,R&D,Lab Technician,55,172576.98,6,15,No,5,No
+EMP_0075,Finance,Financial Analyst,26,36420.09,1,26,No,1,No
+EMP_0076,Sales,Sales Manager,36,121089.38,5,23,No,4,Yes
+EMP_0077,Human Resources,HR Recruiter,32,63691.98,9,38,No,4,Yes
+EMP_0078,Finance,Financial Analyst,56,252017.01,5,39,Yes,1,No
+EMP_0079,Human Resources,HR Specialist,38,110410.64,12,5,No,1,No
+EMP_0080,R&D,Software Engineer,26,"₹32,617",1,4,Yes,5,No
+EMP_0081,Marketing,Marketing Specialist,39,"₹79,171",6,4,No,4,No
+EMP_0082,Human Resources,HR Recruiter,23,33210.83,1,14,No,1,No
+EMP_0083,Marketing,SEO Manager,30,65832.11,5,37,No,3,Yes
+EMP_0084,R&D,Software Engineer,49,"₹163,675",12,7,Yes,1,No
+EMP_0085,R&D,Research Scientist,26,47534.32,5,13,Yes,3,No
+EMP_0086,R&D,Lab Technician,47,"₹177,498",9,44,Yes,4,Yes
+EMP_0087,Human Resources,HR Recruiter,50,"₹150,061",11,25,Yes,5,No
+EMP_0088,Human Resources,HR Specialist,56,161942.89,10,24,No,3,No
+EMP_0089,Sales,Sales Executive,30,49610.72,2,37,Yes,2,Yes
+EMP_0090,Marketing,SEO Manager,29,72965.04,5,4,Yes,1,No
+EMP_0091,Human Resources,HR Specialist,53,"₹263,435",7,26,Yes,4,No
+EMP_0092,Finance,Financial Analyst,41,148323.93,13,24,No,3,No
+EMP_0093,Finance,Financial Analyst,23,31903.15,1,41,Yes,5,No
+EMP_0094,Marketing,SEO Manager,56,"₹207,251",7,38,No,2,No
+EMP_0095,R&D,Research Scientist,39,126450.3,5,7,No,5,No
+EMP_0096,Marketing,Marketing Specialist,39,106199.83,10,18,Yes,1,No
+EMP_0097,Human Resources,HR Specialist,38,117403.76,6,3,No,5,No
+EMP_0098,R&D,Software Engineer,25,32755.34,1,19,No,2,No
+EMP_0099,Human Resources,HR Specialist,38,88124.46,11,42,Yes,2,Yes
+EMP_0100,Sales,Sales Executive,33,"₹67,188",6,30,Yes,1,No
+EMP_0101,Human Resources,HR Specialist,23,"₹32,380",1,24,No,1,No
+EMP_0102,Sales,Sales Manager,29,42239.2,4,15,Yes,4,Yes
+EMP_0103,Human Resources,HR Recruiter,23,31427.87,1,25,No,3,No
+EMP_0104,Finance,Financial Analyst,32,"₹62,606",4,11,No,5,No
+EMP_0105,Finance,Accountant,35,"₹105,552",11,4,Yes,1,No
+EMP_0106,R&D,Lab Technician,54,"₹214,118",15,28,Yes,5,No
+EMP_0107,Marketing,SEO Manager,42,"₹115,822",4,38,No,2,No
+EMP_0108,Marketing,SEO Manager,29,39892.56,3,28,Yes,3,No
+EMP_0109,Marketing,Marketing Specialist,50,"₹152,895",15,10,No,5,No
+EMP_0110,R&D,Lab Technician,38,105494.31,3,9,No,2,Yes
+EMP_0111,R&D,Software Engineer,22,29483.16,1,18,Yes,2,No
+EMP_0112,Sales,Sales Manager,23,29667.74,1,6,No,3,Yes
+EMP_0113,R&D,Software Engineer,57,264677.69,6,9,Yes,1,No
+EMP_0114,Sales,Sales Manager,50,194606.53,3,29,Yes,5,Yes
+EMP_0115,Finance,Financial Analyst,31,88742.13,6,25,No,2,No
+EMP_0116,Finance,Accountant,28,56136.36,5,23,No,3,Yes
+EMP_0117,Human Resources,HR Specialist,42,181281.09,12,4,Yes,4,No
+EMP_0118,Finance,Accountant,58,"₹198,496",5,24,No,4,No
+EMP_0119,R&D,Research Scientist,40,160238.78,3,8,Yes,2,No
+EMP_0120,Finance,Financial Analyst,23,"₹32,610",1,36,Yes,3,No
+EMP_0121,R&D,Software Engineer,58,260564.16,15,35,Yes,1,Yes
+EMP_0122,Marketing,SEO Manager,53,155423.66,2,10,No,1,No
+EMP_0123,R&D,Lab Technician,26,38880.73,3,23,Yes,3,No
+EMP_0124,Sales,Sales Manager,28,39353.58,1,22,Yes,2,Yes
+EMP_0125,R&D,Lab Technician,46,185641.37,3,18,No,3,No
+EMP_0126,R&D,Research Scientist,27,"₹39,857",1,15,Yes,1,Yes
+EMP_0127,Marketing,SEO Manager,46,151711.92,3,42,No,2,No
+EMP_0128,Human Resources,HR Specialist,53,"₹175,359",4,24,Yes,3,No
+EMP_0129,Marketing,SEO Manager,42,157993.46,11,9,Yes,3,No
+EMP_0130,Marketing,Marketing Specialist,52,"₹204,319",9,45,Yes,4,Yes
+EMP_0131,Sales,Sales Manager,38,88245.68,5,27,Yes,3,No
+EMP_0132,Marketing,Marketing Specialist,43,"₹148,660",15,21,Yes,5,No
+EMP_0133,R&D,Lab Technician,29,"₹50,772",1,10,No,1,No
+EMP_0134,Human Resources,HR Specialist,57,263310.15,3,35,No,2,Yes
+EMP_0135,Human Resources,HR Recruiter,45,149378.78,1,37,Yes,5,No
+EMP_0136,Sales,Sales Manager,53,173089.02,12,21,Yes,1,Yes
+EMP_0137,Human Resources,HR Recruiter,46,"₹137,060",9,19,No,1,No
+EMP_0138,Sales,Sales Executive,28,37705.57,2,27,No,4,Yes
+EMP_0139,Finance,Financial Analyst,41,130041.21,8,8,No,3,No
+EMP_0140,Marketing,Marketing Specialist,36,99927.82,9,32,Yes,4,No
+EMP_0141,Sales,Sales Manager,47,194219.24,1,8,No,2,No
+EMP_0142,Marketing,SEO Manager,52,144766.43,2,21,Yes,5,No
+EMP_0143,R&D,Research Scientist,53,164996.53,9,11,Yes,1,No
+EMP_0144,Marketing,SEO Manager,48,199051.11,10,11,No,1,Yes
+EMP_0145,Human Resources,HR Recruiter,57,"₹229,018",8,22,No,5,No
+EMP_0146,Finance,Financial Analyst,28,"₹52,188",1,26,Yes,2,Yes
+EMP_0147,Marketing,Marketing Specialist,24,30980.74,1,42,No,1,No
+EMP_0148,Human Resources,HR Recruiter,49,203874.07,15,45,No,5,No
+EMP_0149,R&D,Research Scientist,40,126101.43,10,41,No,4,No
+EMP_0150,Marketing,Marketing Specialist,43,141968.86,8,10,Yes,3,No
+EMP_0151,Marketing,Marketing Specialist,31,"₹54,877",6,2,Yes,5,No
+EMP_0152,Marketing,SEO Manager,28,70499.24,5,40,Yes,3,Yes
+EMP_0153,Sales,Sales Executive,39,141528.28,10,29,No,3,No
+EMP_0154,Finance,Financial Analyst,26,"₹29,610",1,15,Yes,5,No
+EMP_0155,Finance,Accountant,43,152582.47,12,39,No,2,No
+EMP_0156,R&D,Research Scientist,36,"₹86,115",14,41,Yes,3,Yes
+EMP_0157,Sales,Sales Executive,30,61144.69,5,29,Yes,2,No
+EMP_0158,Finance,Accountant,46,175149.52,9,24,Yes,5,No
+EMP_0159,R&D,Research Scientist,39,84429.97,13,29,No,1,No
+EMP_0160,Finance,Accountant,44,115226.01,6,25,No,2,No
+EMP_0161,Finance,Financial Analyst,46,133468.52,4,2,Yes,5,No
+EMP_0162,Human Resources,HR Specialist,28,63316.14,1,34,No,4,No
+EMP_0163,Marketing,Marketing Specialist,38,122516.22,15,38,No,5,No
+EMP_0164,Marketing,SEO Manager,33,87997.7,1,43,No,1,No
+EMP_0165,Finance,Financial Analyst,33,72644.28,1,9,No,1,Yes
+EMP_0166,Finance,Accountant,34,76648.12,6,3,Yes,5,No
+EMP_0167,Human Resources,HR Recruiter,47,"₹194,070",13,44,Yes,3,Yes
+EMP_0168,Sales,Sales Executive,50,172960.95,11,14,Yes,3,No
+EMP_0169,Human Resources,HR Specialist,29,60190.05,1,7,Yes,2,No
+EMP_0170,Sales,Sales Executive,42,135610.5,4,3,No,4,No
+EMP_0171,Sales,Sales Executive,41,123539.04,5,14,Yes,4,No
+EMP_0172,Human Resources,HR Recruiter,39,"₹131,423",15,28,Yes,2,Yes
+EMP_0173,Human Resources,HR Specialist,50,142980.5,11,24,No,2,No
+EMP_0174,Sales,Sales Manager,31,62649.07,3,29,Yes,3,Yes
+EMP_0175,Finance,Accountant,27,"₹39,187",1,18,Yes,4,No
+EMP_0176,R&D,Software Engineer,59,222608.72,6,26,Yes,3,No
+EMP_0177,Sales,Sales Executive,48,"₹153,132",6,43,No,2,No
+EMP_0178,Marketing,Marketing Specialist,23,32236.89,1,31,No,2,No
+EMP_0179,Human Resources,HR Specialist,60,244418.52,15,27,Yes,5,No
+EMP_0180,Sales,Sales Manager,49,"₹228,214",3,27,No,5,No
+EMP_0181,Finance,Financial Analyst,58,"₹187,704",2,23,No,2,No
+EMP_0182,Human Resources,HR Specialist,47,171058.77,5,44,No,1,Yes
+EMP_0183,R&D,Research Scientist,35,72967.34,6,17,Yes,4,No
+EMP_0184,R&D,Software Engineer,28,49797.27,4,27,No,2,No
+EMP_0185,Sales,Sales Manager,30,74365.24,3,10,No,5,No
+EMP_0186,Marketing,Marketing Specialist,44,158590.13,3,39,Yes,3,Yes
+EMP_0187,Human Resources,HR Specialist,54,237594.78,3,27,No,2,No
+EMP_0188,Sales,Sales Executive,41,99313.82,5,26,No,4,No
+EMP_0189,Marketing,Marketing Specialist,38,91053.01,8,27,Yes,3,No
+EMP_0190,Sales,Sales Manager,22,30276.1,1,38,No,4,No
+EMP_0191,Marketing,Marketing Specialist,41,110588.14,15,42,No,5,Yes
+EMP_0192,Human Resources,HR Specialist,43,166967.46,9,9,No,1,No
+EMP_0193,R&D,Research Scientist,43,133130.41,14,14,No,4,No
+EMP_0194,Sales,Sales Manager,40,"₹110,238",10,33,No,3,No
+EMP_0195,Marketing,SEO Manager,40,142248.89,8,13,No,3,No
+EMP_0196,Sales,Sales Executive,44,"₹99,636",2,27,Yes,2,Yes
+EMP_0197,Marketing,SEO Manager,39,151198.58,14,41,No,1,Yes
+EMP_0198,Sales,Sales Manager,45,"₹135,088",9,42,Yes,3,No
+EMP_0199,Human Resources,HR Specialist,47,148128.76,2,18,No,1,No
+EMP_0200,R&D,Lab Technician,38,"₹121,935",13,36,Yes,3,No
+EMP_0201,Finance,Accountant,35,81090.62,10,13,No,2,No
+EMP_0202,Human Resources,HR Specialist,22,"₹29,829",1,28,No,1,No
+EMP_0203,R&D,Research Scientist,23,30298.44,1,6,No,5,No
+EMP_0204,Human Resources,HR Specialist,52,134357.26,3,23,No,4,No
+EMP_0205,R&D,Lab Technician,32,58361.47,1,27,No,5,Yes
+EMP_0206,Human Resources,HR Recruiter,35,96455.27,8,25,No,1,No
+EMP_0207,R&D,Lab Technician,59,265391.24,1,38,No,5,No
+EMP_0208,Marketing,Marketing Specialist,46,"₹120,063",7,40,Yes,2,No
+EMP_0209,Sales,Sales Manager,33,102742.48,4,27,No,5,No
+EMP_0210,Human Resources,HR Specialist,45,109028.55,6,45,No,2,No
+EMP_0211,Marketing,SEO Manager,51,229527.5,7,30,No,1,Yes
+EMP_0212,Finance,Accountant,51,142227.07,7,8,No,2,No
+EMP_0213,Sales,Sales Executive,30,57398.41,1,7,No,5,No
+EMP_0214,R&D,Research Scientist,58,"₹213,405",10,7,No,5,No
+EMP_0215,Finance,Financial Analyst,32,68810.06,4,17,No,2,No
+EMP_0216,Human Resources,HR Recruiter,23,31310.41,1,31,Yes,4,Yes
+EMP_0217,Finance,Financial Analyst,60,302068.65,2,12,Yes,1,No
+EMP_0218,Marketing,SEO Manager,46,203304.27,12,18,Yes,4,No
+EMP_0219,Marketing,Marketing Specialist,40,142011.7,9,4,No,4,No
+EMP_0220,Sales,Sales Executive,31,"₹81,254",3,39,No,4,No
+EMP_0221,Human Resources,HR Recruiter,37,87924.42,8,8,No,2,No
+EMP_0222,Human Resources,HR Specialist,40,105901.64,10,30,Yes,2,No
+EMP_0223,R&D,Lab Technician,40,117797.64,5,25,Yes,5,No
+EMP_0224,Human Resources,HR Specialist,50,"₹149,308",7,10,No,2,No
+EMP_0225,Sales,Sales Executive,59,190364.32,12,2,No,4,No
+EMP_0226,Finance,Financial Analyst,44,108223.13,14,34,No,2,No
+EMP_0227,Finance,Accountant,33,"₹93,297",4,2,No,2,No
+EMP_0228,R&D,Research Scientist,39,124568.8,8,9,Yes,5,No
+EMP_0229,R&D,Lab Technician,34,98226.74,9,27,Yes,3,No
+EMP_0230,Finance,Financial Analyst,25,31266.81,1,17,Yes,2,No
+EMP_0231,Marketing,Marketing Specialist,24,"₹30,063",1,19,Yes,5,Yes
+EMP_0232,Human Resources,HR Recruiter,35,"₹89,685",13,39,Yes,3,No
+EMP_0233,Sales,Sales Executive,52,203795.36,4,32,No,3,Yes
+EMP_0234,Finance,Financial Analyst,59,285559.47,11,9,Yes,5,No
+EMP_0235,Finance,Accountant,22,32018.24,1,40,No,5,Yes
+EMP_0236,Human Resources,HR Specialist,38,89949.14,11,19,No,1,No
+EMP_0237,R&D,Software Engineer,22,"₹32,573",1,34,No,3,No
+EMP_0238,Sales,Sales Manager,43,"₹139,713",4,13,Yes,3,Yes
+EMP_0239,Finance,Accountant,42,125087.54,10,45,Yes,3,No
+EMP_0240,R&D,Research Scientist,47,210235.73,9,41,No,5,No
+EMP_0241,Marketing,SEO Manager,36,101543.05,12,21,No,3,No
+EMP_0242,Marketing,SEO Manager,49,158780.05,1,28,No,3,Yes
+EMP_0243,R&D,Software Engineer,39,155934.38,5,14,No,1,No
+EMP_0244,Human Resources,HR Specialist,46,168342.27,8,14,No,1,No
+EMP_0245,Sales,Sales Executive,32,87022.57,1,39,No,4,No
+EMP_0246,R&D,Software Engineer,60,217502.65,9,8,No,4,Yes
+EMP_0247,Human Resources,HR Recruiter,52,250701.97,7,6,Yes,2,No
+EMP_0248,Finance,Accountant,58,249904.44,13,30,No,5,Yes
+EMP_0249,Finance,Accountant,23,32088.4,1,6,No,4,No
+EMP_0250,R&D,Research Scientist,42,113393.12,12,25,No,3,No
+EMP_0251,Finance,Financial Analyst,30,84120.65,1,29,Yes,5,No
+EMP_0252,Human Resources,HR Recruiter,58,296409.01,9,34,No,3,No
+EMP_0253,Finance,Accountant,26,29302.21,1,7,Yes,5,No
+EMP_0254,Marketing,Marketing Specialist,26,30723.79,1,19,No,1,No
+EMP_0255,R&D,Lab Technician,58,228566.59,5,29,Yes,5,No
+EMP_0256,Marketing,Marketing Specialist,22,"₹30,290",1,11,No,2,No
+EMP_0257,Finance,Accountant,58,"₹196,194",1,11,Yes,2,No
+EMP_0258,Finance,Accountant,26,"₹47,447",1,16,No,3,No
+EMP_0259,R&D,Research Scientist,44,129632.72,1,30,No,2,Yes
+EMP_0260,Marketing,Marketing Specialist,50,170514.53,2,15,Yes,2,No
+EMP_0261,Finance,Financial Analyst,32,69814.33,6,33,No,2,No
+EMP_0262,R&D,Research Scientist,54,208269.39,1,34,No,4,Yes
+EMP_0263,Marketing,Marketing Specialist,44,188441.47,5,6,Yes,1,No
+EMP_0264,Marketing,SEO Manager,23,31918.52,1,22,Yes,2,Yes
+EMP_0265,Finance,Financial Analyst,30,48517.0,3,4,No,5,Yes
+EMP_0266,Marketing,Marketing Specialist,48,147162.3,13,35,Yes,3,No
+EMP_0267,Sales,Sales Executive,23,29816.31,1,27,No,1,No
+EMP_0268,Sales,Sales Manager,23,"₹29,137",1,11,Yes,2,No
+EMP_0269,Sales,Sales Executive,44,121106.9,7,6,No,2,Yes
+EMP_0270,Finance,Financial Analyst,41,124925.11,6,18,Yes,4,No
+EMP_0271,Marketing,Marketing Specialist,30,"₹73,471",2,11,No,3,No
+EMP_0272,Finance,Financial Analyst,37,100040.24,8,44,No,2,No
+EMP_0273,Human Resources,HR Specialist,45,112036.8,11,4,Yes,2,No
+EMP_0274,R&D,Research Scientist,31,45682.28,5,17,No,4,No
+EMP_0275,Human Resources,HR Recruiter,58,"₹222,486",8,15,Yes,3,No
+EMP_0276,Finance,Accountant,43,130443.89,2,33,No,5,No
+EMP_0277,Human Resources,HR Recruiter,45,"₹162,953",8,36,Yes,1,Yes
+EMP_0278,Finance,Accountant,30,61596.85,7,29,Yes,4,No
+EMP_0279,Finance,Financial Analyst,31,49437.14,5,3,Yes,5,No
+EMP_0280,Finance,Financial Analyst,56,"₹228,208",11,35,Yes,5,Yes
+EMP_0281,R&D,Lab Technician,31,"₹71,613",1,41,No,3,No
+EMP_0282,Marketing,SEO Manager,52,"₹173,055",9,21,No,2,Yes
+EMP_0283,Finance,Financial Analyst,25,29561.21,1,32,No,2,No
+EMP_0284,Marketing,SEO Manager,59,209788.85,5,24,Yes,4,Yes
+EMP_0285,Sales,Sales Executive,35,"₹75,266",2,19,No,5,No
+EMP_0286,Sales,Sales Manager,36,82530.88,3,9,Yes,3,No
+EMP_0287,Human Resources,HR Recruiter,46,"₹127,381",12,31,No,3,No
+EMP_0288,R&D,Lab Technician,28,80932.95,2,40,No,4,No
+EMP_0289,Marketing,Marketing Specialist,28,61846.5,3,19,No,3,No
+EMP_0290,Human Resources,HR Recruiter,22,31852.38,1,33,No,1,Yes
+EMP_0291,Marketing,SEO Manager,60,286855.08,10,44,Yes,5,No
+EMP_0292,Sales,Sales Executive,37,113486.84,12,40,Yes,3,No
+EMP_0293,Marketing,SEO Manager,58,161920.46,13,27,No,1,No
+EMP_0294,R&D,Lab Technician,33,103265.02,1,23,No,3,Yes
+EMP_0295,Human Resources,HR Specialist,44,137343.66,11,5,No,2,No
+EMP_0296,R&D,Lab Technician,57,188913.26,3,27,No,1,No
+EMP_0297,Human Resources,HR Specialist,56,241618.68,15,16,Yes,4,No
+EMP_0298,Human Resources,HR Specialist,33,68277.37,6,33,Yes,2,No
+EMP_0299,Human Resources,HR Recruiter,29,69291.71,7,34,Yes,4,No
+EMP_0300,Finance,Financial Analyst,34,81708.2,5,40,Yes,3,No
+EMP_0301,Finance,Accountant,47,217125.83,15,8,No,5,No
+EMP_0302,Finance,Financial Analyst,42,"₹140,403",5,4,Yes,4,No
+EMP_0303,R&D,Lab Technician,36,"₹130,008",1,30,No,2,No
+EMP_0304,Sales,Sales Manager,50,"₹186,858",9,38,No,5,Yes
+EMP_0305,Marketing,SEO Manager,45,150955.69,6,25,No,1,No
+EMP_0306,R&D,Software Engineer,37,100790.01,9,8,No,5,No
+EMP_0307,Human Resources,HR Recruiter,60,286456.15,4,43,No,3,No
+EMP_0308,Finance,Financial Analyst,51,174538.58,3,39,Yes,5,No
+EMP_0309,Marketing,Marketing Specialist,44,174406.17,12,11,No,5,Yes
+EMP_0310,Human Resources,HR Recruiter,60,"₹231,040",8,10,No,5,No
+EMP_0311,Human Resources,HR Specialist,36,"₹104,130",9,34,No,1,No
+EMP_0312,Finance,Financial Analyst,44,110095.94,12,6,Yes,2,No
+EMP_0313,R&D,Lab Technician,33,70297.45,2,33,No,5,No
+EMP_0314,Marketing,SEO Manager,46,142952.6,3,23,No,3,No
+EMP_0315,Marketing,Marketing Specialist,33,81057.11,2,16,No,4,No
+EMP_0316,Sales,Sales Manager,23,29243.6,1,37,Yes,5,Yes
+EMP_0317,Sales,Sales Executive,42,119051.0,3,38,Yes,5,No
+EMP_0318,Marketing,Marketing Specialist,56,293705.31,10,8,No,5,No
+EMP_0319,R&D,Software Engineer,33,"₹61,763",2,30,No,3,Yes
+EMP_0320,Sales,Sales Manager,33,73591.64,6,8,No,5,No
+EMP_0321,Marketing,SEO Manager,29,"₹43,654",2,23,Yes,4,No
+EMP_0322,Sales,Sales Manager,25,32243.63,1,44,Yes,3,No
+EMP_0323,Finance,Accountant,56,169111.85,5,22,No,4,No
+EMP_0324,Marketing,SEO Manager,27,37286.01,2,8,No,4,No
+EMP_0325,Human Resources,HR Recruiter,55,186578.73,15,7,Yes,3,No
+EMP_0326,Sales,Sales Executive,25,"₹36,079",2,24,Yes,5,No
+EMP_0327,Human Resources,HR Recruiter,35,106605.09,2,13,Yes,4,No
+EMP_0328,R&D,Lab Technician,22,"₹32,688",1,15,Yes,2,No
+EMP_0329,Human Resources,HR Recruiter,46,"₹156,691",4,27,No,4,Yes
+EMP_0330,Finance,Accountant,35,"₹87,519",7,19,No,3,No
+EMP_0331,R&D,Software Engineer,38,77542.34,3,27,Yes,1,Yes
+EMP_0332,Sales,Sales Executive,32,59128.01,5,36,No,3,Yes
+EMP_0333,Finance,Accountant,40,100689.95,4,9,Yes,5,No
+EMP_0334,Marketing,Marketing Specialist,30,"₹64,911",1,32,No,2,No
+EMP_0335,Sales,Sales Executive,37,108996.68,13,30,Yes,5,No
+EMP_0336,R&D,Research Scientist,42,156779.31,15,11,Yes,3,No
+EMP_0337,Marketing,Marketing Specialist,25,"₹30,520",1,20,No,4,No
+EMP_0338,Sales,Sales Manager,26,"₹50,627",3,20,Yes,1,No
+EMP_0339,Sales,Sales Manager,55,147095.42,1,12,Yes,1,No
+EMP_0340,R&D,Research Scientist,46,"₹181,271",4,26,Yes,5,No
+EMP_0341,Finance,Financial Analyst,23,32295.99,1,32,No,4,No
+EMP_0342,R&D,Lab Technician,53,165004.74,3,42,No,5,No
+EMP_0343,Human Resources,HR Recruiter,31,77386.98,5,13,Yes,3,No
+EMP_0344,Sales,Sales Manager,41,104234.17,4,28,No,2,No
+EMP_0345,Human Resources,HR Recruiter,47,198293.2,7,31,No,3,No
+EMP_0346,Human Resources,HR Specialist,47,197330.77,10,15,Yes,5,No
+EMP_0347,Human Resources,HR Specialist,57,"₹206,476",2,21,No,3,No
+EMP_0348,Finance,Accountant,25,39606.14,3,37,No,2,No
+EMP_0349,Marketing,Marketing Specialist,35,93965.29,10,13,Yes,4,No
+EMP_0350,Finance,Financial Analyst,31,"₹61,862",4,17,No,5,No
+EMP_0351,Finance,Financial Analyst,28,55401.0,3,2,Yes,3,No
+EMP_0352,Human Resources,HR Recruiter,31,72072.23,8,6,No,3,No
+EMP_0353,R&D,Software Engineer,41,"₹169,187",7,12,Yes,5,No
+EMP_0354,Finance,Accountant,32,"₹68,465",7,32,Yes,1,No
+EMP_0355,R&D,Software Engineer,28,56796.76,7,26,Yes,5,No
+EMP_0356,Human Resources,HR Specialist,59,185729.38,10,3,No,3,No
+EMP_0357,Sales,Sales Manager,26,43159.09,1,21,Yes,3,No
+EMP_0358,Human Resources,HR Recruiter,44,175751.39,7,33,Yes,3,Yes
+EMP_0359,Human Resources,HR Recruiter,54,270772.51,1,3,Yes,3,No
+EMP_0360,Human Resources,HR Specialist,49,"₹133,207",9,44,Yes,2,No
+EMP_0361,Finance,Financial Analyst,58,217801.15,1,14,No,4,No
+EMP_0362,Human Resources,HR Specialist,54,193863.4,5,23,Yes,4,No
+EMP_0363,Human Resources,HR Specialist,27,48025.31,3,7,Yes,1,No
+EMP_0364,R&D,Research Scientist,37,100334.86,13,6,Yes,1,No
+EMP_0365,Sales,Sales Executive,43,102067.56,8,39,No,1,No
+EMP_0366,Finance,Financial Analyst,25,29554.86,1,7,Yes,4,Yes
+EMP_0367,R&D,Research Scientist,25,"₹29,318",1,22,No,5,No
+EMP_0368,R&D,Software Engineer,40,118864.92,2,5,Yes,2,No
+EMP_0369,Human Resources,HR Recruiter,56,"₹269,618",3,9,No,2,No
+EMP_0370,R&D,Software Engineer,59,"₹255,624",5,34,No,2,No
+EMP_0371,Finance,Financial Analyst,38,130257.83,15,6,Yes,5,Yes
+EMP_0372,Marketing,Marketing Specialist,50,254351.45,15,45,No,5,Yes
+EMP_0373,Sales,Sales Manager,42,122784.1,8,32,No,5,Yes
+EMP_0374,R&D,Research Scientist,59,179319.52,6,24,No,4,No
+EMP_0375,Marketing,SEO Manager,31,"₹87,563",3,26,No,4,No
+EMP_0376,R&D,Software Engineer,45,"₹162,701",3,44,Yes,1,No
+EMP_0377,Sales,Sales Manager,52,177506.81,5,14,No,2,Yes
+EMP_0378,R&D,Software Engineer,60,"₹228,883",11,29,Yes,3,No
+EMP_0379,Sales,Sales Executive,42,119508.82,8,20,Yes,4,Yes
+EMP_0380,Marketing,Marketing Specialist,41,94516.14,10,42,Yes,5,No
+EMP_0381,R&D,Lab Technician,40,142283.46,2,10,Yes,4,No
+EMP_0382,Human Resources,HR Specialist,37,141674.61,11,16,No,3,No
+EMP_0383,Finance,Accountant,58,262766.14,10,10,Yes,5,No
+EMP_0384,Finance,Financial Analyst,37,106291.5,7,3,Yes,5,No
+EMP_0385,Human Resources,HR Recruiter,55,206373.47,4,19,No,2,Yes
+EMP_0386,Human Resources,HR Recruiter,52,171800.0,8,2,Yes,3,No
+EMP_0387,Human Resources,HR Specialist,42,153058.52,15,14,Yes,3,No
+EMP_0388,Sales,Sales Executive,55,178894.75,1,26,No,3,No
+EMP_0389,R&D,Research Scientist,40,"₹103,190",8,43,Yes,4,No
+EMP_0390,Marketing,Marketing Specialist,60,278218.47,4,8,No,3,No
+EMP_0391,R&D,Lab Technician,30,79770.96,4,9,No,2,Yes
+EMP_0392,Human Resources,HR Specialist,57,"₹259,560",10,43,Yes,3,No
+EMP_0393,Human Resources,HR Recruiter,54,252406.52,3,10,Yes,1,No
+EMP_0394,Finance,Financial Analyst,37,137298.21,13,24,Yes,4,No
+EMP_0395,Marketing,Marketing Specialist,55,228585.52,2,27,Yes,4,No
+EMP_0396,R&D,Research Scientist,38,"₹104,313",11,43,Yes,4,No
+EMP_0397,Sales,Sales Executive,36,134198.1,13,10,No,1,No
+EMP_0398,Finance,Accountant,53,"₹238,714",10,28,Yes,2,No
+EMP_0399,R&D,Lab Technician,53,197720.84,15,7,Yes,4,No
+EMP_0400,R&D,Research Scientist,56,293128.09,9,41,No,2,No
+EMP_0401,R&D,Lab Technician,38,96746.35,8,18,Yes,4,No
+EMP_0402,Finance,Accountant,35,82860.06,4,26,Yes,5,No
+EMP_0403,Human Resources,HR Recruiter,59,"₹220,975",15,5,No,2,No
+EMP_0404,Finance,Financial Analyst,41,"₹122,314",12,13,No,3,No
+EMP_0405,Marketing,SEO Manager,60,"₹316,964",11,32,Yes,1,No
+EMP_0406,Finance,Financial Analyst,22,31477.11,1,2,No,4,No
+EMP_0407,Finance,Financial Analyst,28,63305.39,3,43,Yes,3,Yes
+EMP_0408,Marketing,Marketing Specialist,41,176881.74,15,21,Yes,1,No
+EMP_0409,Sales,Sales Manager,33,78404.16,12,17,No,3,No
+EMP_0410,Sales,Sales Manager,26,31767.21,1,15,Yes,4,Yes
+EMP_0411,Marketing,SEO Manager,48,230182.34,13,38,No,3,No
+EMP_0412,Marketing,Marketing Specialist,39,145329.46,1,14,Yes,5,No
+EMP_0413,Marketing,SEO Manager,36,"₹98,938",6,5,No,4,No
+EMP_0414,Finance,Financial Analyst,45,169538.39,11,37,No,4,No
+EMP_0415,R&D,Lab Technician,47,"₹165,878",11,24,No,5,No
+EMP_0416,Marketing,SEO Manager,49,204441.01,8,10,No,5,No
+EMP_0417,R&D,Research Scientist,43,163117.51,11,42,Yes,5,Yes
+EMP_0418,R&D,Research Scientist,47,214638.11,9,9,Yes,5,No
+EMP_0419,Sales,Sales Manager,57,265843.94,8,16,Yes,3,No
+EMP_0420,Human Resources,HR Specialist,55,236045.86,12,16,Yes,2,No
+EMP_0421,Marketing,Marketing Specialist,34,57019.08,2,34,No,2,No
+EMP_0422,Marketing,SEO Manager,35,"₹90,530",2,14,Yes,2,Yes
+EMP_0423,Sales,Sales Executive,38,134256.71,1,29,No,3,No
+EMP_0424,Marketing,SEO Manager,35,93569.15,10,39,Yes,4,No
+EMP_0425,Sales,Sales Manager,42,103359.06,9,32,Yes,4,No
+EMP_0426,Finance,Accountant,53,"₹201,636",5,33,Yes,1,No
+EMP_0427,R&D,Lab Technician,28,47077.62,1,23,No,3,No
+EMP_0428,Finance,Accountant,35,81424.28,1,2,No,1,No
+EMP_0429,Finance,Financial Analyst,51,215078.68,12,26,Yes,3,No
+EMP_0430,Finance,Financial Analyst,55,"₹170,566",5,30,No,4,No
+EMP_0431,Sales,Sales Executive,26,48714.34,2,17,No,1,Yes
+EMP_0432,Human Resources,HR Recruiter,36,"₹122,009",8,39,Yes,1,No
+EMP_0433,R&D,Research Scientist,30,56660.75,3,40,No,1,No
+EMP_0434,Finance,Accountant,56,223607.44,7,4,Yes,1,No
+EMP_0435,Sales,Sales Manager,44,137106.16,2,17,Yes,2,No
+EMP_0436,Sales,Sales Executive,34,"₹91,394",2,36,Yes,5,Yes
+EMP_0437,Marketing,Marketing Specialist,57,202443.75,7,11,Yes,3,No
+EMP_0438,Sales,Sales Executive,29,51654.58,2,39,No,2,No
+EMP_0439,Marketing,Marketing Specialist,34,"₹72,192",2,32,Yes,2,Yes
+EMP_0440,Finance,Financial Analyst,26,"₹37,107",2,6,No,2,No
+EMP_0441,Human Resources,HR Specialist,25,"₹29,172",1,22,No,4,No
+EMP_0442,Finance,Financial Analyst,30,63757.5,6,34,Yes,2,No
+EMP_0443,Finance,Accountant,53,208390.92,12,3,Yes,1,No
+EMP_0444,Human Resources,HR Specialist,47,165592.68,6,23,No,4,No
+EMP_0445,Finance,Accountant,46,152164.89,11,37,Yes,4,No
+EMP_0446,Human Resources,HR Recruiter,53,"₹208,929",5,41,No,3,No
+EMP_0447,Finance,Financial Analyst,42,169948.54,4,38,No,5,Yes
+EMP_0448,Marketing,SEO Manager,38,99040.1,13,44,Yes,3,Yes
+EMP_0449,R&D,Lab Technician,45,142250.97,9,22,Yes,1,No
+EMP_0450,Human Resources,HR Recruiter,35,96597.8,8,23,No,2,No
+EMP_0451,Marketing,SEO Manager,39,106708.44,5,23,Yes,4,No
+EMP_0452,Finance,Accountant,22,29755.71,1,18,No,2,No
+EMP_0453,Human Resources,HR Recruiter,49,207316.09,6,40,Yes,2,Yes
+EMP_0454,R&D,Research Scientist,45,124939.32,5,6,Yes,1,No
+EMP_0455,Marketing,Marketing Specialist,24,31266.27,1,2,No,4,Yes
+EMP_0456,R&D,Research Scientist,36,95561.1,4,19,Yes,1,No
+EMP_0457,Finance,Accountant,36,126119.78,3,26,Yes,5,Yes
+EMP_0458,Finance,Accountant,53,165247.51,3,28,Yes,2,Yes
+EMP_0459,Human Resources,HR Recruiter,22,31684.65,1,29,No,2,No
+EMP_0460,R&D,Research Scientist,27,45549.1,3,30,No,1,Yes
+EMP_0461,Finance,Accountant,35,"₹78,695",9,35,No,4,No
+EMP_0462,Finance,Financial Analyst,45,181717.99,3,40,No,2,No
+EMP_0463,R&D,Software Engineer,44,126931.34,15,20,No,1,No
+EMP_0464,Finance,Financial Analyst,26,38704.56,2,3,Yes,4,No
+EMP_0465,Marketing,SEO Manager,49,185984.58,5,24,No,2,No
+EMP_0466,R&D,Research Scientist,59,225266.41,7,35,No,1,No
+EMP_0467,R&D,Research Scientist,32,"₹96,080",5,37,No,2,Yes
+EMP_0468,Human Resources,HR Recruiter,49,219584.91,9,13,Yes,2,No
+EMP_0469,Sales,Sales Executive,58,253236.9,7,13,Yes,2,No
+EMP_0470,Sales,Sales Executive,60,171478.46,9,8,Yes,4,No
+EMP_0471,Finance,Accountant,33,"₹92,481",3,13,No,5,No
+EMP_0472,Sales,Sales Executive,47,"₹141,700",14,32,No,5,Yes
+EMP_0473,Human Resources,HR Specialist,37,"₹86,108",10,9,Yes,1,No
+EMP_0474,Marketing,Marketing Specialist,22,30843.09,1,33,No,5,No
+EMP_0475,Human Resources,HR Specialist,38,125717.25,13,12,Yes,2,No
+EMP_0476,Sales,Sales Manager,41,"₹153,352",1,28,No,4,Yes
+EMP_0477,R&D,Research Scientist,35,103103.17,3,11,No,4,No
+EMP_0478,R&D,Research Scientist,23,32614.65,1,18,No,2,No
+EMP_0479,Marketing,Marketing Specialist,48,159499.53,5,11,No,1,No
+EMP_0480,Human Resources,HR Specialist,46,174769.03,9,6,No,1,No
+EMP_0481,Marketing,Marketing Specialist,44,125252.26,3,34,No,1,Yes
+EMP_0482,Sales,Sales Executive,55,156089.9,6,27,No,3,Yes
+EMP_0483,Human Resources,HR Recruiter,55,159795.74,9,30,Yes,5,No
+EMP_0484,Finance,Financial Analyst,31,62244.26,2,30,Yes,2,No
+EMP_0485,Sales,Sales Manager,39,98214.25,4,4,No,5,No
+EMP_0486,R&D,Software Engineer,31,"₹68,318",1,18,Yes,1,No
+EMP_0487,Human Resources,HR Specialist,26,48492.91,1,12,No,3,No
+EMP_0488,Finance,Accountant,52,207937.04,6,37,No,5,No
+EMP_0489,R&D,Lab Technician,59,"₹253,834",14,40,Yes,4,No
+EMP_0490,Marketing,SEO Manager,43,118640.96,13,27,No,1,Yes
+EMP_0491,R&D,Lab Technician,36,"₹130,322",2,17,No,4,No
+EMP_0492,Marketing,SEO Manager,58,206871.83,15,17,Yes,3,No
+EMP_0493,Sales,Sales Manager,47,131172.23,6,32,Yes,3,No
+EMP_0494,R&D,Software Engineer,53,"₹209,257",4,27,Yes,3,No
+EMP_0495,R&D,Lab Technician,42,"₹118,626",12,7,Yes,2,No
+EMP_0496,Finance,Accountant,53,"₹272,600",8,43,Yes,1,Yes
+EMP_0497,R&D,Software Engineer,45,"₹153,110",3,24,No,3,No
+EMP_0498,Sales,Sales Executive,59,327204.07,13,41,Yes,4,Yes
+EMP_0499,Marketing,Marketing Specialist,39,97319.99,3,35,Yes,4,Yes
+EMP_0500,Finance,Accountant,32,67625.8,6,34,No,1,Yes

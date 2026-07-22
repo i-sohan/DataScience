@@ -1,0 +1,1003 @@
+OrderID,Date,Customer,State,City,Category,Product,Quantity,Sales,Profit,PaymentMethod
+1001,2025-11-24,Cust_0140,Karnataka,Bangalore,Office Supplies,Binder,4,944.64,226.71,UPI
+1002,2025-10-30,Cust_0140,Delhi,Delhi,Technology,Laptop,4,246098.37,45433.54,Cash on Delivery
+1003,23/04/2025,Cust_0087,Delhi,New Delhi,Technology,Monitor,7,"₹121,974.31",30493.58,UPI
+1004,2025-02-17,Cust_0032,Delhi,Delhi,Furniture,Standing Desk,10,"₹238,226.04",52409.73,Cash on Delivery
+1005,2025-02-10,Cust_0059,Telangana,Warangal,Office Supplies,Gel Pen Box,6,913.92,243.71,Net Banking
+1006,2025-02-10,Cust_0054,Maharashtra,Mumbai,Furniture,Standing Desk,8,,45194.02,Net Banking
+1007,2025-12-26,Cust_0070,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,3,453.07,120.82,Credit Card
+1008,17/12/2025,Cust_0146,Tamil Nadu,Chennai,Technology,Laptop,6,"₹382,290.85",70576.77,Net Banking
+1009,2025-04-19,Cust_0138,Gujarat,Surat,Furniture,Bookshelf,8,"₹59,428.76",13371.47,Net Banking
+1010,2025-10-27,Cust_0029,Delhi,New Delhi,Furniture,Ergonomic Chair,3,"₹36,068.59",9017.15,Credit Card
+1011,2025-11-18,Cust_0065,Maharashtra,Nagpur,Furniture,Bookshelf,2,15631.26,3517.03,UPI
+1012,2025-12-15,Cust_0041,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,5,790.29,210.74,Cash on Delivery
+1013,2025-01-02,Cust_0130,Gujarat,  Bangalore  ,Office Supplies,Paper Ream,9,2922.82,779.42,Credit Card
+1014,2025-03-20,Cust_0093,Tamil Nadu,Chennai,Office Supplies,Gel Pen Box,1,152.97,40.79,Net Banking
+1015,03/05/2025,Cust_0137,Karnataka,Bangalore,Office Supplies,Paper Ream,2,627.83,167.42,Credit Card
+1016,07/03/2025,Cust_0139,Gujarat,Surat,Office Supplies,Paper Ream,5,1508.3,402.21,Credit Card
+1017,2026-01-01,Cust_0058,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,6,888.86,237.03,UPI
+1018,2025-06-23,Cust_0059,Karnataka,Hubli,Office Supplies,Paper Ream,10,"₹2,832.13",755.23,UPI
+1019,2025-01-17,Cust_0147,Tamil Nadu,Chennai,Office Supplies,Paper Ream,5,1550.69,413.52,Cash on Delivery
+1020,2025-05-05,Cust_0014,Delhi,New Delhi,Technology,Laptop,2,134133.55,24763.12,UPI
+1021,2025-02-01,Cust_0072,Delhi,New Delhi,Technology,Monitor,4,67539.01,16884.75,Cash on Delivery
+1022,2025-05-08,Cust_0024,Karnataka,Mysore,Office Supplies,Paper Ream,1,309.13,82.43,Credit Card
+1023,2025-03-27,Cust_0100,Delhi,New Delhi,Furniture,Ergonomic Chair,7,"₹90,761.04",22690.26,Net Banking
+1024,2025-08-21,Cust_0056,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,9,1393.71,371.65,UPI
+1025,24/10/2025,Cust_0136,Gujarat,Ahmedabad,Office Supplies,Binder,1,227.51,54.6,Credit Card
+1026,2025-01-30,Cust_0146,Telangana,Hyderabad,Technology,Laptop,10,593834.91,109631.06,Credit Card
+1027,2025-10-24,Cust_0067,Telangana,Hyderabad,Office Supplies,Paper Ream,7,2166.1,577.63,Credit Card
+1028,2025-12-09,Cust_0019,Gujarat,Surat,Technology,Mouse,7,5186.58,1296.65,UPI
+1029,2025-08-23,Cust_0018,Telangana,Hyderabad,Technology,Smartphone,4,"₹140,164.77",28032.95,Credit Card
+1030,2025-07-09,Cust_0003,Tamil Nadu,Chennai,Furniture,Bookshelf,5,40893.42,9201.02,Net Banking
+1031,2025-12-06,Cust_0054,Karnataka,Bangalore,Furniture,Ergonomic Chair,2,"₹25,163.60",6290.9,Net Banking
+1032,2025-04-15,Cust_0109,Gujarat,Surat,Office Supplies,Binder,5,1351.33,324.32,Net Banking
+1033,2025-01-23,Cust_0003,Karnataka,Mysore,Technology,Mouse,3,2515.79,628.95,UPI
+1034,2025-02-08,Cust_0079,Gujarat,Ahmedabad,Office Supplies,Paper Ream,6,"₹1,829.70",487.92,Net Banking
+1035,21/01/2025,Cust_0040,Tamil Nadu,Chennai,Office Supplies,Paper Ream,2,582.44,155.32,Credit Card
+1036,2025-03-25,Cust_0064,Maharashtra,Pune,Technology,Monitor,6,114099.55,28524.89,Net Banking
+1037,2025-03-23,Cust_0079,Gujarat,Ahmedabad,Furniture,Ergonomic Chair,8,90670.73,22667.68,Credit Card
+1038,2025-04-25,Cust_0090,Karnataka,Hubli,Technology,Keyboard,6,"₹8,601.49",2293.73,Cash on Delivery
+1039,2025-12-14,Cust_0028,Telangana,Warangal,Technology,Laptop,5,304106.91,56142.81,Cash on Delivery
+1040,2025-06-26,Cust_0012,Gujarat,Surat,Furniture,Bookshelf,9,66465.3,14954.69,Cash on Delivery
+1041,2025-01-01,Cust_0032,Telangana,Hyderabad,Furniture,Standing Desk,2,54488.74,11987.52,Net Banking
+1042,2025-09-17,Cust_0098,Tamil Nadu,Madurai,Furniture,Standing Desk,7,181902.29,40018.5,Credit Card
+1043,2025-11-12,Cust_0083,Telangana,Warangal,Furniture,Bookshelf,1,7686.2,1729.39,Cash on Delivery
+1044,2025-08-15,Cust_0086,Delhi,Delhi,Office Supplies,Binder,3,773.83,185.72,UPI
+1045,2025-05-01,Cust_0019,Gujarat,Surat,Technology,Monitor,3,48863.79,12215.95,Cash on Delivery
+1046,2025-08-01,Cust_0002,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,7,1048.82,279.69,UPI
+1047,06/08/2025,Cust_0117,Maharashtra,Mumbai,Office Supplies,Gel Pen Box,8,1092.05,291.21,Credit Card
+1048,2025-08-26,Cust_0041,Gujarat,Surat,Furniture,Bookshelf,9,70945.07,15962.64,Cash on Delivery
+1049,2025-08-19,Cust_0074,Tamil Nadu,Chennai,Office Supplies,Binder,9,2243.07,538.34,Credit Card
+1050,2025-05-20,Cust_0055,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,3,837.15,223.24,UPI
+1051,2025-08-01,Cust_0150,Delhi,New Delhi,Office Supplies,Binder,7,1596.79,383.23,UPI
+1052,22/10/2025,Cust_0108,Delhi,New Delhi,Technology,Mouse,5,4202.78,1050.7,Credit Card
+1053,2025-09-07,Cust_0043,Maharashtra,Pune,Furniture,Standing Desk,1,24444.29,5377.74,Cash on Delivery
+1054,2025-03-07,Cust_0119,Telangana,Hyderabad,Furniture,Bookshelf,10,"₹82,608.00",18586.8,Credit Card
+1055,2025-01-26,Cust_0108,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,8,92675.44,23168.86,Net Banking
+1056,2025-02-11,Cust_0011,Delhi,Delhi,Office Supplies,Gel Pen Box,1,165.0,44.0,UPI
+1057,2025-05-07,Cust_0056,Maharashtra,Mumbai,Office Supplies,Paper Ream,4,1110.29,296.08,Cash on Delivery
+1058,2025-12-25,Cust_0042,Tamil Nadu,Coimbatore,Technology,Smartphone,10,382461.43,76492.29,Net Banking
+1059,2025-02-25,Cust_0063,Telangana,Hyderabad,Furniture,Bookshelf,7,54842.53,12339.57,UPI
+1060,2025-12-23,Cust_0095,Tamil Nadu,Madurai,Office Supplies,Paper Ream,10,3169.58,845.22,UPI
+1061,2025-09-17,Cust_0118,Gujarat,Surat,Technology,Keyboard,8,11053.29,2947.54,Credit Card
+1062,2025-08-11,Cust_0120,Maharashtra,Nagpur,Office Supplies,Gel Pen Box,5,767.39,204.64,Cash on Delivery
+1063,2025-10-31,Cust_0098,Tamil Nadu,Coimbatore,Technology,Laptop,5,349806.03,64579.57,Net Banking
+1064,2025-01-15,Cust_0071,Delhi,New Delhi,Technology,Keyboard,4,5825.79,1553.54,UPI
+1065,2025-09-22,Cust_0126,Maharashtra,Mumbai,Technology,Keyboard,8,12132.42,3235.31,Cash on Delivery
+1066,2025-01-09,Cust_0136,Karnataka,Mysore,Technology,Keyboard,4,5767.45,1537.99,Net Banking
+1067,2025-08-06,Cust_0050,Gujarat,Surat,Furniture,Bookshelf,8,61067.73,13740.24,Net Banking
+1068,2025-03-03,Cust_0073,Gujarat,Ahmedabad,Technology,Monitor,8,137563.19,34390.8,UPI
+1069,2025-04-10,Cust_0014,Tamil Nadu,Chennai,Furniture,Ergonomic Chair,5,54169.78,13542.45,Net Banking
+1070,2025-12-24,Cust_0048,Maharashtra,Nagpur,Furniture,Ergonomic Chair,1,12177.75,3044.44,UPI
+1071,2025-05-10,Cust_0039,Delhi,Delhi,Technology,Keyboard,8,10977.8,2927.41,Net Banking
+1072,2025-02-13,Cust_0098,Maharashtra,Mumbai,Office Supplies,Binder,10,2548.06,611.54,Cash on Delivery
+1073,2025-08-15,Cust_0054,Tamil Nadu,Madurai,Furniture,Standing Desk,10,256051.37,56331.3,Credit Card
+1074,2025-05-16,Cust_0121,Gujarat,Ahmedabad,Technology,Monitor,3,"₹54,561.52",13640.38,Net Banking
+1075,2025-01-17,Cust_0051,Maharashtra,Pune,Office Supplies,Binder,8,1828.47,438.83,Cash on Delivery
+1076,2025-02-28,Cust_0079,Telangana,Hyderabad,Office Supplies,Paper Ream,5,"₹1,597.99",426.13,Net Banking
+1077,2025-08-13,Cust_0021,Karnataka,Mysore,Office Supplies,Binder,7,1904.94,457.18,UPI
+1078,10/08/2025,Cust_0148,Gujarat,Surat,Office Supplies,Binder,1,229.57,55.1,UPI
+1079,2025-12-11,Cust_0150,Tamil Nadu,Madurai,Technology,Monitor,8,144546.16,36136.54,Cash on Delivery
+1080,22/11/2025,Cust_0085,Delhi,Delhi,Furniture,Standing Desk,7,169165.79,37216.47,Cash on Delivery
+1081,2025-12-22,Cust_0030,Delhi,New Delhi,Office Supplies,Binder,9,"₹2,041.51",489.96,Cash on Delivery
+1082,2025-09-21,Cust_0128,Karnataka,Hubli,Office Supplies,Binder,7,1593.97,382.55,Cash on Delivery
+1083,2025-01-27,Cust_0062,Maharashtra,Pune,Office Supplies,Paper Ream,5,1481.43,395.05,Credit Card
+1084,2025-06-09,Cust_0031,Telangana,Hyderabad,Office Supplies,Binder,2,472.47,113.39,Credit Card
+1085,2025-09-13,Cust_0117,Gujarat,Surat,Office Supplies,Gel Pen Box,5,737.32,196.62,Credit Card
+1086,2025-07-16,Cust_0107,Maharashtra,Nagpur,Office Supplies,Gel Pen Box,3,482.76,128.74,Net Banking
+1087,2025-09-17,Cust_0039,Tamil Nadu,Chennai,Furniture,Bookshelf,5,42699.81,9607.46,Cash on Delivery
+1088,03/10/2025,Cust_0062,Delhi,New Delhi,Furniture,Bookshelf,9,70231.82,15802.16,Cash on Delivery
+1089,2025-04-30,Cust_0039,Delhi,Delhi,Furniture,Bookshelf,8,66626.92,14991.06,Cash on Delivery
+1090,2025-01-19,Cust_0117,Maharashtra,Nagpur,Office Supplies,Binder,2,537.42,128.98,UPI
+1091,2025-03-15,Cust_0085,Delhi,Delhi,Technology,Keyboard,5,7257.84,1935.42,Cash on Delivery
+1092,12/06/2025,Cust_0059,Gujarat,Surat,Office Supplies,Paper Ream,10,2741.05,730.95,UPI
+1093,2025-08-11,Cust_0084,Karnataka,Hubli,Office Supplies,Paper Ream,8,2239.86,597.29,UPI
+1094,2025-05-31,Cust_0044,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,4,48299.2,12074.8,Credit Card
+1095,2025-02-10,Cust_0066,Telangana,Warangal,Office Supplies,Gel Pen Box,4,599.72,159.93,Cash on Delivery
+1096,2025-05-11,Cust_0077,Gujarat,Ahmedabad,Furniture,Standing Desk,9,209608.9,46113.96,Cash on Delivery
+1097,2025-12-20,Cust_0092,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,7,"₹89,936.04",22484.01,Net Banking
+1098,2025-12-25,Cust_0013,Tamil Nadu,Chennai,Office Supplies,Binder,5,1127.02,270.49,Cash on Delivery
+1099,2025-05-27,Cust_0036,Maharashtra,Nagpur,Furniture,Ergonomic Chair,4,49160.56,12290.14,UPI
+1100,2025-11-18,Cust_0076,Gujarat,Ahmedabad,Furniture,Standing Desk,1,25397.87,5587.53,Net Banking
+1101,01/08/2025,Cust_0066,Maharashtra,Mumbai,Technology,Smartphone,6,211295.8,42259.16,Cash on Delivery
+1102,01/06/2025,Cust_0102,Gujarat,Surat,Technology,Keyboard,2,2784.45,742.52,Net Banking
+1103,2025-02-16,Cust_0150,Delhi,Delhi,Furniture,Bookshelf,2,15855.32,3567.45,Cash on Delivery
+1104,2025-11-23,Cust_0057,Tamil Nadu,Chennai,Office Supplies,Paper Ream,8,2172.01,579.2,UPI
+1105,2025-11-22,Cust_0127,Delhi,New Delhi,Office Supplies,Binder,2,463.98,111.35,UPI
+1106,2025-02-19,Cust_0139,Maharashtra,Nagpur,Technology,Keyboard,8,11690.43,3117.45,Cash on Delivery
+1107,28/10/2025,Cust_0072,Gujarat,Ahmedabad,Furniture,Bookshelf,2,17067.82,3840.26,UPI
+1108,2025-12-20,Cust_0140,Tamil Nadu,Chennai,Furniture,Standing Desk,4,"₹107,109.00",23563.98,Net Banking
+1109,2025-02-01,Cust_0006,Delhi,New Delhi,Technology,Laptop,8,477534.04,88160.13,UPI
+1110,2025-06-20,Cust_0060,Maharashtra,Mumbai,Office Supplies,Paper Ream,2,639.58,170.55,Net Banking
+1111,2025-03-17,Cust_0007,Telangana,Hyderabad,Furniture,Ergonomic Chair,3,36289.55,9072.39,Credit Card
+1112,2025-01-08,Cust_0135,Tamil Nadu,Chennai,Office Supplies,Binder,1,₹233.71,56.09,UPI
+1113,02/02/2025,Cust_0012,Delhi,New Delhi,Furniture,Bookshelf,10,73744.86,16592.59,Net Banking
+1114,2025-08-23,Cust_0114,Gujarat,Ahmedabad,Technology,Keyboard,7,"₹10,345.17",2758.71,UPI
+1115,2025-02-11,Cust_0084,Tamil Nadu,Madurai,Technology,Laptop,3,186225.62,34380.12,Cash on Delivery
+1116,2025-11-02,Cust_0142,Telangana,Warangal,Furniture,Bookshelf,10,78883.19,17748.72,Credit Card
+1117,2025-08-09,Cust_0081,Delhi,Delhi,Furniture,Standing Desk,8,195949.21,43108.83,Net Banking
+1118,2025-07-11,Cust_0096,Maharashtra,Nagpur,Furniture,Ergonomic Chair,2,"₹25,592.51",6398.13,Credit Card
+1119,12/10/2025,Cust_0109,Karnataka,Hubli,Office Supplies,Gel Pen Box,6,930.6,248.16,UPI
+1120,2025-05-28,Cust_0028,Telangana,Warangal,Furniture,Ergonomic Chair,10,"₹120,177.90",30044.48,Net Banking
+1121,12/10/2025,Cust_0143,Tamil Nadu,Chennai,Furniture,Bookshelf,4,33966.22,7642.4,UPI
+1122,2025-11-08,Cust_0002,Gujarat,Surat,Technology,Monitor,5,93648.58,23412.14,Credit Card
+1123,2025-03-15,Cust_0117,Telangana,Warangal,Technology,Monitor,1,16530.33,4132.58,Net Banking
+1124,2025-03-22,Cust_0013,Tamil Nadu,Coimbatore,Office Supplies,Binder,10,2548.11,611.55,UPI
+1125,2025-05-20,Cust_0089,Delhi,New Delhi,Furniture,Bookshelf,8,62901.55,14152.85,Cash on Delivery
+1126,2025-02-26,Cust_0015,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,8,1206.46,321.72,UPI
+1127,2025-04-15,Cust_0045,Tamil Nadu,Chennai,Technology,Mouse,5,"₹3,862.50",965.62,Credit Card
+1128,2025-07-14,Cust_0005,Telangana,Hyderabad,Office Supplies,Gel Pen Box,6,822.97,219.46,Cash on Delivery
+1129,2025-02-09,Cust_0006,Tamil Nadu,Madurai,Furniture,Bookshelf,7,58346.39,13127.94,Net Banking
+1130,2025-03-29,Cust_0103,Telangana,Warangal,Office Supplies,Binder,2,₹493.67,118.48,UPI
+1131,2025-07-22,Cust_0136,Tamil Nadu,Madurai,Furniture,Ergonomic Chair,6,"₹76,019.30",19004.82,Credit Card
+1132,2025-06-28,Cust_0040,Tamil Nadu,Madurai,Office Supplies,Paper Ream,4,1104.67,294.58,UPI
+1133,2025-04-01,Cust_0083,Gujarat,Surat,Furniture,Bookshelf,10,79182.48,17816.06,Net Banking
+1134,2025-03-19,Cust_0019,Delhi,Delhi,Furniture,Standing Desk,5,132408.24,29129.81,Net Banking
+1135,25/08/2025,Cust_0130,Delhi,Delhi,Technology,Mouse,5,3661.38,915.35,Cash on Delivery
+1136,2025-08-25,Cust_0016,Telangana,Hyderabad,Furniture,Bookshelf,4,30857.77,6943.0,Cash on Delivery
+1137,22/02/2025,Cust_0135,Tamil Nadu,Madurai,Technology,Smartphone,3,95321.98,19064.4,Credit Card
+1138,2025-07-06,Cust_0086,Tamil Nadu,Coimbatore,Furniture,Standing Desk,6,"₹155,366.93",34180.72,UPI
+1139,18/06/2025,Cust_0039,Karnataka,Hubli,Office Supplies,Binder,5,1188.0,285.12,Net Banking
+1140,2025-02-11,Cust_0144,Telangana,Hyderabad,Furniture,Standing Desk,7,162013.31,35642.93,Cash on Delivery
+1141,2025-11-26,Cust_0005,Tamil Nadu,Chennai,Office Supplies,Gel Pen Box,9,1240.23,330.73,Net Banking
+1142,2025-06-08,Cust_0026,Maharashtra,Mumbai,Furniture,Standing Desk,4,"₹94,530.86",20796.79,UPI
+1143,2025-12-05,Cust_0043,Tamil Nadu,Madurai,Technology,Smartphone,7,"₹228,058.39",45611.68,Cash on Delivery
+1144,2025-01-23,Cust_0115,Delhi,New Delhi,Office Supplies,Gel Pen Box,4,656.35,175.03,Credit Card
+1145,2025-10-01,Cust_0073,Maharashtra,Pune,Furniture,Ergonomic Chair,6,74567.62,18641.9,Cash on Delivery
+1146,2025-09-15,Cust_0096,Telangana,Warangal,Technology,Monitor,10,166982.35,41745.59,UPI
+1147,2025-12-31,Cust_0112,Telangana,Hyderabad,Furniture,Ergonomic Chair,3,34364.1,8591.02,UPI
+1148,2025-04-24,Cust_0021,Delhi,New Delhi,Technology,Keyboard,1,1468.94,391.72,Net Banking
+1149,25/04/2025,Cust_0036,Karnataka,Mysore,Technology,Mouse,3,2226.05,556.51,Cash on Delivery
+1150,18/08/2025,Cust_0136,Telangana,Hyderabad,Technology,Laptop,5,"₹306,517.56",56587.86,Cash on Delivery
+1151,2025-02-26,Cust_0017,Tamil Nadu,Chennai,Furniture,Ergonomic Chair,1,11372.25,2843.06,UPI
+1152,2025-09-13,Cust_0091,Telangana,Hyderabad,Office Supplies,Gel Pen Box,10,"₹1,422.58",379.36,Credit Card
+1153,20/10/2025,Cust_0140,Delhi,Delhi,Office Supplies,Gel Pen Box,2,301.41,80.38,UPI
+1154,2025-07-19,Cust_0089,Delhi,Delhi,Office Supplies,Binder,6,"₹1,426.10",342.26,Credit Card
+1155,2025-12-03,Cust_0045,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,6,834.01,222.4,Cash on Delivery
+1156,2025-12-23,Cust_0011,Delhi,Delhi,Technology,Laptop,8,471846.31,87110.09,Net Banking
+1157,2025-06-08,Cust_0013,Telangana,Warangal,Office Supplies,Binder,5,1134.16,272.2,Net Banking
+1158,20/05/2025,Cust_0128,Karnataka,Mysore,Furniture,Standing Desk,8,215785.5,47472.81,Cash on Delivery
+1159,2025-07-08,Cust_0076,Telangana,Warangal,Technology,Keyboard,2,2958.36,788.9,Net Banking
+1160,2025-02-22,Cust_0114,Karnataka,Mysore,Office Supplies,Binder,5,1236.48,296.75,Net Banking
+1161,17/08/2025,Cust_0020,Karnataka,Hubli,Furniture,Bookshelf,7,53475.02,12031.88,Cash on Delivery
+1162,2025-07-06,Cust_0061,Telangana,Hyderabad,Technology,Monitor,10,186411.2,46602.8,Net Banking
+1163,2025-07-05,Cust_0147,Delhi,Delhi,Office Supplies,Paper Ream,8,2615.44,697.45,Credit Card
+1164,2025-09-29,Cust_0128,Tamil Nadu,Coimbatore,Furniture,Bookshelf,5,"₹37,996.89",8549.3,Cash on Delivery
+1165,2025-10-15,Cust_0126,Karnataka,Mysore,Furniture,Bookshelf,8,60346.5,13577.96,Credit Card
+1166,04/03/2025,Cust_0082,Maharashtra,Mumbai,Furniture,Ergonomic Chair,8,105547.44,26386.86,Net Banking
+1167,30/12/2025,Cust_0045,Karnataka,Hubli,Office Supplies,Binder,5,1337.84,321.08,Net Banking
+1168,2025-09-18,Cust_0095,Maharashtra,Mumbai,Technology,Monitor,4,"₹76,181.37",19045.34,Cash on Delivery
+1169,2025-10-10,Cust_0106,Maharashtra,Nagpur,Technology,Laptop,5,318380.4,58777.92,Cash on Delivery
+1170,2025-10-22,Cust_0142,Karnataka,Bangalore,Furniture,Bookshelf,2,15839.92,3563.98,Credit Card
+1171,08/03/2025,Cust_0058,Delhi,Delhi,Technology,Smartphone,3,"₹100,886.62",20177.32,Net Banking
+1172,2025-09-23,Cust_0024,Tamil Nadu,Chennai,Furniture,Ergonomic Chair,9,103128.14,25782.04,Credit Card
+1173,2025-10-31,Cust_0008,Telangana,Hyderabad,Technology,Smartphone,10,338633.37,67726.67,UPI
+1174,2025-01-24,Cust_0140,Gujarat,Surat,Office Supplies,Paper Ream,10,2949.95,786.65,Net Banking
+1175,2025-11-25,Cust_0107,Tamil Nadu,Coimbatore,Technology,Keyboard,5,7430.32,1981.42,Cash on Delivery
+1176,26/08/2025,Cust_0089,Maharashtra,Pune,Office Supplies,Paper Ream,6,1930.13,514.7,Cash on Delivery
+1177,2025-03-08,Cust_0037,Tamil Nadu,Madurai,Office Supplies,Paper Ream,6,"₹1,707.03",455.21,UPI
+1178,26/01/2025,Cust_0148,Tamil Nadu,Coimbatore,Office Supplies,Binder,4,1092.54,262.21,Net Banking
+1179,2025-04-08,Cust_0101,Maharashtra,Pune,Office Supplies,Binder,8,2151.63,516.39,Cash on Delivery
+1180,04/05/2025,Cust_0121,Maharashtra,Nagpur,Furniture,Ergonomic Chair,1,11475.26,2868.81,Net Banking
+1181,2025-10-02,Cust_0103,Karnataka,Bangalore,Furniture,Ergonomic Chair,5,62730.1,15682.52,UPI
+1182,2025-10-19,Cust_0072,Telangana,Hyderabad,Furniture,Bookshelf,5,36588.25,8232.36,UPI
+1183,2025-03-07,Cust_0131,Karnataka,Mysore,Furniture,Standing Desk,9,244752.69,53845.59,Cash on Delivery
+1184,2025-09-14,Cust_0132,Karnataka,Bangalore,Technology,Monitor,6,114565.66,28641.42,Credit Card
+1185,2025-06-17,Cust_0131,Telangana,Warangal,Technology,Keyboard,10,15717.96,4191.46,Cash on Delivery
+1186,2025-12-29,Cust_0079,Telangana,Warangal,Furniture,Ergonomic Chair,6,"₹69,569.85",17392.46,UPI
+1187,2025-11-02,Cust_0135,Delhi,New Delhi,Office Supplies,Gel Pen Box,10,"₹1,418.26",378.2,Cash on Delivery
+1188,2025-03-17,Cust_0106,Gujarat,Ahmedabad,Technology,Smartphone,2,65670.98,13134.2,Credit Card
+1189,2025-07-30,Cust_0123,Telangana,Warangal,Office Supplies,Gel Pen Box,1,156.17,41.65,Cash on Delivery
+1190,2025-06-10,Cust_0068,Maharashtra,Pune,Office Supplies,Binder,9,2184.43,524.26,Cash on Delivery
+1191,2025-04-09,Cust_0054,Maharashtra,Pune,Office Supplies,Binder,4,1088.3,261.19,Cash on Delivery
+1192,2025-06-12,Cust_0102,Delhi,New Delhi,Office Supplies,Gel Pen Box,5,718.17,191.51,Net Banking
+1193,2025-03-16,Cust_0123,Tamil Nadu,Chennai,Furniture,Bookshelf,2,15508.36,3489.38,Credit Card
+1194,2025-04-14,Cust_0063,Telangana,Warangal,Office Supplies,Gel Pen Box,5,695.59,185.49,UPI
+1195,2025-12-09,Cust_0036,Telangana,Hyderabad,Office Supplies,Paper Ream,1,276.01,73.6,UPI
+1196,2025-10-09,Cust_0074,Maharashtra,Pune,Office Supplies,Binder,8,2060.22,494.45,UPI
+1197,15/02/2025,Cust_0046,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,1,₹162.40,43.31,UPI
+1198,2025-07-23,Cust_0086,Delhi,Delhi,Office Supplies,Binder,1,225.46,54.11,Net Banking
+1199,2025-08-21,Cust_0118,Gujarat,Surat,Technology,Smartphone,8,267278.88,53455.78,Net Banking
+1200,2025-04-06,Cust_0104,Karnataka,Hubli,Furniture,Standing Desk,10,"₹258,720.06",56918.41,Cash on Delivery
+1201,2025-09-21,Cust_0064,Tamil Nadu,Chennai,Furniture,Bookshelf,2,"₹14,991.30",3373.04,UPI
+1202,2025-05-14,Cust_0093,Delhi,Delhi,Furniture,Standing Desk,6,144058.38,31692.84,Credit Card
+1203,01/02/2025,Cust_0080,Gujarat,Ahmedabad,Furniture,Standing Desk,3,73581.25,16187.87,UPI
+1204,2025-11-24,Cust_0096,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,4,1309.77,349.27,Cash on Delivery
+1205,2025-12-26,Cust_0021,Telangana,Warangal,Office Supplies,Gel Pen Box,4,631.42,168.38,Cash on Delivery
+1206,2025-09-28,Cust_0147,Gujarat,Surat,Technology,Smartphone,2,63864.61,12772.92,Credit Card
+1207,26/03/2025,Cust_0115,Tamil Nadu,Madurai,Furniture,Ergonomic Chair,4,50082.41,12520.6,UPI
+1208,21/08/2025,Cust_0006,Maharashtra,Nagpur,Furniture,Standing Desk,10,227886.84,50135.1,Cash on Delivery
+1209,2025-05-11,Cust_0016,Karnataka,Hubli,Technology,Smartphone,2,63634.06,12726.81,UPI
+1210,2025-08-30,Cust_0108,Karnataka,Mysore,Furniture,Ergonomic Chair,3,37913.96,9478.49,Net Banking
+1211,2025-07-15,Cust_0138,Delhi,New Delhi,Furniture,Ergonomic Chair,9,100072.58,25018.14,Cash on Delivery
+1212,2025-09-28,Cust_0109,Maharashtra,Nagpur,Technology,Laptop,1,71220.38,13148.38,Cash on Delivery
+1213,2025-04-28,Cust_0009,Maharashtra,Pune,Furniture,Ergonomic Chair,5,56261.77,14065.44,Cash on Delivery
+1214,2025-11-11,Cust_0013,Karnataka,Bangalore,Technology,Laptop,2,132442.55,24450.93,Credit Card
+1215,2025-01-23,Cust_0075,Delhi,New Delhi,Technology,Smartphone,4,147122.8,29424.56,Credit Card
+1216,22/10/2025,Cust_0134,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,6,852.64,227.37,Credit Card
+1217,2025-07-31,Cust_0110,Tamil Nadu,Coimbatore,Technology,Smartphone,10,376579.97,75315.99,Cash on Delivery
+1218,2025-01-25,Cust_0097,Tamil Nadu,Madurai,Office Supplies,Binder,9,2168.43,520.42,Credit Card
+1219,2025-10-03,Cust_0107,Delhi,Delhi,Technology,Mouse,3,2546.77,636.69,Credit Card
+1220,2025-07-18,Cust_0049,Maharashtra,Pune,Technology,Mouse,2,1735.11,433.78,UPI
+1221,2025-05-18,Cust_0086,Delhi,Delhi,Technology,Monitor,10,188074.99,47018.75,Net Banking
+1222,2025-01-08,Cust_0102,Maharashtra,Mumbai,Office Supplies,Paper Ream,8,2598.93,693.05,Credit Card
+1223,2025-10-10,Cust_0128,Tamil Nadu,Coimbatore,Furniture,Standing Desk,9,231692.46,50972.34,Cash on Delivery
+1224,20/02/2025,Cust_0038,Gujarat,Surat,Furniture,Ergonomic Chair,6,"₹69,306.08",17326.52,UPI
+1225,14/05/2025,Cust_0128,Telangana,Warangal,Furniture,Ergonomic Chair,4,46366.71,11591.68,Net Banking
+1226,2025-05-12,Cust_0139,Delhi,New Delhi,Furniture,Ergonomic Chair,6,67237.43,16809.36,UPI
+1227,2025-09-26,Cust_0039,Karnataka,Bangalore,Office Supplies,Paper Ream,1,294.74,78.6,UPI
+1228,22/04/2025,Cust_0125,Telangana,Warangal,Furniture,Ergonomic Chair,10,123305.49,30826.37,UPI
+1229,2025-01-04,Cust_0129,Telangana,Warangal,Technology,Laptop,9,610996.55,112799.36,Cash on Delivery
+1230,02/04/2025,Cust_0069,Karnataka,Bangalore,Office Supplies,Paper Ream,4,1126.06,300.28,Cash on Delivery
+1231,2025-02-10,Cust_0021,Tamil Nadu,Coimbatore,Furniture,Bookshelf,4,35137.49,7905.94,UPI
+1232,2025-02-17,Cust_0128,Delhi,New Delhi,Furniture,Bookshelf,8,"₹58,318.27",13121.61,Cash on Delivery
+1233,2025-11-27,Cust_0146,Tamil Nadu,Madurai,Technology,Smartphone,1,33108.37,6621.67,Cash on Delivery
+1234,19/05/2025,Cust_0081,Karnataka,Bangalore,Office Supplies,Binder,9,"₹2,278.58",546.86,UPI
+1235,2025-04-17,Cust_0100,Telangana,Hyderabad,Office Supplies,Binder,2,479.93,115.18,Net Banking
+1236,2025-07-16,Cust_0112,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,2,300.05,80.01,Credit Card
+1237,2025-02-08,Cust_0116,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,7,1148.47,306.26,Cash on Delivery
+1238,2025-04-27,Cust_0076,Tamil Nadu,Madurai,Furniture,Standing Desk,3,77695.42,17092.99,Credit Card
+1239,2026-01-01,Cust_0082,Karnataka,Bangalore,Furniture,Ergonomic Chair,7,87556.18,21889.04,Net Banking
+1240,2025-02-24,Cust_0111,Karnataka,Bangalore,Furniture,Standing Desk,6,"₹157,840.39",34724.89,Cash on Delivery
+1241,2025-10-13,Cust_0084,Telangana,Warangal,Technology,Laptop,2,"₹126,201.77",23298.79,Cash on Delivery
+1242,2025-01-07,Cust_0044,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,9,116752.48,29188.12,Cash on Delivery
+1243,2025-03-28,Cust_0077,Maharashtra,Pune,Furniture,Standing Desk,8,"₹185,837.39",40884.23,Cash on Delivery
+1244,2025-02-09,Cust_0002,Tamil Nadu,Coimbatore,Technology,Keyboard,10,15350.01,4093.34,Cash on Delivery
+1245,2025-06-20,Cust_0035,Telangana,Warangal,Furniture,Standing Desk,6,147918.49,32542.07,Net Banking
+1246,2025-06-14,Cust_0126,Telangana,Hyderabad,Furniture,Standing Desk,3,81968.62,18033.1,Credit Card
+1247,16/06/2025,Cust_0047,Delhi,New Delhi,Furniture,Standing Desk,2,"₹54,320.67",11950.55,UPI
+1248,2025-08-25,Cust_0128,Gujarat,Ahmedabad,Furniture,Standing Desk,2,53189.66,11701.72,Credit Card
+1249,2025-11-21,Cust_0123,Tamil Nadu,Chennai,Furniture,Bookshelf,3,25033.13,5632.46,Cash on Delivery
+1250,2025-10-01,Cust_0022,Telangana,Warangal,Office Supplies,Paper Ream,6,1872.59,499.36,UPI
+1251,2025-05-08,Cust_0085,Gujarat,Surat,Technology,Smartphone,1,35442.54,7088.51,Cash on Delivery
+1252,2025-02-24,Cust_0057,Karnataka,Bangalore,Furniture,Ergonomic Chair,9,113332.03,28333.01,Cash on Delivery
+1253,2025-07-11,Cust_0076,Delhi,New Delhi,Office Supplies,Gel Pen Box,9,1255.7,334.85,Cash on Delivery
+1254,2025-02-13,Cust_0090,Karnataka,Hubli,Technology,Mouse,5,3874.45,968.61,Cash on Delivery
+1255,2025-02-19,Cust_0088,Delhi,New Delhi,Furniture,Ergonomic Chair,5,54536.2,13634.05,UPI
+1256,2025-12-13,Cust_0119,Maharashtra,Nagpur,Technology,Smartphone,3,106090.12,21218.02,Credit Card
+1257,2025-07-27,Cust_0110,Gujarat,Ahmedabad,Technology,Keyboard,7,9511.3,2536.35,Cash on Delivery
+1258,2025-01-03,Cust_0094,Gujarat,Ahmedabad,Technology,Mouse,2,1624.75,406.19,Net Banking
+1259,2025-04-11,Cust_0101,Delhi,Delhi,Furniture,Bookshelf,8,64354.75,14479.82,UPI
+1260,2025-06-28,Cust_0081,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,5,1625.6,433.49,UPI
+1261,2025-05-03,Cust_0099,Tamil Nadu,Chennai,Technology,Mouse,3,2405.2,601.3,Cash on Delivery
+1262,06/04/2025,Cust_0014,Delhi,Delhi,Office Supplies,Paper Ream,8,"₹2,298.64",612.97,Net Banking
+1263,2025-01-05,Cust_0107,Delhi,Delhi,Technology,Keyboard,9,13514.68,3603.92,Cash on Delivery
+1264,2025-09-08,Cust_0044,Maharashtra,Mumbai,Office Supplies,Paper Ream,4,1150.1,306.69,Cash on Delivery
+1265,2025-10-17,Cust_0094,Gujarat,Surat,Office Supplies,Gel Pen Box,2,304.36,81.16,UPI
+1266,2025-08-14,Cust_0090,Telangana,Hyderabad,Furniture,Ergonomic Chair,4,46058.01,11514.5,UPI
+1267,2025-08-13,Cust_0036,Karnataka,Bangalore,Technology,Smartphone,6,225164.05,45032.81,Credit Card
+1268,16/04/2025,Cust_0075,Karnataka,Hubli,Furniture,Bookshelf,5,"₹40,774.86",9174.34,Net Banking
+1269,21/10/2025,Cust_0071,Tamil Nadu,Madurai,Office Supplies,Paper Ream,3,983.3,262.21,Credit Card
+1270,2025-12-26,Cust_0148,Maharashtra,Mumbai,Technology,Mouse,4,3367.34,841.84,Net Banking
+1271,2025-11-18,Cust_0095,Delhi,New Delhi,Furniture,Ergonomic Chair,2,23533.68,5883.42,Cash on Delivery
+1272,07/09/2025,Cust_0137,Tamil Nadu,Madurai,Technology,Laptop,8,534023.42,98588.94,Cash on Delivery
+1273,2025-04-22,Cust_0145,Delhi,Delhi,Furniture,Standing Desk,6,159850.31,35167.07,Cash on Delivery
+1274,2025-06-25,Cust_0117,Gujarat,Ahmedabad,Technology,Laptop,8,469693.26,86712.6,UPI
+1275,2025-08-08,Cust_0093,Maharashtra,Nagpur,Technology,Mouse,3,2579.72,644.93,Net Banking
+1276,2025-02-12,Cust_0060,Tamil Nadu,Madurai,Office Supplies,Paper Ream,1,293.78,78.34,Cash on Delivery
+1277,2025-12-02,Cust_0114,Karnataka,Hubli,Technology,Laptop,4,"₹258,793.95",47777.34,UPI
+1278,2025-01-05,Cust_0027,Gujarat,Surat,Technology,Keyboard,3,4479.93,1194.65,UPI
+1279,2025-06-10,Cust_0145,Tamil Nadu,Coimbatore,Technology,Keyboard,3,4627.42,1233.98,UPI
+1280,2025-11-09,Cust_0114,Gujarat,Ahmedabad,Furniture,Standing Desk,4,"₹102,561.60",22563.55,Credit Card
+1281,2025-02-14,Cust_0064,Karnataka,Bangalore,Technology,Smartphone,7,237725.25,47545.05,Net Banking
+1282,27/11/2025,Cust_0007,Karnataka,Bangalore,Office Supplies,Gel Pen Box,10,1566.35,417.69,Net Banking
+1283,2025-04-16,Cust_0062,Telangana,Hyderabad,Office Supplies,Binder,5,1286.54,308.77,Cash on Delivery
+1284,2025-07-17,Cust_0093,Karnataka,Bangalore,Furniture,Bookshelf,10,73136.19,16455.64,Net Banking
+1285,2025-03-09,Cust_0005,Delhi,New Delhi,Furniture,Bookshelf,3,25261.08,5683.74,UPI
+1286,2025-01-08,Cust_0107,Tamil Nadu,Chennai,Technology,Laptop,7,455601.56,84111.06,Cash on Delivery
+1287,2025-12-26,Cust_0131,Delhi,Delhi,Office Supplies,Gel Pen Box,9,1381.33,368.36,Credit Card
+1288,21/03/2025,Cust_0062,Telangana,Warangal,Furniture,Bookshelf,2,15392.54,3463.32,UPI
+1289,2025-05-06,Cust_0045,Karnataka,Mysore,Technology,Keyboard,10,15326.5,4087.07,UPI
+1290,2025-01-07,Cust_0067,Gujarat,Ahmedabad,Office Supplies,Paper Ream,3,899.35,239.83,Credit Card
+1291,10/07/2025,Cust_0070,Maharashtra,Nagpur,Furniture,Bookshelf,2,"₹16,868.58",3795.43,UPI
+1292,2025-05-15,Cust_0095,Gujarat,Ahmedabad,Furniture,Standing Desk,9,218705.58,48115.23,Credit Card
+1293,2025-05-11,Cust_0004,Karnataka,Hubli,Office Supplies,Gel Pen Box,2,283.7,75.65,Credit Card
+1294,2025-01-24,Cust_0108,Delhi,New Delhi,Furniture,Ergonomic Chair,3,39104.35,9776.09,Credit Card
+1295,2025-06-14,Cust_0014,Maharashtra,Pune,Office Supplies,Binder,5,1331.5,319.56,Credit Card
+1296,2025-04-25,Cust_0023,Telangana,Hyderabad,Furniture,Ergonomic Chair,8,103027.82,25756.95,Cash on Delivery
+1297,2025-01-05,Cust_0127,Tamil Nadu,Chennai,Furniture,Bookshelf,5,41916.61,9431.24,Credit Card
+1298,07/10/2025,Cust_0003,Maharashtra,Mumbai,Technology,Keyboard,1,1419.9,378.64,Net Banking
+1299,2025-01-01,Cust_0126,Gujarat,Surat,Office Supplies,Gel Pen Box,5,690.59,184.16,UPI
+1300,2025-03-14,Cust_0096,Gujarat,Surat,Technology,Laptop,4,280658.95,51813.96,Cash on Delivery
+1301,2025-02-13,Cust_0034,Telangana,Hyderabad,Office Supplies,Paper Ream,7,1921.43,512.38,Credit Card
+1302,2025-05-30,Cust_0052,Tamil Nadu,Coimbatore,Furniture,Bookshelf,6,46253.35,10407.0,Credit Card
+1303,2025-10-27,Cust_0054,Karnataka,Bangalore,Technology,Monitor,8,143022.39,35755.6,Cash on Delivery
+1304,2025-06-07,Cust_0011,Delhi,New Delhi,Technology,Laptop,3,206996.28,38214.7,Credit Card
+1305,2025-06-17,Cust_0045,Maharashtra,Mumbai,Office Supplies,Paper Ream,6,"₹1,762.65",470.04,UPI
+1306,2025-07-27,Cust_0057,Delhi,Delhi,Technology,Keyboard,2,"₹3,182.34",848.62,Credit Card
+1307,12/04/2025,Cust_0006,Delhi,New Delhi,Office Supplies,Gel Pen Box,2,304.94,81.32,UPI
+1308,2025-04-12,Cust_0147,Gujarat,Surat,Technology,Laptop,6,360557.16,66564.4,Cash on Delivery
+1309,2025-07-22,Cust_0072,Delhi,Delhi,Furniture,Bookshelf,7,52335.44,11775.47,Cash on Delivery
+1310,18/03/2025,Cust_0123,Karnataka,Hubli,Office Supplies,Gel Pen Box,4,617.67,164.71,UPI
+1311,2025-02-14,Cust_0140,Tamil Nadu,Coimbatore,Technology,Keyboard,4,6171.18,1645.65,UPI
+1312,2025-07-15,Cust_0070,Gujarat,Surat,Furniture,Bookshelf,8,62003.64,13950.82,Credit Card
+1313,2025-01-14,Cust_0150,Tamil Nadu,Madurai,Technology,Laptop,5,296308.43,54703.09,Credit Card
+1314,2025-03-23,Cust_0057,Karnataka,Bangalore,Office Supplies,Paper Ream,5,1510.11,402.7,Cash on Delivery
+1315,01/07/2025,Cust_0008,Maharashtra,Mumbai,Technology,Smartphone,6,222860.83,44572.17,Net Banking
+1316,2025-10-18,Cust_0015,Telangana,Hyderabad,Office Supplies,Paper Ream,8,"₹2,420.22",645.39,Credit Card
+1317,05/11/2025,Cust_0088,Maharashtra,Mumbai,Office Supplies,Binder,1,241.59,57.98,Credit Card
+1318,15/06/2025,Cust_0019,Karnataka,Bangalore,Technology,Smartphone,3,110761.7,22152.34,Net Banking
+1319,2025-12-27,Cust_0112,Gujarat,Surat,Office Supplies,Paper Ream,6,"₹1,728.64",460.97,Cash on Delivery
+1320,2025-11-29,Cust_0045,Tamil Nadu,Chennai,Office Supplies,Gel Pen Box,10,1586.1,422.96,Cash on Delivery
+1321,2025-06-07,Cust_0146,Gujarat,Surat,Technology,Monitor,1,19615.64,4903.91,UPI
+1322,2025-04-04,Cust_0020,Telangana,Warangal,Office Supplies,Paper Ream,10,2762.47,736.66,Credit Card
+1323,2025-06-27,Cust_0018,Tamil Nadu,Chennai,Office Supplies,Paper Ream,6,1780.79,474.88,Net Banking
+1324,2025-05-12,Cust_0106,Karnataka,Hubli,Technology,Laptop,7,449378.03,82962.1,Cash on Delivery
+1325,2025-07-13,Cust_0058,Tamil Nadu,Madurai,Furniture,Ergonomic Chair,8,101543.62,25385.9,Credit Card
+1326,2025-08-20,Cust_0097,Karnataka,Bangalore,Furniture,Ergonomic Chair,6,"₹68,560.24",17140.06,Credit Card
+1327,2025-02-08,Cust_0043,Telangana,Hyderabad,Furniture,Bookshelf,10,86291.62,19415.61,Cash on Delivery
+1328,22/03/2025,Cust_0139,Karnataka,Bangalore,Furniture,Ergonomic Chair,4,47129.09,11782.27,Net Banking
+1329,2025-12-05,Cust_0014,Tamil Nadu,Coimbatore,Technology,Laptop,1,63607.73,11742.97,Net Banking
+1330,2025-01-02,Cust_0075,Delhi,Delhi,Furniture,Bookshelf,10,"₹79,685.25",17929.18,UPI
+1331,2025-08-31,Cust_0100,Karnataka,Mysore,Furniture,Standing Desk,8,215795.1,47474.92,Credit Card
+1332,2025-07-09,Cust_0069,Delhi,New Delhi,Technology,Keyboard,1,1428.99,381.06,UPI
+1333,2025-03-19,Cust_0016,Gujarat,Ahmedabad,Technology,Mouse,9,7076.14,1769.04,Cash on Delivery
+1334,25/09/2025,Cust_0009,Delhi,New Delhi,Office Supplies,Paper Ream,8,2303.45,614.25,Credit Card
+1335,03/03/2025,Cust_0112,Delhi,Delhi,Technology,Monitor,4,66617.08,16654.27,Credit Card
+1336,2025-11-18,Cust_0071,Maharashtra,Nagpur,Furniture,Standing Desk,2,45870.27,10091.46,Cash on Delivery
+1337,2025-01-07,Cust_0026,Gujarat,Surat,Technology,Keyboard,3,4183.38,1115.57,UPI
+1338,2025-10-16,Cust_0122,Karnataka,Mysore,Office Supplies,Binder,7,1667.45,400.19,UPI
+1339,2025-03-30,Cust_0085,Tamil Nadu,Coimbatore,Technology,Smartphone,10,362656.9,72531.38,Credit Card
+1340,2025-01-26,Cust_0126,Gujarat,Surat,Furniture,Standing Desk,1,24189.33,5321.65,UPI
+1341,2025-04-27,Cust_0049,Maharashtra,Pune,Office Supplies,Binder,6,1430.83,343.4,Cash on Delivery
+1342,2025-04-19,Cust_0130,Delhi,New Delhi,Office Supplies,Binder,1,₹250.76,60.18,Cash on Delivery
+1343,2025-03-11,Cust_0093,Telangana,Hyderabad,Technology,Monitor,4,76852.46,19213.12,Credit Card
+1344,2025-05-21,Cust_0115,Tamil Nadu,Coimbatore,Office Supplies,Binder,2,518.12,124.35,Credit Card
+1345,2025-08-31,Cust_0099,Telangana,Warangal,Furniture,Ergonomic Chair,5,62987.53,15746.88,UPI
+1346,2025-03-25,Cust_0003,Telangana,Hyderabad,Technology,Monitor,4,68674.8,17168.7,Cash on Delivery
+1347,2025-03-09,Cust_0071,Gujarat,Ahmedabad,Office Supplies,Paper Ream,4,1140.57,304.15,Cash on Delivery
+1348,2025-07-12,Cust_0150,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,8,92201.19,23050.3,UPI
+1349,2025-01-04,Cust_0017,Telangana,Warangal,Office Supplies,Gel Pen Box,10,1532.72,408.72,Net Banking
+1350,2025-05-22,Cust_0015,Gujarat,Surat,Furniture,Standing Desk,5,117209.0,25785.98,Cash on Delivery
+1351,2025-12-05,Cust_0100,Tamil Nadu,Madurai,Technology,Laptop,8,571736.79,105551.41,UPI
+1352,2025-10-26,Cust_0092,Gujarat,Ahmedabad,Furniture,Bookshelf,4,33192.44,7468.3,Net Banking
+1353,29/03/2025,Cust_0047,Gujarat,Ahmedabad,Furniture,Ergonomic Chair,8,88856.53,22214.13,Net Banking
+1354,2025-12-02,Cust_0150,Karnataka,Bangalore,Furniture,Ergonomic Chair,5,59045.67,14761.42,Net Banking
+1355,26/08/2025,Cust_0129,Karnataka,Mysore,Technology,Smartphone,10,"₹381,101.07",76220.21,UPI
+1356,2025-12-15,Cust_0146,Delhi,New Delhi,Furniture,Ergonomic Chair,3,33389.03,8347.26,Cash on Delivery
+1357,2025-03-15,Cust_0015,Tamil Nadu,Madurai,Technology,Laptop,8,502593.46,92786.49,UPI
+1358,2025-08-20,Cust_0112,Tamil Nadu,Chennai,Technology,Smartphone,3,104781.12,20956.22,Cash on Delivery
+1359,26/07/2025,Cust_0083,Delhi,New Delhi,Furniture,Ergonomic Chair,1,12081.08,3020.27,Credit Card
+1360,2025-01-10,Cust_0027,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,4,567.15,151.24,Cash on Delivery
+1361,2025-09-15,Cust_0135,Telangana,Warangal,Technology,Laptop,1,62376.63,11515.69,Net Banking
+1362,11/08/2025,Cust_0104,Gujarat,Ahmedabad,Furniture,Standing Desk,6,"₹157,503.47",34650.76,UPI
+1363,2025-04-27,Cust_0010,Maharashtra,Nagpur,Technology,Monitor,1,"₹18,322.89",4580.72,Cash on Delivery
+1364,2025-11-24,Cust_0006,Tamil Nadu,Madurai,Office Supplies,Paper Ream,10,3296.81,879.15,UPI
+1365,2025-12-20,Cust_0003,Karnataka,Mysore,Furniture,Standing Desk,2,50472.82,11104.02,Net Banking
+1366,2025-08-04,Cust_0027,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,5,768.42,204.91,UPI
+1367,2025-05-25,Cust_0052,Karnataka,Bangalore,Furniture,Ergonomic Chair,10,112793.99,28198.5,Net Banking
+1368,27/12/2025,Cust_0085,Delhi,New Delhi,Technology,Laptop,9,584573.5,107921.26,Credit Card
+1369,2025-01-02,Cust_0131,Karnataka,Hubli,Technology,Laptop,10,"₹671,972.85",124056.53,UPI
+1370,21/02/2025,Cust_0011,Tamil Nadu,Madurai,Technology,Keyboard,5,"₹7,146.19",1905.65,Net Banking
+1371,2025-07-04,Cust_0036,Gujarat,Surat,Furniture,Bookshelf,2,14704.0,3308.4,Credit Card
+1372,2025-06-18,Cust_0103,Tamil Nadu,Coimbatore,Office Supplies,Binder,2,487.26,116.94,Cash on Delivery
+1373,2025-05-20,Cust_0041,Delhi,New Delhi,Furniture,Bookshelf,3,22142.67,4982.1,UPI
+1374,2025-08-02,Cust_0008,Telangana,Warangal,Office Supplies,Gel Pen Box,8,1123.5,299.6,Credit Card
+1375,2025-09-05,Cust_0135,Delhi,Delhi,Furniture,Standing Desk,1,22816.68,5019.67,Credit Card
+1376,2025-12-09,Cust_0089,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,10,1378.57,367.62,Cash on Delivery
+1377,18/03/2025,Cust_0020,Telangana,Hyderabad,Technology,Monitor,9,173302.6,43325.65,Cash on Delivery
+1378,2025-06-14,Cust_0061,Maharashtra,Pune,Furniture,Ergonomic Chair,9,102010.46,25502.62,UPI
+1379,2025-08-24,Cust_0005,Delhi,New Delhi,Technology,Keyboard,8,11558.55,3082.28,UPI
+1380,26/07/2025,Cust_0078,Delhi,Delhi,Office Supplies,Gel Pen Box,1,159.78,42.61,Credit Card
+1381,2025-12-02,Cust_0122,Gujarat,Surat,Furniture,Standing Desk,1,26582.94,5848.25,Net Banking
+1382,20/08/2025,Cust_0075,Karnataka,Bangalore,Office Supplies,Paper Ream,1,290.48,77.46,Net Banking
+1383,2025-12-26,Cust_0066,Karnataka,Bangalore,Technology,Keyboard,3,4789.65,1277.24,Credit Card
+1384,2025-04-07,Cust_0032,Karnataka,Mysore,Technology,Keyboard,4,"₹6,260.15",1669.37,Cash on Delivery
+1385,2025-08-23,Cust_0150,Gujarat,Ahmedabad,Furniture,Ergonomic Chair,9,113102.22,28275.56,Cash on Delivery
+1386,2025-09-18,Cust_0083,Maharashtra,Nagpur,Office Supplies,Paper Ream,3,828.64,220.97,Cash on Delivery
+1387,2025-08-03,Cust_0106,Telangana,Hyderabad,Furniture,Standing Desk,6,164114.75,36105.24,Net Banking
+1388,2025-12-26,Cust_0075,Telangana,Warangal,Office Supplies,Gel Pen Box,9,1385.8,369.55,Net Banking
+1389,2025-12-11,Cust_0091,Maharashtra,Nagpur,Office Supplies,Paper Ream,9,2722.95,726.12,Cash on Delivery
+1390,26/10/2025,Cust_0134,Telangana,Warangal,Office Supplies,Gel Pen Box,9,1292.2,344.59,UPI
+1391,13/01/2025,Cust_0065,Delhi,Delhi,Technology,Laptop,4,247882.87,45762.99,Credit Card
+1392,2025-02-01,Cust_0144,Gujarat,Surat,Technology,Smartphone,1,34010.78,6802.16,Credit Card
+1393,2025-11-28,Cust_0107,Telangana,Warangal,Technology,Smartphone,5,"₹181,752.76",36350.55,Net Banking
+1394,10/10/2025,Cust_0058,Karnataka,Bangalore,Office Supplies,Binder,4,1024.11,245.79,Net Banking
+1395,2025-10-29,Cust_0045,Telangana,Hyderabad,Office Supplies,Paper Ream,5,1484.64,395.91,UPI
+1396,2025-07-13,Cust_0085,Karnataka,Mysore,Furniture,Bookshelf,5,37040.53,8334.12,Cash on Delivery
+1397,2025-12-30,Cust_0078,Maharashtra,Mumbai,Technology,Mouse,10,7281.37,1820.34,Cash on Delivery
+1398,2025-10-21,Cust_0130,Telangana,Warangal,Technology,Mouse,9,"₹6,796.75",1699.19,Credit Card
+1399,2025-08-01,Cust_0076,Telangana,Warangal,Technology,Mouse,4,3445.37,861.34,Credit Card
+1400,2025-11-13,Cust_0063,Telangana,Warangal,Office Supplies,Gel Pen Box,1,138.44,36.92,UPI
+1401,16/12/2025,Cust_0096,Tamil Nadu,Coimbatore,Technology,Keyboard,5,7560.36,2016.09,Cash on Delivery
+1402,2025-09-07,Cust_0138,Karnataka,Mysore,Office Supplies,Paper Ream,6,1805.0,481.33,UPI
+1403,2025-11-17,Cust_0138,Karnataka,Bangalore,Office Supplies,Gel Pen Box,4,643.79,171.68,Cash on Delivery
+1404,2025-11-28,Cust_0014,Karnataka,Hubli,Office Supplies,Paper Ream,1,297.55,79.35,Credit Card
+1405,2025-05-09,Cust_0081,Telangana,Hyderabad,Office Supplies,Paper Ream,5,1472.29,392.61,UPI
+1406,2025-07-19,Cust_0019,Gujarat,Ahmedabad,Office Supplies,Paper Ream,10,2737.94,730.12,Net Banking
+1407,2025-09-15,Cust_0102,Karnataka,Mysore,Office Supplies,Binder,10,2293.25,550.38,UPI
+1408,2025-08-31,Cust_0037,Maharashtra,Nagpur,Technology,Monitor,7,133478.62,33369.65,Net Banking
+1409,2025-12-13,Cust_0101,Gujarat,Surat,Technology,Smartphone,9,"₹292,406.55",58481.31,UPI
+1410,06/06/2025,Cust_0037,Maharashtra,Nagpur,Office Supplies,Gel Pen Box,6,848.11,226.16,Credit Card
+1411,05/04/2025,Cust_0141,Maharashtra,Nagpur,Furniture,Ergonomic Chair,2,22470.52,5617.63,Cash on Delivery
+1412,2025-11-27,Cust_0085,Telangana,Hyderabad,Furniture,Bookshelf,2,"₹15,202.20",3420.5,Net Banking
+1413,2025-03-07,Cust_0085,Gujarat,Ahmedabad,Technology,Mouse,10,"₹7,311.69",1827.92,Net Banking
+1414,2025-12-22,Cust_0081,Telangana,Hyderabad,Office Supplies,Gel Pen Box,6,955.39,254.77,Credit Card
+1415,2025-04-24,Cust_0115,Gujarat,Surat,Furniture,Standing Desk,3,77693.7,17092.61,Net Banking
+1416,2025-06-06,Cust_0138,Delhi,Delhi,Technology,Smartphone,2,74785.1,14957.02,Credit Card
+1417,15/05/2025,Cust_0149,Gujarat,Ahmedabad,Office Supplies,Paper Ream,1,320.98,85.59,Cash on Delivery
+1418,2025-10-30,Cust_0039,Maharashtra,Mumbai,Office Supplies,Binder,9,2427.29,582.55,Net Banking
+1419,2025-07-20,Cust_0129,Maharashtra,Nagpur,Office Supplies,Binder,3,744.71,178.73,UPI
+1420,2025-12-06,Cust_0145,Maharashtra,Nagpur,Office Supplies,Paper Ream,9,"₹2,505.80",668.21,Credit Card
+1421,2025-09-05,Cust_0053,Tamil Nadu,Chennai,Technology,Keyboard,4,5475.43,1460.12,Net Banking
+1422,2025-07-18,Cust_0071,Delhi,New Delhi,Technology,Laptop,6,359051.55,66286.44,Net Banking
+1423,24/10/2025,Cust_0133,Telangana,Hyderabad,Furniture,Bookshelf,7,54491.32,12260.55,Net Banking
+1424,2025-07-12,Cust_0129,Maharashtra,Nagpur,Furniture,Standing Desk,6,149605.85,32913.29,Credit Card
+1425,2025-08-14,Cust_0031,Maharashtra,Mumbai,Technology,Smartphone,5,"₹164,903.10",32980.62,Credit Card
+1426,2025-08-01,Cust_0106,Tamil Nadu,Madurai,Technology,Keyboard,8,11949.65,3186.57,UPI
+1427,05/05/2025,Cust_0038,Karnataka,Bangalore,Office Supplies,Gel Pen Box,3,417.13,111.23,UPI
+1428,27/03/2025,Cust_0073,Tamil Nadu,Chennai,Office Supplies,Binder,10,2734.62,656.31,UPI
+1429,2025-04-21,Cust_0047,Delhi,New Delhi,Furniture,Ergonomic Chair,4,51171.49,12792.87,Net Banking
+1430,2025-03-27,Cust_0005,Gujarat,Surat,Furniture,Bookshelf,10,73101.49,16447.83,Credit Card
+1431,2025-09-25,Cust_0137,Telangana,Warangal,Technology,Smartphone,2,65483.91,13096.78,UPI
+1432,2025-02-17,Cust_0134,Delhi,Delhi,Office Supplies,Gel Pen Box,1,161.91,43.18,Cash on Delivery
+1433,2025-07-09,Cust_0090,Karnataka,Hubli,Office Supplies,Binder,4,1087.68,261.04,UPI
+1434,2025-08-06,Cust_0049,Maharashtra,Pune,Furniture,Ergonomic Chair,2,22959.68,5739.92,UPI
+1435,2025-12-30,Cust_0081,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,2,301.19,80.32,Cash on Delivery
+1436,2025-07-05,Cust_0094,Karnataka,Bangalore,Furniture,Bookshelf,10,76058.12,17113.08,Net Banking
+1437,2025-12-15,Cust_0065,Delhi,Delhi,Furniture,Bookshelf,9,71747.54,16143.2,Net Banking
+1438,2025-10-23,Cust_0115,Tamil Nadu,Madurai,Furniture,Bookshelf,3,25703.99,5783.4,Credit Card
+1439,2025-02-21,Cust_0100,Maharashtra,Nagpur,Furniture,Standing Desk,9,230131.14,50628.85,UPI
+1440,2025-02-16,Cust_0010,Maharashtra,Pune,Office Supplies,Binder,2,456.41,109.54,Cash on Delivery
+1441,2025-07-25,Cust_0113,Telangana,Warangal,Office Supplies,Gel Pen Box,1,163.37,43.57,UPI
+1442,2025-04-14,Cust_0010,Gujarat,Surat,Technology,Laptop,10,651371.22,120253.15,Net Banking
+1443,2025-05-03,Cust_0052,Gujarat,Ahmedabad,Technology,Laptop,5,343178.74,63356.07,UPI
+1444,27/12/2025,Cust_0071,Karnataka,Bangalore,Office Supplies,Binder,9,2436.75,584.82,Credit Card
+1445,2025-11-07,Cust_0019,Maharashtra,Pune,Furniture,Bookshelf,1,7617.77,1714.0,Net Banking
+1446,2025-06-24,Cust_0124,Karnataka,Hubli,Furniture,Bookshelf,10,76002.26,17100.51,Credit Card
+1447,2025-06-23,Cust_0057,Delhi,New Delhi,Office Supplies,Paper Ream,8,"₹2,215.81",590.88,Credit Card
+1448,2025-06-11,Cust_0103,Delhi,New Delhi,Office Supplies,Gel Pen Box,1,156.02,41.61,Net Banking
+1449,2025-02-08,Cust_0049,Telangana,Hyderabad,Furniture,Standing Desk,6,141556.98,31142.54,Cash on Delivery
+1450,13/04/2025,Cust_0092,Maharashtra,Nagpur,Technology,Mouse,4,3026.69,756.67,Credit Card
+1451,2025-02-24,Cust_0011,Karnataka,Bangalore,Office Supplies,Gel Pen Box,8,1227.32,327.28,Cash on Delivery
+1452,10/07/2025,Cust_0072,Telangana,Warangal,Furniture,Bookshelf,5,39926.44,8983.45,Cash on Delivery
+1453,2025-04-24,Cust_0101,Telangana,Hyderabad,Technology,Smartphone,7,243937.68,48787.54,Credit Card
+1454,2025-08-23,Cust_0149,Karnataka,Hubli,Office Supplies,Binder,6,"₹1,556.76",373.62,UPI
+1455,16/06/2025,Cust_0088,Tamil Nadu,Madurai,Furniture,Ergonomic Chair,9,102877.54,25719.38,Net Banking
+1456,2025-04-05,Cust_0147,Delhi,New Delhi,Technology,Keyboard,6,8757.14,2335.24,Credit Card
+1457,2025-10-22,Cust_0039,Gujarat,Ahmedabad,Technology,Mouse,4,3235.42,808.85,Cash on Delivery
+1458,2025-01-05,Cust_0065,Maharashtra,Pune,Furniture,Ergonomic Chair,9,108734.02,27183.51,UPI
+1459,2025-07-23,Cust_0116,Karnataka,Hubli,Technology,Laptop,4,276318.54,51012.65,Net Banking
+1460,2025-05-14,Cust_0051,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,5,726.62,193.77,Credit Card
+1461,2025-05-26,Cust_0074,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,8,1265.94,337.58,Cash on Delivery
+1462,20/11/2025,Cust_0019,Maharashtra,Mumbai,Office Supplies,Binder,7,1795.95,431.03,UPI
+1463,2025-03-24,Cust_0114,Tamil Nadu,Chennai,Furniture,Standing Desk,5,130260.84,28657.38,Net Banking
+1464,2025-10-28,Cust_0065,Telangana,Warangal,Furniture,Ergonomic Chair,3,"₹38,550.33",9637.58,UPI
+1465,2025-04-18,Cust_0102,Maharashtra,Pune,Technology,Laptop,2,141356.64,26096.61,UPI
+1466,2025-02-23,Cust_0033,Tamil Nadu,Madurai,Technology,Laptop,7,437652.73,80797.43,Credit Card
+1467,27/09/2025,Cust_0070,Maharashtra,Mumbai,Technology,Mouse,6,5149.67,1287.42,Cash on Delivery
+1468,2025-03-11,Cust_0135,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,8,1231.45,328.39,Net Banking
+1469,2025-06-27,Cust_0001,Delhi,Delhi,Technology,Keyboard,5,7298.67,1946.31,Credit Card
+1470,2025-06-26,Cust_0111,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,8,2614.54,697.21,Net Banking
+1471,2025-11-02,Cust_0042,Maharashtra,Mumbai,Office Supplies,Binder,4,982.35,235.76,Cash on Delivery
+1472,2025-07-13,Cust_0070,Maharashtra,Pune,Technology,Keyboard,4,6019.93,1605.32,Net Banking
+1473,2025-11-29,Cust_0116,Gujarat,Surat,Furniture,Ergonomic Chair,2,22475.55,5618.89,Net Banking
+1474,2025-12-25,Cust_0027,Telangana,Warangal,Technology,Mouse,1,744.34,186.09,Net Banking
+1475,2025-05-18,Cust_0088,Maharashtra,Nagpur,Furniture,Bookshelf,1,"₹7,572.50",1703.81,Cash on Delivery
+1476,09/06/2025,Cust_0015,Delhi,New Delhi,Furniture,Bookshelf,1,7728.4,1738.89,Net Banking
+1477,2025-07-20,Cust_0004,Karnataka,Hubli,Furniture,Ergonomic Chair,4,51798.71,12949.68,UPI
+1478,2026-01-01,Cust_0054,Maharashtra,Pune,Furniture,Ergonomic Chair,1,11278.03,2819.51,Cash on Delivery
+1479,2025-07-19,Cust_0124,Gujarat,Surat,Furniture,Ergonomic Chair,1,12587.34,3146.83,Net Banking
+1480,2025-04-12,Cust_0071,Tamil Nadu,Chennai,Office Supplies,Paper Ream,2,568.32,151.55,UPI
+1481,2025-07-22,Cust_0064,Maharashtra,Mumbai,Technology,Smartphone,8,"₹290,550.77",58110.15,Credit Card
+1482,2025-09-13,Cust_0028,Karnataka,Hubli,Office Supplies,Binder,1,227.99,54.72,Credit Card
+1483,2025-09-07,Cust_0097,Maharashtra,Pune,Office Supplies,Gel Pen Box,6,954.99,254.67,Net Banking
+1484,2025-03-10,Cust_0146,Tamil Nadu,Chennai,Furniture,Bookshelf,8,64755.52,14569.99,Credit Card
+1485,06/10/2025,Cust_0042,Tamil Nadu,Coimbatore,Office Supplies,Binder,5,1341.92,322.06,UPI
+1486,2025-09-29,Cust_0098,Maharashtra,Pune,Furniture,Standing Desk,9,"₹219,020.07",48184.42,Credit Card
+1487,2025-01-10,Cust_0100,Telangana,Warangal,Office Supplies,Paper Ream,6,1879.56,501.22,Credit Card
+1488,2025-09-26,Cust_0025,Gujarat,Surat,Office Supplies,Paper Ream,10,2869.88,765.3,UPI
+1489,2025-01-23,Cust_0100,Maharashtra,Mumbai,Technology,Monitor,2,"₹35,894.67",8973.67,Cash on Delivery
+1490,27/09/2025,Cust_0054,Telangana,Warangal,Technology,Mouse,4,"₹3,267.81",816.95,Cash on Delivery
+1491,2025-02-10,Cust_0069,Delhi,Delhi,Furniture,Bookshelf,7,59606.7,13411.51,UPI
+1492,2025-02-06,Cust_0050,Tamil Nadu,Chennai,Technology,Smartphone,2,64417.15,12883.43,Credit Card
+1493,2025-10-19,Cust_0092,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,9,"₹1,327.10",353.89,Cash on Delivery
+1494,2025-12-26,Cust_0137,Gujarat,Surat,Technology,Monitor,3,54539.63,13634.91,Cash on Delivery
+1495,2025-06-30,Cust_0062,Tamil Nadu,Madurai,Furniture,Standing Desk,7,184246.45,40534.22,Credit Card
+1496,2025-07-12,Cust_0073,Telangana,Warangal,Furniture,Standing Desk,8,"₹218,392.98",48046.45,UPI
+1497,2025-09-23,Cust_0071,Maharashtra,Pune,Technology,Mouse,4,3017.49,754.37,Credit Card
+1498,2025-02-18,Cust_0066,Karnataka,Mysore,Furniture,Ergonomic Chair,3,34307.91,8576.98,Net Banking
+1499,2025-02-17,Cust_0148,Telangana,Warangal,Office Supplies,Paper Ream,2,626.83,167.15,UPI
+1500,2025-11-01,Cust_0090,Gujarat,Surat,Technology,Smartphone,7,"₹224,345.39",44869.08,Cash on Delivery
+1501,2025-08-02,Cust_0014,Karnataka,Bangalore,Office Supplies,Gel Pen Box,10,1628.6,434.29,Net Banking
+1502,2025-09-26,Cust_0101,Karnataka,Mysore,Office Supplies,Gel Pen Box,3,434.41,115.84,Cash on Delivery
+1503,2025-11-01,Cust_0122,Telangana,Hyderabad,Technology,Keyboard,5,"₹7,929.55",2114.55,UPI
+1504,2025-10-08,Cust_0124,Delhi,New Delhi,Technology,Keyboard,9,13323.13,3552.83,Credit Card
+1505,2025-09-07,Cust_0083,Delhi,Delhi,Office Supplies,Gel Pen Box,9,"₹1,281.49",341.73,UPI
+1506,2025-02-27,Cust_0079,Gujarat,Surat,Furniture,Standing Desk,6,140714.69,30957.23,Credit Card
+1507,2025-06-29,Cust_0096,Telangana,Warangal,Office Supplies,Paper Ream,8,2181.54,581.74,Credit Card
+1508,13/02/2025,Cust_0004,Karnataka,Hubli,Technology,Monitor,10,195362.27,48840.57,Net Banking
+1509,2025-12-22,Cust_0140,Karnataka,Mysore,Furniture,Standing Desk,1,24159.38,5315.06,Net Banking
+1510,2025-10-08,Cust_0066,Delhi,Delhi,Office Supplies,Gel Pen Box,1,146.3,39.01,Credit Card
+1511,2025-01-31,Cust_0100,Tamil Nadu,Chennai,Office Supplies,Gel Pen Box,5,682.96,182.12,Net Banking
+1512,2025-12-06,Cust_0098,Gujarat,Surat,Technology,Laptop,5,348881.68,64408.93,UPI
+1513,2025-06-11,Cust_0011,Delhi,Delhi,Technology,Monitor,9,177124.04,44281.01,Credit Card
+1514,2025-09-29,Cust_0078,Tamil Nadu,Coimbatore,Furniture,Standing Desk,3,67775.58,14910.63,Credit Card
+1515,2025-09-14,Cust_0143,Tamil Nadu,Chennai,Office Supplies,Binder,7,1886.64,452.79,Net Banking
+1516,26/04/2025,Cust_0059,Maharashtra,Pune,Furniture,Bookshelf,3,22021.42,4954.82,Cash on Delivery
+1517,2025-05-04,Cust_0036,Telangana,Hyderabad,Furniture,Standing Desk,10,241464.24,53122.13,Credit Card
+1518,2025-03-12,Cust_0145,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,3,443.71,118.32,Credit Card
+1519,2025-06-12,Cust_0008,Karnataka,Hubli,Office Supplies,Gel Pen Box,2,281.05,74.95,Net Banking
+1520,2025-07-31,Cust_0007,Delhi,New Delhi,Furniture,Bookshelf,5,"₹37,215.66",8373.52,Net Banking
+1521,2025-11-07,Cust_0123,Telangana,Hyderabad,Office Supplies,Paper Ream,4,1244.97,331.99,Credit Card
+1522,2025-09-15,Cust_0042,Telangana,Warangal,Office Supplies,Gel Pen Box,6,843.12,224.83,Credit Card
+1523,2025-04-26,Cust_0053,Karnataka,Mysore,Technology,Mouse,7,5289.26,1322.32,UPI
+1524,2025-04-01,Cust_0098,Delhi,New Delhi,Office Supplies,Binder,8,2155.03,517.21,Net Banking
+1525,21/07/2025,Cust_0063,Telangana,Hyderabad,Office Supplies,Paper Ream,8,2379.31,634.48,Cash on Delivery
+1526,21/01/2025,Cust_0074,Telangana,Warangal,Office Supplies,Gel Pen Box,1,140.7,37.52,Cash on Delivery
+1527,2025-03-27,Cust_0024,Delhi,New Delhi,Office Supplies,Paper Ream,9,2917.98,778.13,UPI
+1528,2025-04-03,Cust_0052,Telangana,Hyderabad,Furniture,Standing Desk,6,"₹148,526.58",32675.85,Cash on Delivery
+1529,2025-02-16,Cust_0116,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,3,₹469.65,125.24,Net Banking
+1530,2025-02-13,Cust_0044,Telangana,Warangal,Office Supplies,Gel Pen Box,10,1634.93,435.98,Net Banking
+1531,2025-10-17,Cust_0115,Gujarat,Ahmedabad,Technology,Monitor,3,"₹56,906.89",14226.72,Net Banking
+1532,2025-11-17,Cust_0128,Maharashtra,Mumbai,Technology,Monitor,1,18441.22,4610.3,UPI
+1533,2025-11-08,Cust_0002,Delhi,Delhi,Technology,Smartphone,8,277409.36,55481.87,Credit Card
+1534,2025-10-08,Cust_0010,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,4,₹545.87,145.57,Credit Card
+1535,2025-01-17,Cust_0073,Gujarat,Surat,Furniture,Ergonomic Chair,1,11061.33,2765.33,Credit Card
+1536,22/08/2025,Cust_0110,Gujarat,Surat,Technology,Laptop,5,313483.42,57873.86,UPI
+1537,2025-05-30,Cust_0015,Delhi,Delhi,Technology,Mouse,6,4825.97,1206.49,UPI
+1538,2025-10-20,Cust_0082,Gujarat,Ahmedabad,Furniture,Bookshelf,10,86942.27,19562.01,Net Banking
+1539,2025-09-27,Cust_0047,Telangana,Warangal,Technology,Smartphone,10,349747.78,69949.56,Credit Card
+1540,2025-12-29,Cust_0054,Tamil Nadu,Chennai,Technology,Laptop,1,64543.51,11915.73,Cash on Delivery
+1541,2025-07-31,Cust_0018,Karnataka,Mysore,Furniture,Bookshelf,4,28872.3,6496.27,Net Banking
+1542,2025-06-03,Cust_0008,Telangana,Warangal,Technology,Laptop,6,377626.2,69715.61,Credit Card
+1543,2025-04-10,Cust_0118,Tamil Nadu,Coimbatore,Office Supplies,Binder,8,2118.9,508.54,Net Banking
+1544,2025-08-25,Cust_0054,Delhi,Delhi,Office Supplies,Binder,10,2612.48,627.0,Net Banking
+1545,01/07/2025,Cust_0147,Karnataka,Bangalore,Furniture,Ergonomic Chair,6,78964.11,19741.03,Cash on Delivery
+1546,2025-04-06,Cust_0061,Telangana,Hyderabad,Furniture,Bookshelf,6,50014.46,11253.25,Net Banking
+1547,2025-08-20,Cust_0024,Tamil Nadu,Chennai,Office Supplies,Binder,3,691.83,166.04,Cash on Delivery
+1548,17/09/2025,Cust_0080,Karnataka,Mysore,Office Supplies,Paper Ream,4,1161.63,309.77,Net Banking
+1549,2025-03-15,Cust_0134,Karnataka,Hubli,Office Supplies,Paper Ream,4,1253.9,334.37,UPI
+1550,2025-01-03,Cust_0080,Tamil Nadu,Chennai,Office Supplies,Gel Pen Box,2,290.0,77.33,UPI
+1551,2025-10-23,Cust_0113,Tamil Nadu,Madurai,Technology,Mouse,4,3003.23,750.81,UPI
+1552,2025-05-20,Cust_0139,Maharashtra,Mumbai,Furniture,Ergonomic Chair,1,13099.92,3274.98,Net Banking
+1553,2025-10-09,Cust_0087,Tamil Nadu,Coimbatore,Technology,Mouse,10,"₹7,591.72",1897.93,Cash on Delivery
+1554,2025-01-26,Cust_0046,Maharashtra,Mumbai,Furniture,Bookshelf,1,"₹7,369.48",1658.13,Cash on Delivery
+1555,2025-11-12,Cust_0146,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,9,98896.59,24724.15,Credit Card
+1556,2025-02-17,Cust_0060,Gujarat,Surat,Technology,Keyboard,5,7776.72,2073.79,Credit Card
+1557,2025-03-15,Cust_0084,Telangana,Warangal,Furniture,Standing Desk,3,77994.22,17158.73,Cash on Delivery
+1558,2025-09-07,Cust_0090,Karnataka,Bangalore,Furniture,Ergonomic Chair,6,71692.59,17923.15,Credit Card
+1559,2025-09-18,Cust_0119,Karnataka,Mysore,Office Supplies,Paper Ream,6,"₹1,820.21",485.39,Cash on Delivery
+1560,2025-10-30,Cust_0054,Delhi,Delhi,Office Supplies,Paper Ream,9,2515.87,670.9,Cash on Delivery
+1561,2025-08-11,Cust_0147,Telangana,Warangal,Office Supplies,Gel Pen Box,4,560.77,149.54,Cash on Delivery
+1562,28/02/2025,Cust_0018,Telangana,Warangal,Furniture,Bookshelf,2,"₹17,030.47",3831.86,UPI
+1563,17/12/2025,Cust_0001,Telangana,Warangal,Furniture,Standing Desk,1,22952.67,5049.59,Credit Card
+1564,2025-12-05,Cust_0082,Maharashtra,Pune,Office Supplies,Binder,7,1790.45,429.71,Net Banking
+1565,2025-10-19,Cust_0131,Gujarat,Surat,Furniture,Bookshelf,6,52706.78,11859.02,Cash on Delivery
+1566,07/03/2025,Cust_0029,Tamil Nadu,Chennai,Furniture,Bookshelf,1,7201.35,1620.3,Net Banking
+1567,2025-01-16,Cust_0112,Maharashtra,Pune,Office Supplies,Gel Pen Box,7,1076.3,287.01,Credit Card
+1568,06/12/2025,Cust_0040,Maharashtra,Pune,Technology,Monitor,9,158260.88,39565.22,Net Banking
+1569,2025-12-10,Cust_0035,Maharashtra,Mumbai,Technology,Laptop,1,60371.95,11145.59,UPI
+1570,2025-03-12,Cust_0109,Gujarat,Surat,Furniture,Bookshelf,10,86884.98,19549.12,Cash on Delivery
+1571,2025-07-16,Cust_0129,Tamil Nadu,Chennai,Technology,Keyboard,10,13522.29,3605.94,Net Banking
+1572,2025-07-30,Cust_0021,Telangana,Warangal,Technology,Laptop,10,647824.86,119598.44,Credit Card
+1573,2025-09-27,Cust_0020,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,9,"₹2,910.55",776.15,Net Banking
+1574,2025-11-10,Cust_0085,Karnataka,Mysore,Office Supplies,Paper Ream,8,2377.94,634.12,Cash on Delivery
+1575,2025-06-30,Cust_0016,Tamil Nadu,Coimbatore,Technology,Laptop,10,682425.29,125986.21,Cash on Delivery
+1576,2025-10-24,Cust_0020,Maharashtra,Nagpur,Technology,Mouse,10,7243.68,1810.92,Net Banking
+1577,2025-05-10,Cust_0039,Maharashtra,Nagpur,Furniture,Standing Desk,5,"₹112,855.08",24828.12,Cash on Delivery
+1578,2025-07-09,Cust_0022,Maharashtra,Pune,Office Supplies,Paper Ream,8,2246.79,599.14,Credit Card
+1579,2025-11-01,Cust_0148,Maharashtra,Pune,Furniture,Standing Desk,4,103213.35,22706.94,Net Banking
+1580,2025-01-28,Cust_0137,Gujarat,Surat,Technology,Laptop,3,193596.58,35740.91,Credit Card
+1581,2025-07-14,Cust_0115,Gujarat,Surat,Furniture,Standing Desk,3,75456.63,16600.46,Cash on Delivery
+1582,14/12/2025,Cust_0111,Tamil Nadu,Madurai,Office Supplies,Paper Ream,2,650.13,173.37,Net Banking
+1583,2025-06-21,Cust_0050,Tamil Nadu,Coimbatore,Technology,Mouse,10,7825.85,1956.46,Net Banking
+1584,2025-12-13,Cust_0026,Gujarat,Ahmedabad,Furniture,Bookshelf,1,8276.48,1862.21,UPI
+1585,2025-12-17,Cust_0056,Delhi,New Delhi,Technology,Mouse,5,"₹3,754.46",938.62,UPI
+1586,2025-12-29,Cust_0048,Karnataka,Bangalore,Office Supplies,Paper Ream,7,2165.69,577.52,UPI
+1587,2025-12-23,Cust_0110,Maharashtra,Pune,Furniture,Standing Desk,2,51387.81,11305.32,Net Banking
+1588,2025-05-12,Cust_0068,Maharashtra,Mumbai,Furniture,Ergonomic Chair,7,82128.32,20532.08,Credit Card
+1589,2025-08-14,Cust_0111,Karnataka,Mysore,Technology,Smartphone,7,229243.67,45848.73,Credit Card
+1590,2025-11-11,Cust_0065,Gujarat,Ahmedabad,Furniture,Bookshelf,5,"₹36,826.30",8285.92,Cash on Delivery
+1591,2025-01-10,Cust_0085,Delhi,Delhi,Office Supplies,Gel Pen Box,1,162.99,43.46,Cash on Delivery
+1592,2025-10-22,Cust_0018,Karnataka,Hubli,Office Supplies,Binder,8,1974.42,473.86,Credit Card
+1593,2025-01-02,Cust_0103,Delhi,New Delhi,Technology,Smartphone,9,342407.66,68481.53,UPI
+1594,2025-11-20,Cust_0052,Gujarat,Ahmedabad,Furniture,Bookshelf,6,43972.39,9893.79,Credit Card
+1595,2025-10-11,Cust_0092,Karnataka,Mysore,Office Supplies,Paper Ream,5,1558.76,415.67,Cash on Delivery
+1596,13/02/2025,Cust_0062,Gujarat,Surat,Office Supplies,Paper Ream,3,₹816.43,217.71,Cash on Delivery
+1597,2025-07-19,Cust_0005,Karnataka,Hubli,Office Supplies,Binder,8,2013.58,483.26,UPI
+1598,2025-06-23,Cust_0118,Karnataka,Mysore,Office Supplies,Paper Ream,7,1939.64,517.24,Credit Card
+1599,24/10/2025,Cust_0012,Maharashtra,Mumbai,Technology,Monitor,8,148430.35,37107.59,Credit Card
+1600,2025-12-26,Cust_0044,Gujarat,Ahmedabad,Technology,Monitor,1,19456.78,4864.2,UPI
+1601,2025-02-24,Cust_0103,Karnataka,Mysore,Office Supplies,Gel Pen Box,4,547.57,146.02,Net Banking
+1602,2025-03-03,Cust_0037,Gujarat,Ahmedabad,Furniture,Ergonomic Chair,1,12223.4,3055.85,Cash on Delivery
+1603,2025-03-28,Cust_0097,Gujarat,Surat,Office Supplies,Paper Ream,8,2276.95,607.19,Credit Card
+1604,2025-01-09,Cust_0073,Delhi,Delhi,Technology,Laptop,3,211619.34,39068.19,Cash on Delivery
+1605,22/12/2025,Cust_0010,Delhi,Delhi,Technology,Monitor,5,90415.56,22603.89,Credit Card
+1606,2025-09-13,Cust_0136,Telangana,Hyderabad,Office Supplies,Binder,6,1475.64,354.15,UPI
+1607,2025-11-13,Cust_0050,Tamil Nadu,Madurai,Office Supplies,Paper Ream,8,2529.76,674.6,UPI
+1608,2025-03-18,Cust_0073,Gujarat,Surat,Furniture,Ergonomic Chair,3,"₹37,225.03",9306.26,Credit Card
+1609,2025-08-11,Cust_0041,Tamil Nadu,Coimbatore,Office Supplies,Binder,1,₹230.22,55.25,UPI
+1610,2025-09-06,Cust_0084,Telangana,Hyderabad,Technology,Monitor,8,146669.95,36667.49,Credit Card
+1611,2025-02-26,Cust_0121,Tamil Nadu,Chennai,Technology,Monitor,7,135321.13,33830.28,Cash on Delivery
+1612,2025-01-28,Cust_0050,Delhi,Delhi,Technology,Smartphone,8,261971.4,52394.28,Net Banking
+1613,19/05/2025,Cust_0118,Maharashtra,Pune,Technology,Laptop,10,"₹592,754.72",109431.64,Cash on Delivery
+1614,2025-03-29,Cust_0044,Tamil Nadu,Chennai,Furniture,Bookshelf,3,25389.83,5712.71,Credit Card
+1615,2025-02-14,Cust_0064,Delhi,New Delhi,Technology,Smartphone,8,298871.39,59774.28,Credit Card
+1616,2025-06-17,Cust_0121,Delhi,Delhi,Office Supplies,Paper Ream,10,3238.95,863.72,UPI
+1617,2025-08-06,Cust_0004,Telangana,Warangal,Furniture,Bookshelf,2,15847.81,3565.76,Cash on Delivery
+1618,2025-04-22,Cust_0118,Maharashtra,Pune,Furniture,Ergonomic Chair,2,21676.46,5419.12,UPI
+1619,2025-08-21,Cust_0001,Delhi,Delhi,Office Supplies,Binder,3,793.48,190.43,UPI
+1620,17/07/2025,Cust_0139,Gujarat,Surat,Office Supplies,Paper Ream,5,1477.77,394.07,Credit Card
+1621,2025-12-17,Cust_0014,Karnataka,Hubli,Furniture,Bookshelf,1,8023.58,1805.31,UPI
+1622,2025-07-16,Cust_0144,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,6,1751.92,467.18,Credit Card
+1623,12/03/2025,Cust_0054,Tamil Nadu,Chennai,Office Supplies,Paper Ream,8,2513.94,670.38,Credit Card
+1624,2025-06-14,Cust_0125,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,7,"₹1,003.20",267.52,UPI
+1625,29/08/2025,Cust_0017,Gujarat,Surat,Furniture,Bookshelf,6,50879.08,11447.79,Credit Card
+1626,2025-08-23,Cust_0029,Karnataka,Bangalore,Furniture,Ergonomic Chair,5,"₹65,499.08",16374.77,Credit Card
+1627,2025-09-12,Cust_0034,Maharashtra,Mumbai,Office Supplies,Gel Pen Box,1,143.8,38.35,Cash on Delivery
+1628,27/06/2025,Cust_0060,Delhi,New Delhi,Office Supplies,Gel Pen Box,1,₹143.75,38.33,Net Banking
+1629,2025-07-30,Cust_0141,Telangana,Warangal,Office Supplies,Gel Pen Box,6,897.51,239.34,Cash on Delivery
+1630,2025-08-23,Cust_0074,Tamil Nadu,Madurai,Technology,Mouse,3,2538.85,634.71,UPI
+1631,2025-03-17,Cust_0045,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,10,130179.16,32544.79,Credit Card
+1632,2025-03-24,Cust_0144,Maharashtra,Mumbai,Technology,Mouse,10,7402.36,1850.59,UPI
+1633,2025-12-07,Cust_0007,Tamil Nadu,Coimbatore,Technology,Mouse,8,"₹6,451.03",1612.76,Cash on Delivery
+1634,2025-09-13,Cust_0076,Maharashtra,Pune,Furniture,Ergonomic Chair,1,13128.36,3282.09,Cash on Delivery
+1635,2025-05-29,Cust_0011,Telangana,Hyderabad,Office Supplies,Gel Pen Box,8,"₹1,161.28",309.68,Credit Card
+1636,2025-12-14,Cust_0084,Telangana,Hyderabad,Furniture,Ergonomic Chair,7,85974.37,21493.59,UPI
+1637,2025-11-08,Cust_0022,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,4,633.75,169.0,Cash on Delivery
+1638,2025-12-13,Cust_0015,Gujarat,Ahmedabad,Office Supplies,Binder,4,998.09,239.54,Net Banking
+1639,2025-07-23,Cust_0115,Maharashtra,Nagpur,Furniture,Standing Desk,7,170549.09,37520.8,UPI
+1640,21/04/2025,Cust_0109,Gujarat,Surat,Office Supplies,Binder,8,1915.45,459.71,Cash on Delivery
+1641,13/03/2025,Cust_0017,Telangana,Hyderabad,Technology,Monitor,5,89543.04,22385.76,Cash on Delivery
+1642,2025-02-15,Cust_0036,Karnataka,Mysore,Office Supplies,Binder,7,1636.21,392.69,Credit Card
+1643,2025-04-06,Cust_0127,Delhi,New Delhi,Office Supplies,Binder,1,266.14,63.87,Cash on Delivery
+1644,2025-04-25,Cust_0074,Karnataka,Bangalore,Technology,Mouse,5,4364.82,1091.21,Cash on Delivery
+1645,2025-04-02,Cust_0093,Delhi,Delhi,Technology,Laptop,5,324548.26,59916.6,Cash on Delivery
+1646,2025-10-17,Cust_0148,Delhi,New Delhi,Office Supplies,Gel Pen Box,8,1313.82,350.35,UPI
+1647,2025-05-13,Cust_0014,Maharashtra,Nagpur,Technology,Monitor,6,107158.55,26789.64,Net Banking
+1648,2025-07-04,Cust_0047,Delhi,New Delhi,Technology,Mouse,5,4023.69,1005.92,UPI
+1649,2025-11-03,Cust_0137,Maharashtra,Nagpur,Furniture,Standing Desk,5,119286.47,26243.02,Net Banking
+1650,15/03/2025,Cust_0042,Karnataka,Bangalore,Office Supplies,Binder,6,1583.64,380.07,UPI
+1651,2025-04-22,Cust_0137,Maharashtra,Nagpur,Technology,Monitor,9,165675.08,41418.77,UPI
+1652,2025-08-02,Cust_0114,Delhi,Delhi,Technology,Monitor,1,17926.27,4481.57,Net Banking
+1653,2025-03-30,Cust_0079,Gujarat,Surat,Technology,Laptop,4,240693.15,44435.66,Credit Card
+1654,2025-04-18,Cust_0011,Maharashtra,Mumbai,Furniture,Bookshelf,2,14648.75,3295.97,Credit Card
+1655,2025-02-25,Cust_0078,Karnataka,Hubli,Office Supplies,Gel Pen Box,1,149.07,39.75,UPI
+1656,2025-02-19,Cust_0072,Karnataka,Hubli,Technology,Smartphone,4,131173.89,26234.78,Net Banking
+1657,30/06/2025,Cust_0004,Maharashtra,Nagpur,Office Supplies,Gel Pen Box,4,₹600.59,160.16,Credit Card
+1658,09/04/2025,Cust_0122,Tamil Nadu,Chennai,Office Supplies,Paper Ream,2,650.91,173.58,Net Banking
+1659,2025-12-24,Cust_0055,Telangana,Hyderabad,Furniture,Bookshelf,2,14978.72,3370.21,Credit Card
+1660,2025-07-28,Cust_0074,Karnataka,Mysore,Technology,Keyboard,2,3011.84,803.16,UPI
+1661,2025-02-12,Cust_0114,Tamil Nadu,Coimbatore,Technology,Keyboard,5,7435.42,1982.78,Credit Card
+1662,11/10/2025,Cust_0095,Delhi,New Delhi,Furniture,Ergonomic Chair,2,25894.82,6473.71,Credit Card
+1663,2025-01-07,Cust_0037,Gujarat,Surat,Office Supplies,Paper Ream,7,2073.98,553.06,Cash on Delivery
+1664,2025-07-25,Cust_0104,Gujarat,Ahmedabad,Office Supplies,Paper Ream,2,₹583.65,155.64,UPI
+1665,30/04/2025,Cust_0103,Delhi,New Delhi,Furniture,Bookshelf,10,81498.4,18337.14,Net Banking
+1666,2025-09-01,Cust_0126,Gujarat,Surat,Furniture,Bookshelf,5,37178.99,8365.27,Cash on Delivery
+1667,2025-04-29,Cust_0046,Gujarat,Ahmedabad,Technology,Laptop,1,69294.06,12792.75,Cash on Delivery
+1668,2025-11-06,Cust_0134,Gujarat,Surat,Technology,Mouse,10,8197.17,2049.29,Cash on Delivery
+1669,27/08/2025,Cust_0139,Maharashtra,Pune,Office Supplies,Binder,8,2001.92,480.46,UPI
+1670,2025-01-17,Cust_0046,Delhi,Delhi,Furniture,Standing Desk,6,160586.23,35328.97,Net Banking
+1671,2025-12-28,Cust_0126,Maharashtra,Pune,Furniture,Ergonomic Chair,5,62588.68,15647.17,Cash on Delivery
+1672,2025-09-01,Cust_0091,Telangana,Hyderabad,Office Supplies,Paper Ream,7,2000.62,533.5,Net Banking
+1673,2025-06-14,Cust_0007,Karnataka,Bangalore,Office Supplies,Paper Ream,3,960.65,256.17,Net Banking
+1674,2025-07-14,Cust_0080,Karnataka,Mysore,Furniture,Standing Desk,7,169794.42,37354.77,UPI
+1675,2025-12-19,Cust_0109,Karnataka,Mysore,Technology,Mouse,3,2169.46,542.37,Cash on Delivery
+1676,2025-05-17,Cust_0147,Karnataka,Hubli,Furniture,Bookshelf,1,8777.22,1974.88,UPI
+1677,2025-09-08,Cust_0043,Karnataka,Hubli,Office Supplies,Paper Ream,6,1798.82,479.69,Net Banking
+1678,2025-07-06,Cust_0013,Delhi,Delhi,Furniture,Bookshelf,2,17089.22,3845.07,Net Banking
+1679,2025-10-21,Cust_0070,Delhi,Delhi,Office Supplies,Gel Pen Box,2,313.06,83.48,UPI
+1680,2025-10-18,Cust_0077,Telangana,Warangal,Furniture,Ergonomic Chair,6,76257.39,19064.35,Cash on Delivery
+1681,2025-12-06,Cust_0141,Telangana,Warangal,Technology,Keyboard,7,9977.66,2660.71,Credit Card
+1682,10/01/2025,Cust_0069,Gujarat,Ahmedabad,Office Supplies,Binder,4,1032.16,247.72,Cash on Delivery
+1683,2025-10-17,Cust_0077,Gujarat,Ahmedabad,Office Supplies,Paper Ream,6,1786.5,476.4,Cash on Delivery
+1684,2025-07-30,Cust_0061,Tamil Nadu,Chennai,Office Supplies,Paper Ream,7,2002.11,533.9,Cash on Delivery
+1685,2025-05-03,Cust_0112,Karnataka,Bangalore,Technology,Laptop,4,275446.33,50851.63,Cash on Delivery
+1686,2025-11-28,Cust_0141,Karnataka,Bangalore,Technology,Mouse,3,2173.99,543.5,Credit Card
+1687,2025-11-26,Cust_0017,Karnataka,Hubli,Furniture,Ergonomic Chair,1,"₹12,863.00",3215.75,Cash on Delivery
+1688,2025-07-06,Cust_0031,Gujarat,Ahmedabad,Furniture,Bookshelf,3,22733.0,5114.92,Net Banking
+1689,2025-09-12,Cust_0061,Karnataka,Bangalore,Office Supplies,Paper Ream,6,1738.54,463.61,Cash on Delivery
+1690,2025-04-22,Cust_0126,Maharashtra,Mumbai,Technology,Monitor,5,88910.56,22227.64,Net Banking
+1691,25/12/2025,Cust_0038,Karnataka,Mysore,Office Supplies,Binder,8,2073.1,497.54,Net Banking
+1692,2025-09-01,Cust_0014,Gujarat,Surat,Furniture,Ergonomic Chair,10,108835.43,27208.86,Credit Card
+1693,2025-05-10,Cust_0061,Telangana,Warangal,Furniture,Bookshelf,6,51870.31,11670.82,Cash on Delivery
+1694,2025-07-18,Cust_0042,Karnataka,Mysore,Furniture,Standing Desk,2,54363.22,11959.91,Cash on Delivery
+1695,20/11/2025,Cust_0121,Tamil Nadu,Madurai,Furniture,Ergonomic Chair,5,64397.34,16099.33,Cash on Delivery
+1696,2025-06-20,Cust_0141,Gujarat,Surat,Technology,Monitor,5,90114.02,22528.51,Net Banking
+1697,2025-08-21,Cust_0079,Gujarat,Ahmedabad,Technology,Monitor,8,"₹152,381.36",38095.34,Net Banking
+1698,2025-10-22,Cust_0034,Karnataka,Bangalore,Technology,Monitor,9,168919.47,42229.87,Cash on Delivery
+1699,2025-06-13,Cust_0073,Delhi,New Delhi,Office Supplies,Paper Ream,5,1402.04,373.88,Credit Card
+1700,2025-02-13,Cust_0006,Delhi,New Delhi,Technology,Keyboard,7,11433.99,3049.06,Credit Card
+1701,2025-02-15,Cust_0039,Delhi,Delhi,Furniture,Bookshelf,3,21838.96,4913.77,UPI
+1702,2025-07-08,Cust_0127,Maharashtra,Nagpur,Technology,Laptop,9,577413.57,106599.43,UPI
+1703,2025-04-25,Cust_0053,Gujarat,Ahmedabad,Technology,Mouse,5,4197.15,1049.29,Credit Card
+1704,25/05/2025,Cust_0061,Gujarat,Ahmedabad,Furniture,Ergonomic Chair,7,"₹88,913.39",22228.35,Cash on Delivery
+1705,08/05/2025,Cust_0102,Tamil Nadu,Madurai,Office Supplies,Gel Pen Box,8,1100.58,293.49,Credit Card
+1706,2026-01-01,Cust_0061,Delhi,New Delhi,Office Supplies,Gel Pen Box,5,685.96,182.92,Cash on Delivery
+1707,2025-07-01,Cust_0095,Telangana,Hyderabad,Technology,Mouse,9,7372.31,1843.08,Credit Card
+1708,14/10/2025,Cust_0034,Karnataka,Hubli,Technology,Mouse,3,2401.8,600.45,UPI
+1709,2025-06-12,Cust_0072,Gujarat,Surat,Technology,Mouse,2,1540.25,385.06,Net Banking
+1710,2025-08-09,Cust_0126,Tamil Nadu,Coimbatore,Office Supplies,Binder,9,2165.85,519.81,Credit Card
+1711,2025-10-12,Cust_0042,Gujarat,Surat,Technology,Monitor,3,"₹49,189.33",12297.33,Cash on Delivery
+1712,2025-08-12,Cust_0029,Karnataka,Mysore,Technology,Keyboard,6,9879.87,2634.63,Credit Card
+1713,05/03/2025,Cust_0145,Tamil Nadu,Chennai,Technology,Mouse,3,2560.78,640.19,Credit Card
+1714,2025-10-26,Cust_0025,Karnataka,Hubli,Office Supplies,Paper Ream,7,2276.57,607.09,Net Banking
+1715,2025-01-14,Cust_0083,Tamil Nadu,Madurai,Office Supplies,Paper Ream,7,2046.89,545.84,Credit Card
+1716,2025-01-15,Cust_0002,Karnataka,Mysore,Office Supplies,Gel Pen Box,8,1188.97,317.06,Net Banking
+1717,23/01/2025,Cust_0073,Gujarat,Surat,Furniture,Bookshelf,10,74069.12,16665.55,Net Banking
+1718,2025-01-29,Cust_0103,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,7,964.44,257.18,UPI
+1719,2025-01-11,Cust_0077,Maharashtra,Mumbai,Furniture,Standing Desk,5,128679.2,28309.42,Cash on Delivery
+1720,2025-08-10,Cust_0052,Gujarat,Surat,Office Supplies,Gel Pen Box,3,₹437.31,116.62,Cash on Delivery
+1721,17/08/2025,Cust_0048,Delhi,New Delhi,Furniture,Bookshelf,10,78769.13,17723.05,Cash on Delivery
+1722,2025-11-19,Cust_0040,Delhi,Delhi,Technology,Smartphone,6,229877.42,45975.48,Cash on Delivery
+1723,2025-09-27,Cust_0033,Gujarat,Ahmedabad,Furniture,Standing Desk,7,160271.41,35259.71,Net Banking
+1724,2025-05-08,Cust_0131,Telangana,Warangal,Furniture,Bookshelf,1,8081.59,1818.36,Cash on Delivery
+1725,2025-07-31,Cust_0129,Karnataka,Mysore,Office Supplies,Gel Pen Box,10,1593.85,425.03,UPI
+1726,2025-02-28,Cust_0081,Gujarat,Surat,Technology,Monitor,7,114540.52,28635.13,Cash on Delivery
+1727,2025-12-10,Cust_0028,Delhi,New Delhi,Furniture,Ergonomic Chair,4,44976.84,11244.21,Cash on Delivery
+1728,2025-10-01,Cust_0125,Karnataka,Bangalore,Furniture,Ergonomic Chair,1,11212.16,2803.04,Net Banking
+1729,2025-11-13,Cust_0049,Telangana,Warangal,Office Supplies,Gel Pen Box,7,"₹1,113.97",297.06,UPI
+1730,2025-01-09,Cust_0138,Gujarat,Ahmedabad,Technology,Monitor,8,148280.35,37070.09,Credit Card
+1731,2025-02-14,Cust_0114,Tamil Nadu,Coimbatore,Technology,Keyboard,7,"₹9,495.82",2532.22,Cash on Delivery
+1732,2025-08-30,Cust_0086,Karnataka,Mysore,Office Supplies,Paper Ream,4,1150.76,306.87,UPI
+1733,2025-02-22,Cust_0125,Gujarat,Surat,Furniture,Standing Desk,10,254791.98,56054.24,Cash on Delivery
+1734,2025-09-06,Cust_0069,Telangana,Warangal,Technology,Laptop,9,528725.3,97610.82,Cash on Delivery
+1735,2025-08-31,Cust_0050,Karnataka,Mysore,Office Supplies,Gel Pen Box,6,890.7,237.52,Cash on Delivery
+1736,2025-06-26,Cust_0120,Delhi,Delhi,Office Supplies,Paper Ream,10,3245.44,865.45,Credit Card
+1737,31/05/2025,Cust_0054,Gujarat,Surat,Furniture,Bookshelf,6,50841.34,11439.3,Net Banking
+1738,2025-12-20,Cust_0107,Gujarat,Ahmedabad,Office Supplies,Binder,3,₹700.99,168.24,Cash on Delivery
+1739,2025-06-05,Cust_0045,Maharashtra,Mumbai,Office Supplies,Paper Ream,1,291.53,77.74,UPI
+1740,2025-02-02,Cust_0088,Tamil Nadu,Coimbatore,Technology,Smartphone,4,129379.26,25875.85,Net Banking
+1741,24/01/2025,Cust_0113,Telangana,Warangal,Technology,Smartphone,10,361864.01,72372.8,Cash on Delivery
+1742,2025-02-26,Cust_0053,Karnataka,Hubli,Office Supplies,Paper Ream,9,"₹2,452.66",654.04,Net Banking
+1743,2025-03-22,Cust_0094,Gujarat,Surat,Office Supplies,Binder,9,2249.28,539.83,Net Banking
+1744,2025-03-12,Cust_0130,Karnataka,Bangalore,Furniture,Standing Desk,1,23726.58,5219.85,Credit Card
+1745,2025-02-13,Cust_0136,Tamil Nadu,Coimbatore,Office Supplies,Binder,6,1538.83,369.32,Cash on Delivery
+1746,2025-04-27,Cust_0008,Maharashtra,Pune,Furniture,Standing Desk,8,218073.62,47976.2,Cash on Delivery
+1747,2025-03-16,Cust_0112,Karnataka,Hubli,Office Supplies,Paper Ream,2,580.6,154.83,UPI
+1748,2025-07-21,Cust_0134,Karnataka,Hubli,Office Supplies,Paper Ream,10,2734.69,729.25,Net Banking
+1749,2025-08-03,Cust_0136,Delhi,New Delhi,Office Supplies,Gel Pen Box,6,₹973.66,259.64,Credit Card
+1750,2025-12-25,Cust_0089,Delhi,New Delhi,Office Supplies,Paper Ream,9,2767.15,737.91,Cash on Delivery
+1751,12/04/2025,Cust_0134,Tamil Nadu,Chennai,Technology,Smartphone,6,205379.73,41075.95,Net Banking
+1752,2025-04-20,Cust_0139,Karnataka,Hubli,Office Supplies,Binder,9,2178.32,522.8,Net Banking
+1753,2025-05-04,Cust_0130,Tamil Nadu,Madurai,Furniture,Bookshelf,2,16742.36,3767.03,Net Banking
+1754,2025-03-05,Cust_0061,Karnataka,Hubli,Technology,Keyboard,5,"₹7,608.65",2028.97,Credit Card
+1755,2025-06-29,Cust_0064,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,10,1551.73,413.79,UPI
+1756,2025-06-17,Cust_0024,Telangana,Hyderabad,Furniture,Standing Desk,2,46465.53,10222.42,UPI
+1757,2025-08-06,Cust_0133,Maharashtra,Pune,Technology,Keyboard,2,2921.58,779.09,Cash on Delivery
+1758,2025-05-16,Cust_0107,Telangana,Warangal,Office Supplies,Binder,8,2075.61,498.15,Credit Card
+1759,15/03/2025,Cust_0031,Telangana,Hyderabad,Furniture,Bookshelf,8,59256.13,13332.63,Credit Card
+1760,2025-08-22,Cust_0105,Delhi,Delhi,Office Supplies,Paper Ream,9,2629.44,701.18,UPI
+1761,03/03/2025,Cust_0078,Tamil Nadu,Madurai,Furniture,Ergonomic Chair,9,100511.38,25127.84,Net Banking
+1762,06/09/2025,Cust_0056,Karnataka,Bangalore,Technology,Smartphone,7,222883.9,44576.78,Credit Card
+1763,2025-09-08,Cust_0145,Karnataka,Bangalore,Office Supplies,Binder,2,537.04,128.89,Cash on Delivery
+1764,2025-06-22,Cust_0116,Delhi,New Delhi,Office Supplies,Gel Pen Box,3,473.58,126.29,Cash on Delivery
+1765,2025-03-18,Cust_0139,Gujarat,Surat,Technology,Smartphone,10,343673.98,68734.8,UPI
+1766,2025-12-10,Cust_0080,Delhi,New Delhi,Office Supplies,Paper Ream,3,937.3,249.95,UPI
+1767,2025-11-26,Cust_0049,Telangana,Hyderabad,Technology,Smartphone,9,"₹319,841.90",63968.38,Cash on Delivery
+1768,2025-09-15,Cust_0149,Karnataka,Bangalore,Office Supplies,Gel Pen Box,3,491.61,131.1,Cash on Delivery
+1769,2025-02-13,Cust_0047,Telangana,Warangal,Furniture,Bookshelf,1,7986.36,1796.93,Cash on Delivery
+1770,2025-01-13,Cust_0037,Telangana,Warangal,Furniture,Standing Desk,2,"₹46,146.45",10152.22,Credit Card
+1771,2025-05-11,Cust_0015,Karnataka,Bangalore,Furniture,Standing Desk,3,68383.71,15044.42,Net Banking
+1772,19/07/2025,Cust_0014,Karnataka,Mysore,Technology,Keyboard,6,8564.28,2283.81,Credit Card
+1773,2025-05-03,Cust_0119,Telangana,Hyderabad,Furniture,Bookshelf,9,"₹70,344.70",15827.56,Cash on Delivery
+1774,2025-02-03,Cust_0026,Delhi,Delhi,Furniture,Bookshelf,4,"₹34,647.90",7795.78,Credit Card
+1775,2025-10-12,Cust_0037,Gujarat,Ahmedabad,Furniture,Bookshelf,7,55395.0,12463.88,Net Banking
+1776,2025-10-04,Cust_0075,Maharashtra,Mumbai,Office Supplies,Binder,9,"₹2,228.28",534.79,Credit Card
+1777,2025-01-01,Cust_0055,Karnataka,Mysore,Furniture,Bookshelf,5,42715.9,9611.08,Net Banking
+1778,2025-01-24,Cust_0036,Maharashtra,Nagpur,Office Supplies,Gel Pen Box,2,288.04,76.81,Net Banking
+1779,2025-08-10,Cust_0070,Maharashtra,Nagpur,Office Supplies,Binder,6,1540.55,369.73,Credit Card
+1780,2025-12-06,Cust_0001,Tamil Nadu,Coimbatore,Technology,Keyboard,10,14485.37,3862.77,Cash on Delivery
+1781,2025-01-03,Cust_0138,Karnataka,Hubli,Technology,Keyboard,9,14567.22,3884.59,UPI
+1782,29/11/2025,Cust_0092,Gujarat,Ahmedabad,Office Supplies,Paper Ream,8,2482.68,662.05,Cash on Delivery
+1783,2025-04-01,Cust_0006,Gujarat,Ahmedabad,Technology,Keyboard,6,9785.25,2609.4,Net Banking
+1784,2025-12-15,Cust_0127,Gujarat,Surat,Technology,Laptop,10,666280.75,123005.68,Net Banking
+1785,19/01/2025,Cust_0102,Tamil Nadu,Coimbatore,Office Supplies,Gel Pen Box,10,"₹1,412.73",376.73,UPI
+1786,2025-05-23,Cust_0145,Telangana,Warangal,Technology,Smartphone,4,144475.48,28895.1,Credit Card
+1787,2025-02-03,Cust_0134,Telangana,Hyderabad,Office Supplies,Paper Ream,3,856.73,228.46,Net Banking
+1788,09/04/2025,Cust_0001,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,9,1380.9,368.24,Cash on Delivery
+1789,2025-11-25,Cust_0093,Gujarat,Ahmedabad,Furniture,Standing Desk,7,167091.25,36760.07,UPI
+1790,2025-04-25,Cust_0147,Karnataka,Mysore,Furniture,Bookshelf,8,61647.9,13870.78,UPI
+1791,2025-04-26,Cust_0025,Gujarat,Surat,Technology,Monitor,4,67168.53,16792.13,UPI
+1792,2025-09-03,Cust_0088,Delhi,Delhi,Office Supplies,Gel Pen Box,6,961.29,256.34,UPI
+1793,2025-06-20,Cust_0032,Telangana,Hyderabad,Technology,Smartphone,10,"₹345,697.06",69139.41,UPI
+1794,01/02/2025,Cust_0015,Karnataka,Mysore,Furniture,Bookshelf,2,"₹16,904.47",3803.51,Net Banking
+1795,2025-11-09,Cust_0025,Gujarat,Surat,Technology,Laptop,1,65770.35,12142.22,Cash on Delivery
+1796,2025-04-30,Cust_0087,Telangana,Hyderabad,Furniture,Standing Desk,8,211806.59,46597.45,UPI
+1797,2025-08-21,Cust_0050,Telangana,Warangal,Office Supplies,Paper Ream,2,552.32,147.29,Credit Card
+1798,2025-11-23,Cust_0012,Telangana,Warangal,Furniture,Standing Desk,8,208984.92,45976.68,UPI
+1799,2025-03-07,Cust_0038,Tamil Nadu,Madurai,Furniture,Bookshelf,6,46187.41,10392.17,Cash on Delivery
+1800,2025-06-08,Cust_0061,Telangana,Warangal,Furniture,Standing Desk,1,25088.4,5519.45,UPI
+1801,2025-08-05,Cust_0120,Tamil Nadu,Chennai,Technology,Monitor,2,34859.17,8714.79,Net Banking
+1802,24/10/2025,Cust_0011,Telangana,Warangal,Office Supplies,Binder,7,"₹1,690.02",405.6,Cash on Delivery
+1803,2025-04-23,Cust_0085,Karnataka,Hubli,Technology,Monitor,8,147568.9,36892.22,Cash on Delivery
+1804,2025-04-16,Cust_0075,Delhi,Delhi,Technology,Mouse,1,₹731.80,182.95,Cash on Delivery
+1805,10/04/2025,Cust_0045,Gujarat,Surat,Technology,Laptop,4,"₹244,286.90",45099.12,Net Banking
+1806,2025-10-11,Cust_0036,Maharashtra,Mumbai,Technology,Laptop,3,208372.38,38468.75,Cash on Delivery
+1807,2025-12-02,Cust_0135,Karnataka,Mysore,Technology,Mouse,8,6067.39,1516.85,Cash on Delivery
+1808,2025-12-31,Cust_0110,Karnataka,Bangalore,Technology,Monitor,4,67560.21,16890.05,Credit Card
+1809,2025-01-24,Cust_0033,Telangana,Hyderabad,Office Supplies,Binder,3,₹724.15,173.8,Cash on Delivery
+1810,2025-04-18,Cust_0131,Gujarat,Ahmedabad,Furniture,Bookshelf,10,73037.97,16433.54,Net Banking
+1811,13/09/2025,Cust_0122,Telangana,Warangal,Technology,Mouse,6,4824.46,1206.11,Net Banking
+1812,2025-10-25,Cust_0109,Delhi,Delhi,Technology,Monitor,4,71309.95,17827.49,Cash on Delivery
+1813,2025-10-20,Cust_0091,Maharashtra,Pune,Furniture,Bookshelf,2,"₹14,829.86",3336.72,Credit Card
+1814,2025-10-26,Cust_0128,Karnataka,Mysore,Office Supplies,Gel Pen Box,6,886.7,236.45,Net Banking
+1815,20/05/2025,Cust_0076,Delhi,Delhi,Technology,Keyboard,4,"₹5,718.75",1525.0,UPI
+1816,2025-05-22,Cust_0085,Maharashtra,Mumbai,Technology,Laptop,6,353985.95,65351.25,Net Banking
+1817,2025-06-04,Cust_0067,Gujarat,Surat,Technology,Smartphone,3,115466.51,23093.3,UPI
+1818,2025-06-03,Cust_0039,Tamil Nadu,Coimbatore,Furniture,Standing Desk,10,"₹262,890.30",57835.87,Cash on Delivery
+1819,2025-04-27,Cust_0120,Maharashtra,Nagpur,Office Supplies,Paper Ream,8,2272.19,605.92,Cash on Delivery
+1820,2025-06-24,Cust_0096,Karnataka,Mysore,Technology,Keyboard,7,9890.13,2637.37,Credit Card
+1821,2025-10-23,Cust_0108,Maharashtra,Pune,Office Supplies,Paper Ream,8,2548.99,679.73,Cash on Delivery
+1822,2025-12-18,Cust_0085,Delhi,New Delhi,Furniture,Bookshelf,1,"₹8,108.12",1824.33,Cash on Delivery
+1823,2025-07-15,Cust_0116,Maharashtra,Pune,Technology,Smartphone,7,"₹229,728.60",45945.72,Net Banking
+1824,2025-02-17,Cust_0048,Maharashtra,Mumbai,Office Supplies,Gel Pen Box,3,407.89,108.77,Credit Card
+1825,2025-02-05,Cust_0133,Delhi,New Delhi,Technology,Monitor,5,"₹92,872.26",23218.06,UPI
+1826,2025-03-29,Cust_0100,Tamil Nadu,Coimbatore,Furniture,Ergonomic Chair,2,22219.86,5554.97,Credit Card
+1827,2025-03-08,Cust_0052,Maharashtra,Pune,Furniture,Bookshelf,8,59632.4,13417.29,Cash on Delivery
+1828,2025-05-22,Cust_0085,Maharashtra,Mumbai,Technology,Keyboard,2,3194.75,851.93,Cash on Delivery
+1829,2025-08-24,Cust_0077,Delhi,Delhi,Office Supplies,Paper Ream,5,1543.89,411.7,Cash on Delivery
+1830,10/11/2025,Cust_0047,Maharashtra,Pune,Technology,Monitor,10,188396.78,47099.2,UPI
+1831,2025-07-21,Cust_0018,Gujarat,Ahmedabad,Technology,Monitor,5,96886.0,24221.5,Credit Card
+1832,2025-09-10,Cust_0043,Delhi,Delhi,Furniture,Ergonomic Chair,2,24021.1,6005.27,Net Banking
+1833,2025-04-17,Cust_0088,Telangana,Hyderabad,Furniture,Ergonomic Chair,2,24666.56,6166.64,Cash on Delivery
+1834,2025-04-10,Cust_0119,Delhi,Delhi,Technology,Mouse,2,"₹1,666.91",416.73,Cash on Delivery
+1835,2025-08-25,Cust_0072,Karnataka,Bangalore,Office Supplies,Gel Pen Box,4,625.63,166.83,Credit Card
+1836,2025-03-29,Cust_0003,Karnataka,Hubli,Technology,Monitor,5,83234.72,20808.68,Net Banking
+1837,2025-03-20,Cust_0013,Delhi,New Delhi,Technology,Monitor,1,19413.68,4853.42,UPI
+1838,2025-07-19,Cust_0064,Gujarat,Surat,Furniture,Ergonomic Chair,10,108111.98,27027.99,Net Banking
+1839,2025-05-03,Cust_0017,Maharashtra,Mumbai,Technology,Keyboard,1,1646.79,439.14,Credit Card
+1840,2025-02-19,Cust_0144,Gujarat,Ahmedabad,Office Supplies,Paper Ream,1,₹294.94,78.65,Credit Card
+1841,2025-11-16,Cust_0004,Maharashtra,Nagpur,Furniture,Standing Desk,2,"₹47,324.08",10411.3,Cash on Delivery
+1842,2025-12-01,Cust_0095,Tamil Nadu,Chennai,Furniture,Ergonomic Chair,8,90625.85,22656.46,UPI
+1843,2025-02-04,Cust_0146,Maharashtra,Pune,Furniture,Bookshelf,8,"₹70,183.71",15791.34,Credit Card
+1844,2025-05-09,Cust_0086,Karnataka,Hubli,Furniture,Bookshelf,7,57992.49,13048.31,Credit Card
+1845,2025-11-22,Cust_0098,Gujarat,Surat,Office Supplies,Binder,2,483.51,116.04,Credit Card
+1846,2025-09-15,Cust_0110,Telangana,Hyderabad,Technology,Laptop,10,"₹683,662.33",126214.58,Credit Card
+1847,2025-11-14,Cust_0010,Karnataka,Bangalore,Technology,Mouse,8,"₹6,139.67",1534.92,Credit Card
+1848,2025-11-03,Cust_0107,Delhi,New Delhi,Technology,Mouse,6,4937.86,1234.46,Net Banking
+1849,13/01/2025,Cust_0064,Maharashtra,Nagpur,Furniture,Standing Desk,4,"₹94,116.35",20705.6,Credit Card
+1850,08/11/2025,Cust_0014,Delhi,New Delhi,Technology,Keyboard,1,1369.39,365.17,Credit Card
+1851,2025-04-15,Cust_0021,Maharashtra,Mumbai,Technology,Smartphone,9,335866.92,67173.38,Cash on Delivery
+1852,2025-08-28,Cust_0148,Tamil Nadu,Chennai,Office Supplies,Paper Ream,4,1181.76,315.14,Cash on Delivery
+1853,2025-11-22,Cust_0130,Maharashtra,Pune,Furniture,Ergonomic Chair,6,"₹70,534.72",17633.68,Cash on Delivery
+1854,2025-03-21,Cust_0040,Delhi,Delhi,Furniture,Standing Desk,2,52588.58,11569.49,Credit Card
+1855,2025-05-12,Cust_0035,Delhi,New Delhi,Furniture,Standing Desk,5,121878.67,26813.31,Cash on Delivery
+1856,2025-04-11,Cust_0107,Maharashtra,Mumbai,Technology,Laptop,9,611953.13,112975.96,Cash on Delivery
+1857,11/07/2025,Cust_0032,Delhi,New Delhi,Furniture,Bookshelf,10,73139.75,16456.44,Cash on Delivery
+1858,2025-10-17,Cust_0015,Maharashtra,Mumbai,Furniture,Standing Desk,6,150288.25,33063.42,Cash on Delivery
+1859,2025-08-06,Cust_0008,Gujarat,Ahmedabad,Technology,Keyboard,1,1626.44,433.72,Credit Card
+1860,2025-05-14,Cust_0042,Telangana,Warangal,Office Supplies,Paper Ream,5,1424.22,379.79,UPI
+1861,2025-03-01,Cust_0049,Karnataka,Hubli,Office Supplies,Binder,7,1822.12,437.31,Cash on Delivery
+1862,2025-03-26,Cust_0079,Delhi,New Delhi,Office Supplies,Binder,9,2460.46,590.51,Cash on Delivery
+1863,2025-02-15,Cust_0079,Karnataka,Hubli,Office Supplies,Binder,3,715.35,171.68,UPI
+1864,2025-03-28,Cust_0044,Delhi,Delhi,Technology,Laptop,7,457271.54,84419.36,Credit Card
+1865,2025-07-11,Cust_0055,Maharashtra,Nagpur,Technology,Monitor,8,134841.15,33710.29,Credit Card
+1866,2025-04-13,Cust_0028,Karnataka,Hubli,Technology,Monitor,5,98693.05,24673.26,Credit Card
+1867,2025-02-10,Cust_0125,Tamil Nadu,Chennai,Furniture,Ergonomic Chair,5,"₹54,771.15",13692.79,UPI
+1868,2025-01-05,Cust_0134,Karnataka,Mysore,Technology,Smartphone,1,32177.89,6435.58,Net Banking
+1869,06/09/2025,Cust_0062,Delhi,New Delhi,Office Supplies,Binder,6,1461.24,350.7,Net Banking
+1870,2025-12-07,Cust_0103,Delhi,New Delhi,Office Supplies,Paper Ream,6,1934.31,515.82,Credit Card
+1871,2025-01-14,Cust_0122,Telangana,Hyderabad,Office Supplies,Binder,4,973.69,233.68,Cash on Delivery
+1872,05/12/2025,Cust_0084,Maharashtra,Mumbai,Office Supplies,Binder,1,256.69,61.61,Cash on Delivery
+1873,30/04/2025,Cust_0122,Telangana,Warangal,Furniture,Bookshelf,10,84703.37,19058.26,UPI
+1874,2025-07-17,Cust_0009,Tamil Nadu,Madurai,Technology,Monitor,9,174189.98,43547.5,Credit Card
+1875,2025-09-12,Cust_0139,Karnataka,Mysore,Office Supplies,Gel Pen Box,8,1120.33,298.76,Credit Card
+1876,2025-05-05,Cust_0084,Maharashtra,Mumbai,Office Supplies,Gel Pen Box,2,276.33,73.69,Cash on Delivery
+1877,2025-05-24,Cust_0137,Maharashtra,Nagpur,Furniture,Bookshelf,8,69779.25,15700.33,Cash on Delivery
+1878,16/02/2025,Cust_0098,Gujarat,Surat,Technology,Smartphone,10,319526.69,63905.34,Cash on Delivery
+1879,2025-04-30,Cust_0049,Maharashtra,Pune,Technology,Mouse,2,1475.64,368.91,UPI
+1880,2025-10-21,Cust_0049,Tamil Nadu,Chennai,Furniture,Standing Desk,10,261845.89,57606.1,Cash on Delivery
+1881,2025-08-05,Cust_0003,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,9,2788.42,743.58,Cash on Delivery
+1882,2025-06-11,Cust_0009,Maharashtra,Pune,Technology,Keyboard,8,11153.82,2974.35,Net Banking
+1883,2025-06-08,Cust_0097,Telangana,Hyderabad,Furniture,Bookshelf,10,79652.52,17921.82,UPI
+1884,20/06/2025,Cust_0101,Maharashtra,Nagpur,Technology,Monitor,1,19523.37,4880.84,Net Banking
+1885,2025-12-04,Cust_0101,Maharashtra,Mumbai,Office Supplies,Binder,6,1476.73,354.42,Cash on Delivery
+1886,2025-02-06,Cust_0083,Telangana,Warangal,Furniture,Bookshelf,4,33287.1,7489.6,UPI
+1887,2025-12-30,Cust_0038,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,10,2782.54,742.01,Credit Card
+1888,2025-04-22,Cust_0038,Gujarat,Ahmedabad,Office Supplies,Gel Pen Box,1,145.87,38.9,Cash on Delivery
+1889,2025-08-07,Cust_0132,Gujarat,Ahmedabad,Technology,Laptop,6,"₹426,984.38",78827.89,Net Banking
+1890,2025-10-31,Cust_0078,Delhi,Delhi,Office Supplies,Gel Pen Box,7,₹996.45,265.72,Credit Card
+1891,2025-12-01,Cust_0071,Gujarat,Surat,Office Supplies,Gel Pen Box,2,316.66,84.44,Cash on Delivery
+1892,2025-07-08,Cust_0006,Karnataka,Bangalore,Technology,Laptop,2,129719.68,23948.25,Cash on Delivery
+1893,2025-05-21,Cust_0147,Gujarat,Ahmedabad,Office Supplies,Paper Ream,7,2093.36,558.23,Credit Card
+1894,2025-02-20,Cust_0138,Tamil Nadu,Chennai,Office Supplies,Gel Pen Box,3,441.48,117.73,Cash on Delivery
+1895,2025-02-02,Cust_0115,Telangana,Hyderabad,Technology,Laptop,3,209118.13,38606.42,Net Banking
+1896,2025-03-04,Cust_0022,Karnataka,Bangalore,Office Supplies,Paper Ream,3,825.81,220.22,UPI
+1897,2025-09-17,Cust_0012,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,7,2300.38,613.44,Net Banking
+1898,04/12/2025,Cust_0091,Telangana,Warangal,Technology,Smartphone,8,290925.68,58185.14,Credit Card
+1899,19/12/2025,Cust_0035,Karnataka,Hubli,Technology,Monitor,1,16877.07,4219.27,Credit Card
+1900,2025-10-30,Cust_0042,Tamil Nadu,Coimbatore,Technology,Smartphone,7,224143.62,44828.72,Cash on Delivery
+1901,2025-08-22,Cust_0050,Karnataka,Mysore,Office Supplies,Binder,3,₹755.39,181.29,Net Banking
+1902,2025-10-16,Cust_0064,Gujarat,Ahmedabad,Furniture,Ergonomic Chair,6,79091.27,19772.82,UPI
+1903,2025-05-19,Cust_0086,Karnataka,Hubli,Technology,Smartphone,7,223732.01,44746.4,Net Banking
+1904,16/03/2025,Cust_0032,Maharashtra,Pune,Technology,Laptop,7,498633.15,92055.35,Credit Card
+1905,27/09/2025,Cust_0142,Gujarat,Surat,Office Supplies,Binder,2,502.9,120.7,Net Banking
+1906,2025-11-08,Cust_0137,Karnataka,Bangalore,Technology,Mouse,7,5242.35,1310.59,Cash on Delivery
+1907,2025-09-02,Cust_0146,Telangana,Hyderabad,Furniture,Ergonomic Chair,9,112605.61,28151.4,Net Banking
+1908,2025-01-28,Cust_0091,Gujarat,Surat,Office Supplies,Paper Ream,10,2950.95,786.92,Cash on Delivery
+1909,15/09/2025,Cust_0105,Tamil Nadu,Coimbatore,Furniture,Bookshelf,4,30753.2,6919.47,Net Banking
+1910,2025-02-16,Cust_0142,Gujarat,Ahmedabad,Technology,Monitor,2,"₹33,588.81",8397.2,Cash on Delivery
+1911,2025-01-06,Cust_0032,Delhi,Delhi,Furniture,Standing Desk,9,233330.48,51332.71,Cash on Delivery
+1912,2025-01-08,Cust_0136,Telangana,Hyderabad,Office Supplies,Paper Ream,7,2185.09,582.69,UPI
+1913,2025-11-07,Cust_0091,Delhi,Delhi,Office Supplies,Gel Pen Box,4,560.98,149.59,UPI
+1914,05/08/2025,Cust_0031,Delhi,New Delhi,Technology,Mouse,2,1548.15,387.04,Net Banking
+1915,2025-06-03,Cust_0079,Delhi,New Delhi,Furniture,Ergonomic Chair,1,12571.26,3142.82,UPI
+1916,2025-08-26,Cust_0002,Telangana,Warangal,Technology,Mouse,1,818.48,204.62,Net Banking
+1917,2025-04-06,Cust_0040,Delhi,New Delhi,Technology,Laptop,7,"₹454,276.20",83866.37,Cash on Delivery
+1918,2025-03-05,Cust_0047,Delhi,Delhi,Technology,Mouse,4,3181.25,795.31,Net Banking
+1919,25/02/2025,Cust_0051,Delhi,New Delhi,Technology,Monitor,6,"₹113,337.17",28334.29,UPI
+1920,2025-04-08,Cust_0051,Tamil Nadu,Chennai,Technology,Keyboard,7,11012.24,2936.6,Cash on Delivery
+1921,2025-12-07,Cust_0103,Tamil Nadu,Chennai,Furniture,Standing Desk,9,224800.54,49456.12,Cash on Delivery
+1922,2025-03-09,Cust_0014,Karnataka,Bangalore,Technology,Monitor,3,"₹52,316.50",13079.13,Net Banking
+1923,2025-08-08,Cust_0040,Telangana,Hyderabad,Furniture,Standing Desk,5,"₹119,555.58",26302.23,Credit Card
+1924,2025-05-08,Cust_0027,Tamil Nadu,Chennai,Furniture,Bookshelf,4,33064.51,7439.52,Credit Card
+1925,2025-04-07,Cust_0038,Telangana,Hyderabad,Technology,Laptop,3,191150.04,35289.24,Cash on Delivery
+1926,2025-01-10,Cust_0060,Telangana,Hyderabad,Technology,Laptop,7,446564.04,82442.59,Credit Card
+1927,2025-06-22,Cust_0072,Delhi,New Delhi,Technology,Smartphone,7,252049.78,50409.96,Net Banking
+1928,2025-12-31,Cust_0055,Delhi,Delhi,Furniture,Ergonomic Chair,3,"₹32,694.40",8173.6,Net Banking
+1929,2025-08-30,Cust_0029,Tamil Nadu,Madurai,Technology,Keyboard,3,4277.04,1140.54,UPI
+1930,2025-12-09,Cust_0136,Karnataka,Hubli,Office Supplies,Paper Ream,6,1749.8,466.61,Net Banking
+1931,2025-05-02,Cust_0031,Gujarat,Surat,Technology,Smartphone,7,"₹224,774.33",44954.87,UPI
+1932,2025-10-28,Cust_0122,Gujarat,Ahmedabad,Technology,Keyboard,2,2744.93,731.98,Credit Card
+1933,01/10/2025,Cust_0144,Gujarat,Ahmedabad,Technology,Monitor,4,70822.26,17705.57,Net Banking
+1934,2025-07-07,Cust_0006,Delhi,Delhi,Furniture,Ergonomic Chair,8,94444.88,23611.22,Credit Card
+1935,03/11/2025,Cust_0049,Tamil Nadu,Madurai,Technology,Mouse,1,₹872.93,218.23,Cash on Delivery
+1936,2025-09-11,Cust_0070,Gujarat,Ahmedabad,Technology,Keyboard,9,13187.21,3516.59,Credit Card
+1937,2025-04-05,Cust_0117,Karnataka,Bangalore,Office Supplies,Paper Ream,10,3118.03,831.48,Net Banking
+1938,2025-06-05,Cust_0075,Maharashtra,Pune,Office Supplies,Binder,9,2078.6,498.86,UPI
+1939,24/11/2025,Cust_0137,Maharashtra,Pune,Technology,Mouse,1,822.79,205.7,UPI
+1940,01/01/2025,Cust_0068,Gujarat,Surat,Office Supplies,Gel Pen Box,6,868.42,231.58,Credit Card
+1941,29/07/2025,Cust_0046,Telangana,Warangal,Furniture,Ergonomic Chair,1,12777.44,3194.36,Net Banking
+1942,2025-01-09,Cust_0142,Telangana,Hyderabad,Office Supplies,Gel Pen Box,7,1143.59,304.96,Credit Card
+1943,2025-08-15,Cust_0115,Maharashtra,Pune,Furniture,Ergonomic Chair,10,123115.22,30778.8,Credit Card
+1944,11/08/2025,Cust_0049,Tamil Nadu,Chennai,Furniture,Ergonomic Chair,8,"₹89,885.06",22471.27,Cash on Delivery
+1945,2025-04-03,Cust_0049,Gujarat,Surat,Technology,Mouse,3,2584.92,646.23,UPI
+1946,2025-03-15,Cust_0004,Karnataka,Mysore,Technology,Keyboard,7,9660.49,2576.13,UPI
+1947,2025-07-13,Cust_0004,Delhi,Delhi,Technology,Laptop,1,60218.33,11117.23,UPI
+1948,24/02/2025,Cust_0042,Telangana,Warangal,Office Supplies,Paper Ream,4,1113.42,296.91,Net Banking
+1949,2025-06-19,Cust_0012,Delhi,Delhi,Technology,Laptop,9,607468.82,112148.09,UPI
+1950,2025-10-06,Cust_0099,Tamil Nadu,Chennai,Office Supplies,Binder,3,675.18,162.04,Credit Card
+1951,2025-06-30,Cust_0073,Gujarat,Surat,Technology,Keyboard,2,2995.09,798.69,Net Banking
+1952,2025-02-09,Cust_0136,Telangana,Warangal,Technology,Mouse,2,1726.59,431.65,Net Banking
+1953,04/11/2025,Cust_0070,Maharashtra,Nagpur,Furniture,Ergonomic Chair,5,61497.1,15374.27,Cash on Delivery
+1954,2025-12-05,Cust_0038,Tamil Nadu,Coimbatore,Office Supplies,Paper Ream,1,321.7,85.79,Net Banking
+1955,2025-03-17,Cust_0038,Delhi,New Delhi,Office Supplies,Binder,2,461.32,110.72,UPI
+1956,15/06/2025,Cust_0086,Maharashtra,Mumbai,Furniture,Standing Desk,6,149826.19,32961.76,Credit Card
+1957,2025-12-01,Cust_0059,Maharashtra,Pune,Furniture,Bookshelf,8,64495.96,14511.59,Cash on Delivery
+1958,2025-02-12,Cust_0005,Telangana,Warangal,Office Supplies,Gel Pen Box,4,624.37,166.5,Net Banking
+1959,2025-10-13,Cust_0036,Delhi,Delhi,Technology,Laptop,6,379146.97,69996.36,Net Banking
+1960,2025-08-24,Cust_0037,Maharashtra,Nagpur,Furniture,Ergonomic Chair,4,"₹51,147.09",12786.77,Cash on Delivery
+1961,14/01/2025,Cust_0041,Gujarat,Surat,Furniture,Ergonomic Chair,2,"₹24,781.19",6195.3,UPI
+1962,2025-03-17,Cust_0047,Tamil Nadu,Chennai,Technology,Monitor,2,32489.84,8122.46,Cash on Delivery
+1963,2025-03-13,Cust_0029,Gujarat,Surat,Furniture,Standing Desk,6,148319.21,32630.23,Credit Card
+1964,2025-01-31,Cust_0117,Gujarat,Ahmedabad,Office Supplies,Paper Ream,9,2516.59,671.09,Net Banking
+1965,2025-10-20,Cust_0097,Telangana,Warangal,Office Supplies,Paper Ream,7,2281.21,608.32,Credit Card
+1966,2025-04-19,Cust_0020,Delhi,Delhi,Technology,Keyboard,3,4790.25,1277.4,Cash on Delivery
+1967,2025-09-02,Cust_0050,Tamil Nadu,Madurai,Office Supplies,Binder,7,1632.69,391.85,Net Banking
+1968,2025-02-25,Cust_0017,Karnataka,Bangalore,Furniture,Bookshelf,6,43469.27,9780.59,Credit Card
+1969,2025-11-02,Cust_0146,Karnataka,Mysore,Technology,Smartphone,4,"₹143,874.89",28774.98,UPI
+1970,2025-10-16,Cust_0073,Delhi,Delhi,Technology,Mouse,2,"₹1,741.92",435.48,Cash on Delivery
+1971,2025-09-14,Cust_0105,Maharashtra,Pune,Furniture,Bookshelf,6,52548.97,11823.52,UPI
+1972,2025-09-15,Cust_0039,Maharashtra,Mumbai,Office Supplies,Binder,8,2034.54,488.29,Cash on Delivery
+1973,2025-02-10,Cust_0042,Gujarat,Ahmedabad,Office Supplies,Paper Ream,4,1273.79,339.68,Net Banking
+1974,18/08/2025,Cust_0100,Maharashtra,Pune,Furniture,Standing Desk,10,267797.63,58915.48,Credit Card
+1975,2025-04-17,Cust_0080,Telangana,Hyderabad,Technology,Smartphone,8,"₹257,454.74",51490.95,UPI
+1976,2025-09-13,Cust_0023,Karnataka,Mysore,Furniture,Ergonomic Chair,5,55937.67,13984.42,UPI
+1977,02/04/2025,Cust_0032,Gujarat,Surat,Furniture,Standing Desk,5,131578.66,28947.31,Cash on Delivery
+1978,2025-01-21,Cust_0081,Tamil Nadu,Coimbatore,Furniture,Standing Desk,10,"₹270,857.01",59588.54,Net Banking
+1979,2025-02-12,Cust_0015,Gujarat,Surat,Office Supplies,Binder,5,1344.35,322.64,Credit Card
+1980,25/12/2025,Cust_0058,Telangana,Hyderabad,Technology,Laptop,5,316928.41,58509.86,Cash on Delivery
+1981,2025-08-25,Cust_0022,Gujarat,Ahmedabad,Furniture,Standing Desk,8,205699.38,45253.86,Credit Card
+1982,2025-02-25,Cust_0055,Delhi,New Delhi,Technology,Keyboard,6,8216.05,2190.95,Cash on Delivery
+1983,2025-02-28,Cust_0146,Tamil Nadu,Coimbatore,Technology,Smartphone,3,"₹114,419.21",22883.84,UPI
+1984,2025-11-04,Cust_0109,Delhi,Delhi,Furniture,Standing Desk,8,188536.83,41478.1,Net Banking
+1985,10/05/2025,Cust_0116,Gujarat,Ahmedabad,Technology,Monitor,2,"₹34,372.12",8593.03,Cash on Delivery
+1986,2025-09-26,Cust_0077,Maharashtra,Nagpur,Furniture,Ergonomic Chair,1,11021.86,2755.46,Credit Card
+1987,2025-04-12,Cust_0091,Tamil Nadu,Coimbatore,Furniture,Standing Desk,9,"₹233,497.37",51369.42,Cash on Delivery
+1988,06/01/2025,Cust_0082,Telangana,Hyderabad,Technology,Smartphone,10,325123.21,65024.64,UPI
+1989,2025-03-19,Cust_0001,Delhi,Delhi,Furniture,Standing Desk,2,52920.17,11642.44,Cash on Delivery
+1990,2025-03-06,Cust_0140,Gujarat,Surat,Office Supplies,Gel Pen Box,2,272.19,72.58,Credit Card
+1991,2025-11-04,Cust_0094,Delhi,Delhi,Furniture,Ergonomic Chair,4,52528.75,13132.19,UPI
+1992,04/06/2025,Cust_0110,Tamil Nadu,Madurai,Technology,Keyboard,8,11793.73,3144.99,Net Banking
+1993,2025-02-28,Cust_0073,Maharashtra,Pune,Furniture,Standing Desk,3,"₹75,791.30",16674.09,Cash on Delivery
+1994,2025-11-21,Cust_0106,Tamil Nadu,Madurai,Office Supplies,Paper Ream,2,₹636.71,169.79,UPI
+1995,2025-09-12,Cust_0108,Gujarat,Ahmedabad,Office Supplies,Binder,9,"₹2,286.56",548.77,Credit Card
+1996,2025-04-25,Cust_0119,Delhi,New Delhi,Technology,Monitor,8,156975.88,39243.97,Cash on Delivery
+1997,2025-11-27,Cust_0079,Gujarat,Surat,Technology,Mouse,4,3204.84,801.21,Cash on Delivery
+1998,11/12/2025,Cust_0133,Maharashtra,Mumbai,Furniture,Ergonomic Chair,1,10862.99,2715.75,Net Banking
+1999,2025-06-21,Cust_0014,Maharashtra,Nagpur,Furniture,Ergonomic Chair,9,"₹118,227.39",29556.85,Cash on Delivery
+2000,2025-03-07,Cust_0026,Gujarat,Surat,Office Supplies,Paper Ream,7,2269.75,605.27,Credit Card
+1021,2025-02-01,Cust_0072,Delhi,New Delhi,Technology,Monitor,4,67539.01,16884.75,Cash on Delivery
+1022,2025-05-08,Cust_0024,Karnataka,Mysore,Office Supplies,Paper Ream,1,309.13,82.43,Credit Card

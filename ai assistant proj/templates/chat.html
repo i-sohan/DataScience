@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+
+{% block title %}AI Analyst Chat Studio{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Conversational AI Business Analyst</h1>
+    <p class="page-description">Ask questions in plain English. The AI generates SQL, executes queries, creates charts, and writes business recommendations.</p>
+</div>
+
+<!-- Quick Suggested Questions Chips -->
+<div style="display:flex; flex-wrap:wrap; gap:10px; margin-bottom:1.5rem;">
+    <span style="color:var(--text-muted); font-size:0.88rem; align-self:center;">Try Asking:</span>
+    <button class="btn btn-secondary" style="font-size:0.82rem; padding:6px 14px;" onclick="setChatQuery('Which state generated the highest revenue?')">
+        "Which state generated the highest revenue?"
+    </button>
+    <button class="btn btn-secondary" style="font-size:0.82rem; padding:6px 14px;" onclick="setChatQuery('Which products made the highest profit in Karnataka?')">
+        "Which products made the highest profit in Karnataka?"
+    </button>
+    <button class="btn btn-secondary" style="font-size:0.82rem; padding:6px 14px;" onclick="setChatQuery('Which department has the highest attrition?')">
+        "Which department has the highest attrition?"
+    </button>
+    <button class="btn btn-secondary" style="font-size:0.82rem; padding:6px 14px;" onclick="setChatQuery('Which age group has the highest diabetes risk?')">
+        "Which age group has the highest diabetes risk?"
+    </button>
+</div>
+
+<!-- Chat Workspace Window -->
+<div class="glass-panel chat-container">
+    <div id="chat-messages" class="chat-messages">
+        <!-- Initial Greeting -->
+        <div class="chat-bubble ai">
+            <div style="font-weight:600; font-family:var(--font-heading); margin-bottom:4px;">
+                <i class="fas fa-robot" style="color:var(--primary);"></i> AI Business Analyst Ready
+            </div>
+            Ask any question about your active dataset <b>{{ dataset_info.filename if dataset_info and dataset_info.filename else 'Active Dataset' }}</b>. I will translate it to code, run statistical analysis, plot charts, and extract key business insights!
+        </div>
+
+        {% if history %}
+            {% for item in history %}
+                <!-- User Question -->
+                <div class="chat-bubble user">{{ item.user_query }}</div>
+                <!-- AI Answer -->
+                <div class="chat-bubble ai">
+                    <div>{{ item.answer_text | safe }}</div>
+                    {% if item.generated_code %}
+                        <div class="sql-block"><strong>SQL Executed:</strong><br><code>{{ item.generated_code }}</code></div>
+                    {% endif %}
+                    {% if item.chart_spec %}
+                        <div id="chat-chart-hist-{{ item.id }}" style="height:350px; width:100%; margin-top:15px;"></div>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    <!-- Input Bar -->
+    <div style="padding:1.25rem; border-top:1px solid var(--border-color); display:flex; gap:12px;">
+        <input type="text" id="chat-input" class="input-field" placeholder="Ask a business question in natural language..." onkeydown="if(event.key==='Enter') sendChatQuestion()">
+        <button class="btn btn-primary" onclick="sendChatQuestion()"><i class="fas fa-paper-plane"></i> Ask AI</button>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function setChatQuery(txt) {
+        document.getElementById('chat-input').value = txt;
+        sendChatQuestion();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        {% if history %}
+            {% for item in history %}
+                {% if item.chart_spec %}
+                    renderPlotlyChart("chat-chart-hist-{{ item.id }}", {{ item.chart_spec | tojson }});
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    });
+</script>
+{% endblock %}

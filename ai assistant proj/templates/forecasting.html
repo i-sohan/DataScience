@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+
+{% block title %}Predictive Forecasting Studio{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">Predictive Time-Series Forecasting Studio</h1>
+    <p class="page-description">Project future business metrics, trend curves, and confidence intervals using statistical time-series models.</p>
+</div>
+
+<!-- Controls Panel -->
+<div class="glass-panel" style="padding:1.5rem; margin-bottom:2rem;">
+    <div style="display:flex; flex-wrap:wrap; gap:1.5rem; align-items:flex-end;">
+        <div style="flex:1; min-width:200px;">
+            <label style="display:block; font-size:0.85rem; color:var(--text-muted); margin-bottom:6px;">Select Metric to Forecast</label>
+            <select id="forecast-metric-col" class="input-field">
+                {% if summary and summary.numeric_columns %}
+                    {% for col in summary.numeric_columns %}
+                        <option value="{{ col }}">{{ col }}</option>
+                    {% endfor %}
+                {% endif %}
+            </select>
+        </div>
+        
+        <div style="flex:1; min-width:200px;">
+            <label style="display:block; font-size:0.85rem; color:var(--text-muted); margin-bottom:6px;">Select Date Dimension</label>
+            <select id="forecast-date-col" class="input-field">
+                {% if summary and summary.datetime_columns %}
+                    {% for col in summary.datetime_columns %}
+                        <option value="{{ col }}">{{ col }}</option>
+                    {% endfor %}
+                {% elif summary and summary.columns %}
+                    {% for col in summary.columns %}
+                        <option value="{{ col.column }}">{{ col.column }}</option>
+                    {% endfor %}
+                {% endif %}
+            </select>
+        </div>
+        
+        <div style="flex:1; min-width:180px;">
+            <label style="display:block; font-size:0.85rem; color:var(--text-muted); margin-bottom:6px;">Forecast Periods Ahead</label>
+            <select id="forecast-periods" class="input-field">
+                <option value="3">3 Periods Ahead</option>
+                <option value="6" selected>6 Periods Ahead</option>
+                <option value="12">12 Periods Ahead</option>
+            </select>
+        </div>
+        
+        <div>
+            <button class="btn btn-primary" onclick="runForecast()"><i class="fas fa-magic"></i> Run Predictive Model</button>
+        </div>
+    </div>
+</div>
+
+<!-- Plotly Graph & Projection Table Grid -->
+<div class="grid-2">
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h4 style="font-family:var(--font-heading); margin-bottom:1rem;">Predictive Trend & Confidence Interval</h4>
+        <div id="forecast-chart-container" style="min-height:380px;">
+            <div style="text-align:center; padding:4rem; color:var(--text-muted);">
+                <i class="fas fa-chart-line fa-3x" style="color:var(--primary); margin-bottom:1rem;"></i>
+                <p>Click <b>Run Predictive Model</b> to project trends and confidence bands.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="glass-panel" style="padding:1.5rem;">
+        <h4 style="font-family:var(--font-heading); margin-bottom:1rem;">Forecast Data Points Table</h4>
+        <div class="data-table-wrapper" style="max-height:380px; overflow-y:auto;">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Period</th>
+                        <th>Predicted Value</th>
+                        <th>Lower Bound (95%)</th>
+                        <th>Upper Bound (95%)</th>
+                    </tr>
+                </thead>
+                <tbody id="forecast-table-body">
+                    <tr>
+                        <td colspan="4" style="text-align:center; color:var(--text-muted); padding:2rem;">
+                            No active model run. Configure parameters above to generate forecast predictions.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Run initial forecast automatically if date and metric columns are available
+        const dateSel = document.getElementById('forecast-date-col');
+        const metricSel = document.getElementById('forecast-metric-col');
+        if (dateSel && metricSel && dateSel.options.length > 0 && metricSel.options.length > 0) {
+            runForecast();
+        }
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+
+{% block title %}Data Hub - GenAI Business Analytics Assistant{% endblock %}
+
+{% block content %}
+<div class="page-header">
+    <h1 class="page-title">GenAI Data & Analytics Hub</h1>
+    <p class="page-description">Upload your Excel/CSV business dataset or launch one of our pre-packaged sample datasets.</p>
+</div>
+
+<!-- Upload Dropzone -->
+<div id="upload-dropzone" class="upload-dropzone glass-panel" onclick="document.getElementById('file-input').click()">
+    <input type="file" id="file-input" accept=".csv, .xlsx, .xls" style="display:none" onchange="uploadDatasetFile(this.files[0])">
+    <div class="upload-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+    <h2 style="font-family:var(--font-heading); margin-bottom:8px;">Drag & Drop Business Dataset</h2>
+    <p style="color:var(--text-muted); font-size:0.95rem;">Supports <b>CSV, XLSX, XLS</b> files up to 100MB</p>
+    <div style="margin-top:1.5rem;">
+        <button class="btn btn-primary"><i class="fas fa-file-import"></i> Browse Files</button>
+    </div>
+</div>
+
+<!-- Pre-Packaged Sample Datasets -->
+<h3 style="font-family:var(--font-heading); margin-bottom:1.25rem;">
+    <i class="fas fa-bolt" style="color:var(--accent);"></i> Quick Start Sample Datasets
+</h3>
+
+<div class="grid-3" style="margin-bottom:3rem;">
+    <!-- Sales Sample -->
+    <div class="glass-card kpi-card" onclick="loadSampleDataset('sales')" style="cursor:pointer;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <span class="badge badge-info">E-Commerce & Retail</span>
+            <i class="fas fa-shopping-bag" style="font-size:1.5rem; color:var(--primary);"></i>
+        </div>
+        <h4 style="font-size:1.25rem; font-family:var(--font-heading); margin-bottom:6px;">Sales & Profit Performance</h4>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:1rem;">
+            1,000+ transaction records across Indian states (Karnataka, Maharashtra, TN), categories, sales, & profits.
+        </p>
+        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-color); padding-top:10px;">
+            <span style="font-size:0.8rem; color:var(--text-dim);">sample_sales.csv</span>
+            <span style="color:var(--primary); font-size:0.88rem; font-weight:600;">Load Dataset <i class="fas fa-arrow-right"></i></span>
+        </div>
+    </div>
+
+    <!-- HR Attrition Sample -->
+    <div class="glass-card kpi-card" onclick="loadSampleDataset('hr')" style="cursor:pointer;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <span class="badge badge-warning">People & Operations</span>
+            <i class="fas fa-users" style="font-size:1.5rem; color:var(--accent);"></i>
+        </div>
+        <h4 style="font-size:1.25rem; font-family:var(--font-heading); margin-bottom:6px;">HR Employee Attrition</h4>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:1rem;">
+            500 employee records analyzing turnover drivers: income, commute distance, department, & overtime.
+        </p>
+        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-color); padding-top:10px;">
+            <span style="font-size:0.8rem; color:var(--text-dim);">sample_hr.csv</span>
+            <span style="color:var(--accent); font-size:0.88rem; font-weight:600;">Load Dataset <i class="fas fa-arrow-right"></i></span>
+        </div>
+    </div>
+
+    <!-- Healthcare Sample -->
+    <div class="glass-card kpi-card" onclick="loadSampleDataset('healthcare')" style="cursor:pointer;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
+            <span class="badge badge-success">Healthcare</span>
+            <i class="fas fa-heartbeat" style="font-size:1.5rem; color:var(--secondary);"></i>
+        </div>
+        <h4 style="font-size:1.25rem; font-family:var(--font-heading); margin-bottom:6px;">Patient Records & Risk</h4>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:1rem;">
+            500 patient records evaluating age, BMI, blood pressure, glucose levels, and diabetes risk classification.
+        </p>
+        <div style="display:flex; justify-content:space-between; align-items:center; border-top:1px solid var(--border-color); padding-top:10px;">
+            <span style="font-size:0.8rem; color:var(--text-dim);">sample_healthcare.csv</span>
+            <span style="color:var(--secondary); font-size:0.88rem; font-weight:600;">Load Dataset <i class="fas fa-arrow-right"></i></span>
+        </div>
+    </div>
+</div>
+
+<!-- Uploaded Datasets Library -->
+<h3 style="font-family:var(--font-heading); margin-bottom:1.25rem;">
+    <i class="fas fa-folder-open" style="color:var(--primary);"></i> Workspace Datasets Library
+</h3>
+
+<div class="glass-panel" style="padding:1.5rem;">
+    <div class="data-table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Filename</th>
+                    <th>Rows</th>
+                    <th>Columns</th>
+                    <th>Created At</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% if datasets %}
+                    {% for ds in datasets %}
+                    <tr>
+                        <td style="font-weight:600;">
+                            <i class="far fa-file-alt" style="color:var(--primary); margin-right:8px;"></i>
+                            {{ ds.filename }}
+                        </td>
+                        <td>{{ "{:,}".format(ds.row_count) }}</td>
+                        <td>{{ ds.col_count }}</td>
+                        <td style="color:var(--text-muted);">{{ ds.created_at }}</td>
+                        <td>
+                            <button class="btn btn-secondary" style="padding:4px 12px; font-size:0.8rem;" onclick="selectDataset('{{ ds.id }}')">
+                                Open Dashboard
+                            </button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="5" style="text-align:center; color:var(--text-muted); padding:2rem;">
+                            No datasets uploaded yet. Upload a file above or click a sample dataset to begin!
+                        </td>
+                    </tr>
+                {% endif %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function selectDataset(id) {
+        setActiveDatasetId(id);
+        window.location.href = '/dashboard?id=' + encodeURIComponent(id);
+    }
+
+    // Drag and drop events
+    const dropzone = document.getElementById('upload-dropzone');
+    ['dragenter', 'dragover'].forEach(name => {
+        dropzone.addEventListener(name, (e) => { e.preventDefault(); dropzone.classList.add('dragover'); });
+    });
+    ['dragleave', 'drop'].forEach(name => {
+        dropzone.addEventListener(name, (e) => { e.preventDefault(); dropzone.classList.remove('dragover'); });
+    });
+    dropzone.addEventListener('drop', (e) => {
+        const dt = e.dataTransfer;
+        const files = dt.files;
+        if (files.length) uploadDatasetFile(files[0]);
+    });
+</script>
+{% endblock %}

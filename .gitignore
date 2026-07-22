@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Databases & Cache
+*.db
+*.sqlite3
+
+# Reports & Output files
+reports/*.pdf
+uploads/*.csv
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

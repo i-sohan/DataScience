@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}GenAI Business Analytics Assistant{% endblock %}</title>
+    
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Plotly.js & Marked.js for Markdown parsing -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <!-- Custom Executive CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <nav class="navbar glass-panel">
+        <a href="/" class="brand-logo">
+            <div class="brand-icon"><i class="fas fa-chart-pie"></i></div>
+            <span>GenAI Analytics</span>
+        </a>
+        
+        <div class="nav-links">
+            <a href="/" class="nav-link {% if request.path == '/' %}active{% endif %}">
+                <i class="fas fa-upload"></i> Data Hub
+            </a>
+            <a href="/profiling" class="nav-link {% if request.path == '/profiling' %}active{% endif %}">
+                <i class="fas fa-microscope"></i> Profiling
+            </a>
+            <a href="/dashboard" class="nav-link {% if request.path == '/dashboard' %}active{% endif %}">
+                <i class="fas fa-tachometer-alt"></i> Dashboard
+            </a>
+            <a href="/chat" class="nav-link {% if request.path == '/chat' %}active{% endif %}">
+                <i class="fas fa-comments"></i> AI Analyst
+            </a>
+            <a href="/forecasting" class="nav-link {% if request.path == '/forecasting' %}active{% endif %}">
+                <i class="fas fa-chart-line"></i> Forecasting
+            </a>
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 12px;">
+            <div id="dataset-status-pill" class="active-dataset-badge">
+                <i class="fas fa-database"></i> <span id="active-dataset-name">No Dataset Selected</span>
+            </div>
+            
+            <button class="btn btn-secondary" onclick="openApiKeyModal()" title="API Key Settings">
+                <i class="fas fa-key"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <!-- API Key Modal -->
+    <div id="api-key-modal" class="glass-panel" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:1000; width:450px; padding:2rem;">
+        <h3 style="margin-bottom:1rem; font-family:var(--font-heading);"><i class="fas fa-key" style="color:var(--accent);"></i> AI Model Provider Settings</h3>
+        <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:1rem;">
+            Provide your API key to enable Gemini or OpenAI models. If left blank, the application automatically uses its built-in Smart Analytical Engine!
+        </p>
+        <div style="margin-bottom:1rem;">
+            <label style="display:block; font-size:0.85rem; color:var(--text-muted); margin-bottom:4px;">Gemini API Key</label>
+            <input type="password" id="modal-gemini-key" class="input-field" placeholder="AIzaSy...">
+        </div>
+        <div style="margin-bottom:1.5rem;">
+            <label style="display:block; font-size:0.85rem; color:var(--text-muted); margin-bottom:4px;">OpenAI API Key</label>
+            <input type="password" id="modal-openai-key" class="input-field" placeholder="sk-...">
+        </div>
+        <div style="display:flex; justify-content:flex-end; gap:10px;">
+            <button class="btn btn-secondary" onclick="closeApiKeyModal()">Cancel</button>
+            <button class="btn btn-primary" onclick="saveApiKeySettings()">Save Settings</button>
+        </div>
+    </div>
+
+    <!-- Application Controller -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script>
+        function openApiKeyModal() {
+            document.getElementById('api-key-modal').style.display = 'block';
+            document.getElementById('modal-gemini-key').value = localStorage.getItem('gemini_api_key') || '';
+            document.getElementById('modal-openai-key').value = localStorage.getItem('openai_api_key') || '';
+        }
+        function closeApiKeyModal() {
+            document.getElementById('api-key-modal').style.display = 'none';
+        }
+        function saveApiKeySettings() {
+            localStorage.setItem('gemini_api_key', document.getElementById('modal-gemini-key').value.trim());
+            localStorage.setItem('openai_api_key', document.getElementById('modal-openai-key').value.trim());
+            closeApiKeyModal();
+            alert('API Key preferences saved locally!');
+        }
+
+        // Update active dataset display and navbar links
+        document.addEventListener('DOMContentLoaded', async () => {
+            const activeId = getActiveDatasetId();
+            if (activeId) {
+                // Preserve active dataset ID in top navbar link URLs
+                document.querySelectorAll('.nav-links a').forEach(link => {
+                    try {
+                        const url = new URL(link.href, window.location.origin);
+                        if (url.pathname !== '/' && !url.searchParams.has('id')) {
+                            url.searchParams.set('id', activeId);
+                            link.href = url.pathname + url.search;
+                        }
+                    } catch(e){}
+                });
+
+                try {
+                    const res = await fetch('/api/datasets/current?id=' + activeId);
+                    const data = await res.json();
+                    if (data.success && data.dataset) {
+                        document.getElementById('active-dataset-name').textContent = data.dataset.filename;
+                    }
+                } catch(e){}
+            }
+        });
+    </script>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>
